@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b622ebfc15f44608ce09ff81b1bef38, type: 3}
+  m_Name: DailyMissionsConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  uncompletedDailyBoxSprite: {fileID: 21300000, guid: 84131a96d33819a4ca6ff2dc898b8204, type: 3}
+  completedDailyBoxSprite: {fileID: 21300000, guid: 1e79a03ccb5b73a4db1112f8d4c8e14a, type: 3}
+  selectedDailyBoxSprite: {fileID: 21300000, guid: ae283bb40de47d04ebd7405685435d3b, type: 3}
+  defaultDailyMissionsBox: {fileID: 21300000, guid: f7c7aa621ad074f41b77969f67cf8b2a, type: 3}
+  selectedDailyMissionsBox: {fileID: 21300000, guid: 3a8fc0b4f315afe49a8d1181b6fec674, type: 3}
+  whiteColor: {r: 1, g: 1, b: 1, a: 1}
+  brownColor: {r: 0.76470596, g: 0.427451, b: 0.121568635, a: 1}
+  waffleColor: {r: 0.9921569, g: 0.6901961, b: 0.36862746, a: 1}
+  dailyMissionsData:
+  - dailyMissions: 0
+    rewardCount: 30
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 800
+    dailyMissionDescription: Collect 800 sprinkles total
+  - dailyMissions: 0
+    rewardCount: 50
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 1000
+    dailyMissionDescription: Collect 1000 sprinkles total
+  - dailyMissions: 0
+    rewardCount: 100
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 2000
+    dailyMissionDescription: Collect 2000 sprinkles total
+  - dailyMissions: 0
+    rewardCount: 200
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 5000
+    dailyMissionDescription: Collect 5000 sprinkles total
+  - dailyMissions: 1
+    rewardCount: 20
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 200
+    dailyMissionDescription: Collect 200 sprinkles in one run
+  - dailyMissions: 1
+    rewardCount: 50
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 500
+    dailyMissionDescription: Collect 500 sprinkles in one run
+  - dailyMissions: 1
+    rewardCount: 120
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 1000
+    dailyMissionDescription: Collect 1000 sprinkles in one run
+  - dailyMissions: 1
+    rewardCount: 250
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 2500
+    dailyMissionDescription: Collect 2500 sprinkles in one run
+  - dailyMissions: 2
+    rewardCount: 50
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 1
+    dailyMissionDescription: Upgrade hero once
+  - dailyMissions: 3
+    rewardCount: 10
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 1
+    dailyMissionDescription: Play arcade run once
+  - dailyMissions: 3
+    rewardCount: 40
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 3
+    dailyMissionDescription: Play arcade 3 times
+  - dailyMissions: 3
+    rewardCount: 70
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 5
+    dailyMissionDescription: Play arcade 5 times
+  - dailyMissions: 4
+    rewardCount: 40
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 5
+    dailyMissionDescription: Go through 5 rooms in Arcade Mode
+  - dailyMissions: 4
+    rewardCount: 90
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 8
+    dailyMissionDescription: Go through 8 rooms in Arcade Mode
+  - dailyMissions: 5
+    rewardCount: 60
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 4
+    dailyMissionDescription: Land on Slam Blcok 4 rimes
+  - dailyMissions: 6
+    rewardCount: 50
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 1
+    dailyMissionDescription: Revive by watching an Ad
+  - dailyMissions: 7
+    rewardCount: 30
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 5
+    dailyMissionDescription: Use 5 Power Ups Total
+  - dailyMissions: 0
+    rewardCount: 80
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 10
+    dailyMissionDescription: Use 10 Power Ups Total
+  - dailyMissions: 8
+    rewardCount: 60
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 3
+    dailyMissionDescription: Get 3 power-ups in 1 run
+  - dailyMissions: 0
+    rewardCount: 120
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 7
+    dailyMissionDescription: Get 7 power-ups in 1 run
+  - dailyMissions: 2
+    rewardCount: 250
+    rewardType: 0
+    rewardIcon: {fileID: 21300000, guid: 38c239d8f4e2c414daa3b4bee6d86132, type: 3}
+    countToDo: 3
+    dailyMissionDescription: Upgrade hero 3 times
+  dailyFacts:
+  - The largest ice cream cake weighed over 12,000 pounds and was made in Toronto,
+    Canada, in 2011.
+  - The earliest evidence of something like ice cream dates back to the Persian Empire
+    around 500 BC, where people would pour grape juice concentrate over snow.
+  - Thomas Jefferson, the third President of the United States, was an ice cream
+    aficionado and is credited with an early recipe for vanilla ice cream.
+  - The ice cream cone was popularized during the 1904 World's Fair in St. Louis
+    when a vendor ran out of dishes and teamed up with a nearby waffle vendor to
+    create the first cone.
+  - There are over 1,000 flavors of ice cream around the world. Some unusual flavors
+    include garlic, lobster, and even hot dog ice cream.
+  - The United States is the top consumer of ice cream in the world, with each American
+    consuming an average of about 23 gallons per year.
+  - The scientific term for brain freeze is "sphenopalatine ganglioneuralgia." It
+    happens when something cold touches the roof of your mouth, causing blood vessels
+    to rapidly constrict and then expand, leading to a sudden headache.
+  - The origins of ice cream can be traced back to ancient China, around 200 BC,
+    where a mixture of milk and rice was frozen by packing it in snow.
+  - Italian gelato has less fat and air than typical ice cream, giving it a denser
+    and more flavorful profile. It's a popular treat in Italy, where it is often
+    enjoyed as a daily indulgence.
+  - Mochi ice cream, a Japanese invention, combines a traditional rice dough (mochi)
+    with ice cream filling, creating a unique, chewy texture.
+  - Kulfi is a traditional Indian frozen dessert that is denser and creamier than
+    typical ice cream. It comes in flavors like cardamom, saffron, and pistachio.
+  - Faloodeh is an ancient Persian frozen dessert made from thin vermicelli noodles
+    mixed with a semi-frozen syrup of sugar and rose water, often served with lime
+    juice and sometimes ground pistachios.
+  - Spaghettieis is a German ice cream dish made to look like a plate of spaghetti.
+    Vanilla ice cream is extruded through a modified pasta maker and topped with
+    strawberry sauce and white chocolate or coconut flakes to resemble spaghetti
+    with tomato sauce and cheese.
+  - Dondurma, Turkish ice cream, is known for its unique stretchy and chewy texture,
+    achieved by adding salep (a flour made from the tubers of wild orchids) and mastic
+    (a resin).
+  - "Known as the \"Giant Sandwich,\" Australia's version of the ice cream sandwich
+    features a block of ice cream between two thin wafers. The most iconic brand
+    is the \"Peters Giant Sandwich.\u201D"
+  - Hokey Pokey ice cream is a popular New Zealand flavor consisting of vanilla ice
+    cream with small, solid lumps of honeycomb toffee.

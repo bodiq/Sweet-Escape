@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "802797745712",
+    "project_id": "creepy-creams-factory",
+    "storage_bucket": "creepy-creams-factory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802797745712:android:76aa36e02971d65acc1ff5",
+        "android_client_info": {
+          "package_name": "com.hundreds.sweetescape"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802797745712-2i61gdqv5la3eeucbismo07taojh7umu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnuvrVheXU1ieS8NGgPIwTvppWouTEhLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802797745712-2i61gdqv5la3eeucbismo07taojh7umu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "802797745712-she12uppmf5ee81eosop8q7o9upv2jq7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hundreds.sweetescape"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,791 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level35.tmx",
+    "automapping.whileDrawing": true,
+    "expandedProjectPaths": [
+        "_Tilesets",
+        "/Users/andrew/Downloads/Projects/SweetEscape/Tiled_Rules",
+        "Tilemaps",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels",
+        "_Tilemaps",
+        "_Rules",
+        "."
+    ],
+    "fileStates": {
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level01.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 3.3867,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 188.97451796734285,
+                "y": -200.4901526559778
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level02.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 204.5,
+                "y": -98.5
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level03.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 176.66666666666669,
+                "y": -73.66666666666666
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level04.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 172,
+                "y": -236.5
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level05.tmx": {
+            "expandedGroupLayers": [
+                9,
+                16,
+                13,
+                10
+            ],
+            "scale": 0.565,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 141.5929203539822,
+                "y": 552.212389380531
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level06.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 92,
+                "y": -185.5
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level07.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 81.5,
+                "y": -7.5
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level08.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 53.5,
+                "y": -167.5
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level09.tmx": {
+            "expandedGroupLayers": [
+                9,
+                16,
+                13,
+                10
+            ],
+            "scale": 0.75,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 214.66666666666663,
+                "y": 334.6666666666667
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level10.tmx": {
+            "expandedGroupLayers": [
+                9,
+                16,
+                13,
+                10
+            ],
+            "scale": 1.5,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 127.99999999999997,
+                "y": 256
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level11.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                16,
+                9
+            ],
+            "scale": 1.6635,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 127.44214006612563,
+                "y": 255.4854223023745
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level12.tmx": {
+            "expandedGroupLayers": [
+                9,
+                16,
+                13,
+                10
+            ],
+            "scale": 1.7655,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 300.1982441234777,
+                "y": 492.21183800623044
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level13.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 1.8035,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 179.6506792348212,
+                "y": -4.435819240365959
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level14.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 1.2996,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 130.04001231148044,
+                "y": -81.56355801785162
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level15.tmx": {
+            "expandedGroupLayers": [
+                9,
+                16,
+                13,
+                10
+            ],
+            "expandedObjectLayers": [
+                10
+            ],
+            "scale": 0.75,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 257.33333333333326,
+                "y": 218.66666666666669
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level16.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 1.2418,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 197.29425028184892,
+                "y": 94.21807054276053
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level17.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                16,
+                9
+            ],
+            "scale": 1,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 231.5,
+                "y": 33
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level18.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                16,
+                9
+            ],
+            "scale": 1.0357,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 174.27826590711595,
+                "y": 182.48527565897461
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level19.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                16,
+                9
+            ],
+            "scale": 1.2418,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": -291.51232082460945,
+                "y": -168.30407473023033
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level20.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                16,
+                9
+            ],
+            "scale": 1.3946,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 127.6351642047899,
+                "y": 127.63516420478992
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level21.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 220.66666666666663,
+                "y": -258.66666666666663
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level22.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 139.33333333333331,
+                "y": -34
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level23.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                16,
+                9
+            ],
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 255.25,
+                "y": 228.5
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level24.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 1.7633,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 170.13554131458062,
+                "y": 13.043724834117882
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level25.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 1.5975,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 182.78560250391237,
+                "y": 13.145539906103295
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level26.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 2.3518,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 298.9199761884514,
+                "y": -195.16965728378264
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level27.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 2.047,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 158.76893014167072,
+                "y": -101.61211529066924
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level28.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 273.3333333333333,
+                "y": 24.666666666666686
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level29.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                16,
+                9
+            ],
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 130.3030303030303,
+                "y": 257.5757575757575
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level30.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                9,
+                16
+            ],
+            "scale": 0.5991,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 435.6534802203305,
+                "y": -178.6012351861126
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level31.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                16,
+                9
+            ],
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 129,
+                "y": -128
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level32.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                16,
+                9
+            ],
+            "scale": 2,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 127.75,
+                "y": -256
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level33.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                16,
+                9
+            ],
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 127.83333333333333,
+                "y": -384
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level34.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                16,
+                9
+            ],
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 127.66666666666666,
+                "y": -640
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level35.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                16,
+                9
+            ],
+            "scale": 0.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": -1088,
+                "y": -1295
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level36.tmx": {
+            "expandedGroupLayers": [
+                9,
+                16,
+                13,
+                10
+            ],
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 233.99999999999997,
+                "y": 198
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level37.tmx": {
+            "expandedGroupLayers": [
+                9,
+                16,
+                13,
+                10
+            ],
+            "scale": 0.4737,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 86.55267046654001,
+                "y": 50.66497783407215
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level38.tmx": {
+            "expandedGroupLayers": [
+                9,
+                16,
+                13,
+                10
+            ],
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 269.33333333333337,
+                "y": -214
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level39.tmx": {
+            "expandedGroupLayers": [
+                9,
+                16,
+                13,
+                10
+            ],
+            "scale": 1,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 208,
+                "y": -614
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level40.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 256,
+                "y": 384
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_LevelConnection.tmx": {
+            "expandedGroupLayers": [
+                10,
+                13,
+                9,
+                16
+            ],
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 0,
+                "y": 290.909090909091
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_LevelStart.tmx": {
+            "expandedGroupLayers": [
+                16,
+                10,
+                9,
+                13
+            ],
+            "scale": 0.75,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 137.33333333333326,
+                "y": 164
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_LevelTemplate.tmx": {
+            "expandedGroupLayers": [
+                13,
+                9,
+                16,
+                10
+            ],
+            "scale": 1.2476,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 189.16319333119588,
+                "y": 314.2032702789355
+            }
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Tilesets/Factory_Tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Tilesets/Prototype_Tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/andrew/Downloads/Projects/SweetEscape/Tiled_Rules/Factory_AutoRulesDetailes.tmx": {
+            "expandedGroupLayers": [
+                4
+            ],
+            "scale": 8.85,
+            "selectedLayer": 22,
+            "viewCenter": {
+                "x": 5.197740112994346,
+                "y": 19.548022598870055
+            }
+        },
+        "/Users/andrew/Downloads/Projects/SweetEscape/Tiled_Rules/Factory_AutomapRules.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -297.66666666666663,
+                "y": -109.33333333333331
+            }
+        },
+        "/Users/andrew/Downloads/Projects/SweetEscape/Tiled_Rules/Factory_AutomapRulesCaoins.tmx": {
+            "expandedGroupLayers": [
+                7
+            ],
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 88.33333333333333,
+                "y": 71
+            }
+        },
+        "/Users/andrew/Downloads/Projects/SweetEscape/Tiled_Rules/Factory_AutomapRulesCoins.tmx": {
+            "expandedGroupLayers": [
+                7
+            ],
+            "scale": 2.94,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 131.97278911564626,
+                "y": 116.32653061224491
+            }
+        },
+        "/Users/andrew/Downloads/Projects/SweetEscape/Tiled_Rules/Factory_AutomapRulesVariants.tmx": {
+            "expandedGroupLayers": [
+                4
+            ],
+            "scale": 1.7474,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 248.94128419365913,
+                "y": 88.13093739269769
+            }
+        },
+        "/Users/andrew/Downloads/Projects/SweetEscape/_Tilesets/Factory_Tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/andrew/Downloads/Projects/SweetEscape/_Tilesets/Prototype_Tileset.tsx": {
+            "scaleInDock": 1
+        },
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "_Main/_Tilesets/Prototype_Tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "_Rules/Factory_AutomapRules.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 517.3333333333333,
+                "y": -429.33333333333326
+            }
+        },
+        "_Tilemaps/Factory_TestTilemap.tmx": {
+            "expandedGroupLayers": [
+                16,
+                13,
+                2,
+                10,
+                4,
+                9
+            ],
+            "scale": 0.3725,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 491.275167785235,
+                "y": 593.2885906040268
+            }
+        },
+        "_Tilemaps/Factory_Tilemap.tmx": {
+            "expandedGroupLayers": [
+                13,
+                2,
+                10,
+                4,
+                15,
+                9
+            ],
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 168.5,
+                "y": 264
+            }
+        },
+        "_Tilemaps/Prototype_Tileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "_Tilesets/Coins.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.86
+        },
+        "_Tilesets/Factory_Tileset.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 0.25
+        },
+        "_Tilesets/FireCannon.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "_Tilesets/Hazards_Spikes.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.7
+        },
+        "_Tilesets/Prototype_Tileset.tsx": {
+            "scaleInDock": 0.3919,
+            "scaleInEditor": 1
+        }
+    },
+    "frame.defaultDuration": 100,
+    "last.externalTilesetPath": "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Main/_Tilesets",
+    "last.imagePath": "/Users/andrew/Documents/Git/Sweet-Escape/Assets/Art/Sprites/_Main/Hazards/Fireblock",
+    "map.fixedSize": false,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "_Tilesets/Hazards_Spikes.tsx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level31.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level32.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level33.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level34.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level35.tmx"
+    ],
+    "project": "SweetEscape_TiledProject.tiled-project",
+    "property.type": "float",
+    "recentFiles": [
+        "_Tilesets/Hazards_Spikes.tsx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level31.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level32.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level33.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level34.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level35.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level15.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level09.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level05.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level39.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level38.tmx",
+        "/Users/andrew/Documents/Git/Sweet-Escape/Assets/TileMap/_Levels/Factory_Level37.tmx"
+    ],
+    "resizeMap.removeObjects": true,
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

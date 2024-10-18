@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76395f82df9c409ca9ac6d036490eef4, type: 3}
+  m_Name: SlimeConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -2033165239, guid: aaef6bd03e5a1004d99c51659d421ae3, type: 3}
+    - {fileID: 7400000, guid: 9a31ff604cae98049a9e9d929cf9af58, type: 2}
+    - {fileID: -804047227, guid: aaef6bd03e5a1004d99c51659d421ae3, type: 3}
+    - {fileID: 7400000, guid: 06191f82c0a2deb4abb05251345a1974, type: 2}
+    - {fileID: -646258616, guid: aaef6bd03e5a1004d99c51659d421ae3, type: 3}
+    - {fileID: 7400000, guid: d79c46bf6b8c6b34fb69d69515e5320a, type: 2}
+    - {fileID: 957517939, guid: aaef6bd03e5a1004d99c51659d421ae3, type: 3}
+    - {fileID: 7400000, guid: 26d9ae912267a744cb905fbf30963a4f, type: 2}
+    - {fileID: -111698092, guid: aaef6bd03e5a1004d99c51659d421ae3, type: 3}
+    - {fileID: 7400000, guid: d17c44d8d48672042b9df0e30e230dde, type: 2}
+    - {fileID: 2100000, guid: 0275b7e8a8d2f77469ec185a3fece19f, type: 2}
+    - {fileID: 2100000, guid: 05a6b60518d82eb458892983e2c5359f, type: 2}
+    - {fileID: 2100000, guid: 3a16bb10c6721964dbd3d21c4e14aa32, type: 2}
+    - {fileID: 2100000, guid: c7e768de420ea574d9529a587b1e16e1, type: 2}
+    - {fileID: 2100000, guid: 22b77fab842aa134c99a1caedd0d6962, type: 2}
+    - {fileID: 2100000, guid: 5e5c99cfc667d8e428ec19ef2db50df4, type: 2}
+    - {fileID: 2100000, guid: 3279d5c1a2cbdcb41b4edc94ebefbee6, type: 2}
+    - {fileID: 2100000, guid: 1bd6a8b31e5d6dd49a5203160bdbdf77, type: 2}
+    - {fileID: 2100000, guid: 5b23a4a56d78941479bd7839e1cdc388, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: slimeDataAnimationClips
+      Entry: 7
+      Data: 0|UnityEngine.Rendering.SerializedDictionary`2[[Enums.SlimeEnum, Assembly-CSharp],[SlimeTrail+SlimeAnimationInfo,
+        Assembly-CSharp]], Unity.RenderPipelines.Core.Runtime
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Enums.SlimeEnum,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: SlimeTrail+SlimeAnimationInfo, Assembly-CSharp
+    - Name: defaultSprite
+      Entry: 10
+      Data: 0
+    - Name: animationClip
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: SlimeTrail+SlimeAnimationInfo, Assembly-CSharp
+    - Name: defaultSprite
+      Entry: 10
+      Data: 2
+    - Name: animationClip
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: SlimeTrail+SlimeAnimationInfo, Assembly-CSharp
+    - Name: defaultSprite
+      Entry: 10
+      Data: 4
+    - Name: animationClip
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: SlimeTrail+SlimeAnimationInfo, Assembly-CSharp
+    - Name: defaultSprite
+      Entry: 10
+      Data: 6
+    - Name: animationClip
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: SlimeTrail+SlimeAnimationInfo, Assembly-CSharp
+    - Name: defaultSprite
+      Entry: 10
+      Data: 8
+    - Name: animationClip
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: slimeData
+      Entry: 7
+      Data: 2|UnityEngine.Rendering.SerializedDictionary`2[[Enums.SkinEnum, Assembly-CSharp],[UnityEngine.Material,
+        UnityEngine.CoreModule]], Unity.RenderPipelines.Core.Runtime
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.EnumEqualityComparer`1[[Enums.SkinEnum,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 9
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  slimeDataAnimationClips:
+    m_Keys: 0000000001000000020000000300000004000000
+    m_Values:
+    - defaultSprite: {fileID: -2033165239, guid: aaef6bd03e5a1004d99c51659d421ae3, type: 3}
+      animationClip: {fileID: 7400000, guid: 9a31ff604cae98049a9e9d929cf9af58, type: 2}
+    - defaultSprite: {fileID: -804047227, guid: aaef6bd03e5a1004d99c51659d421ae3, type: 3}
+      animationClip: {fileID: 7400000, guid: 06191f82c0a2deb4abb05251345a1974, type: 2}
+    - defaultSprite: {fileID: -646258616, guid: aaef6bd03e5a1004d99c51659d421ae3, type: 3}
+      animationClip: {fileID: 7400000, guid: d79c46bf6b8c6b34fb69d69515e5320a, type: 2}
+    - defaultSprite: {fileID: 957517939, guid: aaef6bd03e5a1004d99c51659d421ae3, type: 3}
+      animationClip: {fileID: 7400000, guid: 26d9ae912267a744cb905fbf30963a4f, type: 2}
+    - defaultSprite: {fileID: -111698092, guid: aaef6bd03e5a1004d99c51659d421ae3, type: 3}
+      animationClip: {fileID: 7400000, guid: d17c44d8d48672042b9df0e30e230dde, type: 2}
+  slimeData:
+    m_Keys: 000000000100000002000000030000000400000005000000060000000700000008000000
+    m_Values:
+    - {fileID: 2100000, guid: 0275b7e8a8d2f77469ec185a3fece19f, type: 2}
+    - {fileID: 2100000, guid: 05a6b60518d82eb458892983e2c5359f, type: 2}
+    - {fileID: 2100000, guid: 3a16bb10c6721964dbd3d21c4e14aa32, type: 2}
+    - {fileID: 2100000, guid: c7e768de420ea574d9529a587b1e16e1, type: 2}
+    - {fileID: 2100000, guid: 22b77fab842aa134c99a1caedd0d6962, type: 2}
+    - {fileID: 2100000, guid: 5e5c99cfc667d8e428ec19ef2db50df4, type: 2}
+    - {fileID: 2100000, guid: 3279d5c1a2cbdcb41b4edc94ebefbee6, type: 2}
+    - {fileID: 2100000, guid: 1bd6a8b31e5d6dd49a5203160bdbdf77, type: 2}
+    - {fileID: 2100000, guid: 5b23a4a56d78941479bd7839e1cdc388, type: 2}
+  durationFadeIn: 0.3
+  durationFadeOut: 1.5

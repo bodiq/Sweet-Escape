@@ -1,0 +1,801 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1432f47be77f433eb3fb31bd4b1ef834, type: 3}
+  m_Name: AchievementsDataConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: 3b2d45a6fb5af7949997a9dea032366a, type: 3}
+    - {fileID: 21300000, guid: 0df2ff506dbcf674f82c176be3b0292d, type: 3}
+    - {fileID: 21300000, guid: 381e4c1c8ff51c94bbc620e154897a23, type: 3}
+    - {fileID: 21300000, guid: 34d64fd1b6b12d744b448b4a6b4813ce, type: 3}
+    - {fileID: 21300000, guid: 1b3e1e4e530a7ea4d809d103efb7deab, type: 3}
+    - {fileID: 21300000, guid: 83e412e0548b31f4ebe4e7b52132bfc4, type: 3}
+    - {fileID: 21300000, guid: 9a02cabcd4459e14da42b0f7c7bbc66c, type: 3}
+    - {fileID: 21300000, guid: 97a379921253d4649a2793f44206df14, type: 3}
+    - {fileID: 21300000, guid: ecdd2b74c97edb14fa0600925524d8fd, type: 3}
+    - {fileID: 21300000, guid: fc8fb4c397838484491611868a5e760b, type: 3}
+    - {fileID: 21300000, guid: 07069dc4c2056ce4e90514358e9dad81, type: 3}
+    - {fileID: 21300000, guid: 488c54ebcd945c8419aa2fa5ccfb68e1, type: 3}
+    - {fileID: 21300000, guid: 4cc82a7221702e94ab4e73f68d9b4a5f, type: 3}
+    - {fileID: 21300000, guid: 1d541885cf25e7c44b7956e9cc8a8ab7, type: 3}
+    - {fileID: 21300000, guid: f1d401eb39693984fadd814c48bf2e54, type: 3}
+    - {fileID: 21300000, guid: 3d0847204dd97934d8e210aa1a6534fd, type: 3}
+    - {fileID: 21300000, guid: fb17c285a59cd5c43b05436aa74d8f53, type: 3}
+    - {fileID: 21300000, guid: 278f8785e392fac4db9d1c2d068bb4f1, type: 3}
+    - {fileID: 21300000, guid: 4bf46ab703721934e981db4da634f921, type: 3}
+    - {fileID: 21300000, guid: ce8f38082f9d9024fa74a350dbcbdc3d, type: 3}
+    - {fileID: 21300000, guid: b0f7cd600c79c96479c9bcc7b4c7aab8, type: 3}
+    - {fileID: 21300000, guid: c806c0aac0f410e41a9cbd302b0dcd6b, type: 3}
+    - {fileID: 21300000, guid: 75558051f21e50b4e983dbcfad5d502b, type: 3}
+    - {fileID: 21300000, guid: 9b426142084c1ef44971cd18b00e5e7f, type: 3}
+    - {fileID: 21300000, guid: de9ae125f59fbf442859eb53f7f07376, type: 3}
+    - {fileID: 21300000, guid: 603e9336568e6cd4d9df0255d2f450ef, type: 3}
+    - {fileID: 21300000, guid: 3c044be42dcf09c498829ba91ce25b31, type: 3}
+    - {fileID: 21300000, guid: f1de90c31352af349b0895a00786283a, type: 3}
+    - {fileID: 21300000, guid: 1f6d74eebaedae84c9f391d26324e5a2, type: 3}
+    - {fileID: 21300000, guid: 985d377e15c61e143b5bb6d955f74385, type: 3}
+    - {fileID: 21300000, guid: 03aa199335bb2f74e9f7f4704ae3c2f3, type: 3}
+    - {fileID: 21300000, guid: 3af77a46eec8e734883548bad488c8ff, type: 3}
+    - {fileID: 21300000, guid: e1a43022bebee724dbc5560f171d9b38, type: 3}
+    - {fileID: 21300000, guid: cf1e4af37c7a0e04ba88bd251d0f6644, type: 3}
+    - {fileID: 21300000, guid: aa2256fd3dee63b458e306c0b8c99762, type: 3}
+    - {fileID: 21300000, guid: 12201620d0e95ed40afcd7ed1d0ae988, type: 3}
+    - {fileID: 21300000, guid: a8506d6e131c6734abc721c60196ac06, type: 3}
+    - {fileID: 21300000, guid: 2f61eb51baf121f41b88a0a68dd94709, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: achievementInfo
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[AchievementData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 19
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 0
+    - Name: tittle
+      Entry: 1
+      Data: Toot Toot
+    - Name: description
+      Entry: 1
+      Data: Do a fart
+    - Name: rewardCount
+      Entry: 3
+      Data: 10
+    - Name: selectedIcon
+      Entry: 10
+      Data: 0
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 1
+    - Name: apiIdentifier
+      Entry: 1
+      Data: fart
+    - Name: countToDo
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 1
+    - Name: tittle
+      Entry: 1
+      Data: New Kid on the Block
+    - Name: description
+      Entry: 1
+      Data: Unlock a new character
+    - Name: rewardCount
+      Entry: 3
+      Data: 100
+    - Name: selectedIcon
+      Entry: 10
+      Data: 2
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 3
+    - Name: apiIdentifier
+      Entry: 1
+      Data: unlock_character
+    - Name: countToDo
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 2
+    - Name: tittle
+      Entry: 1
+      Data: God Mode
+    - Name: description
+      Entry: 1
+      Data: Score 10000 in one run in Arcade Mode
+    - Name: rewardCount
+      Entry: 3
+      Data: 500
+    - Name: selectedIcon
+      Entry: 10
+      Data: 4
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 5
+    - Name: apiIdentifier
+      Entry: 1
+      Data: god_mode
+    - Name: countToDo
+      Entry: 3
+      Data: 10000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 3
+    - Name: tittle
+      Entry: 1
+      Data: "Death won\u2019t slow me down"
+    - Name: description
+      Entry: 1
+      Data: Revive after dying 5 times
+    - Name: rewardCount
+      Entry: 3
+      Data: 100
+    - Name: selectedIcon
+      Entry: 10
+      Data: 6
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 7
+    - Name: apiIdentifier
+      Entry: 1
+      Data: revive_5
+    - Name: countToDo
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 10
+    - Name: tittle
+      Entry: 1
+      Data: Over 9000
+    - Name: description
+      Entry: 1
+      Data: Level up any character to level 5
+    - Name: rewardCount
+      Entry: 3
+      Data: 200
+    - Name: selectedIcon
+      Entry: 10
+      Data: 8
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 9
+    - Name: apiIdentifier
+      Entry: 1
+      Data: level_5
+    - Name: countToDo
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 5
+    - Name: tittle
+      Entry: 1
+      Data: Better than our devs
+    - Name: description
+      Entry: 1
+      Data: Score 5000 in one run in Arcade Mode
+    - Name: rewardCount
+      Entry: 3
+      Data: 200
+    - Name: selectedIcon
+      Entry: 10
+      Data: 10
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 11
+    - Name: apiIdentifier
+      Entry: 1
+      Data: score_5000
+    - Name: countToDo
+      Entry: 3
+      Data: 5000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 6
+    - Name: tittle
+      Entry: 1
+      Data: Hey, Big Spender!
+    - Name: description
+      Entry: 1
+      Data: Spend 2000 coins in game
+    - Name: rewardCount
+      Entry: 3
+      Data: 200
+    - Name: selectedIcon
+      Entry: 10
+      Data: 12
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 13
+    - Name: apiIdentifier
+      Entry: 1
+      Data: spend_2000
+    - Name: countToDo
+      Entry: 3
+      Data: 2000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 6
+    - Name: tittle
+      Entry: 1
+      Data: Casual Spender
+    - Name: description
+      Entry: 1
+      Data: Spend 500 coins in game
+    - Name: rewardCount
+      Entry: 3
+      Data: 100
+    - Name: selectedIcon
+      Entry: 10
+      Data: 14
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 15
+    - Name: apiIdentifier
+      Entry: 1
+      Data: spend_500
+    - Name: countToDo
+      Entry: 3
+      Data: 500
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 5
+    - Name: tittle
+      Entry: 1
+      Data: Impressive Score
+    - Name: description
+      Entry: 1
+      Data: Score 1000 in one run in Arcade Mode
+    - Name: rewardCount
+      Entry: 3
+      Data: 50
+    - Name: selectedIcon
+      Entry: 10
+      Data: 16
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 17
+    - Name: apiIdentifier
+      Entry: 1
+      Data: score_1000
+    - Name: countToDo
+      Entry: 3
+      Data: 1000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 6
+    - Name: tittle
+      Entry: 1
+      Data: Pocket Money
+    - Name: description
+      Entry: 1
+      Data: Spend 200 coins in game
+    - Name: rewardCount
+      Entry: 3
+      Data: 50
+    - Name: selectedIcon
+      Entry: 10
+      Data: 18
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 19
+    - Name: apiIdentifier
+      Entry: 1
+      Data: spend_200
+    - Name: countToDo
+      Entry: 3
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 5
+    - Name: tittle
+      Entry: 1
+      Data: Great Score
+    - Name: description
+      Entry: 1
+      Data: Score 500 in one run in Arcade Mode
+    - Name: rewardCount
+      Entry: 3
+      Data: 10
+    - Name: selectedIcon
+      Entry: 10
+      Data: 20
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 21
+    - Name: apiIdentifier
+      Entry: 1
+      Data: score_500
+    - Name: countToDo
+      Entry: 3
+      Data: 500
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 5
+    - Name: tittle
+      Entry: 1
+      Data: Pro Score
+    - Name: description
+      Entry: 1
+      Data: Score 2000 in one run in Arcade Mode
+    - Name: rewardCount
+      Entry: 3
+      Data: 100
+    - Name: selectedIcon
+      Entry: 10
+      Data: 22
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 23
+    - Name: apiIdentifier
+      Entry: 1
+      Data: score_2000
+    - Name: countToDo
+      Entry: 3
+      Data: 2000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 7
+    - Name: tittle
+      Entry: 1
+      Data: Escape for a week
+    - Name: description
+      Entry: 1
+      Data: Unlock the 7th daily reward
+    - Name: rewardCount
+      Entry: 3
+      Data: 300
+    - Name: selectedIcon
+      Entry: 10
+      Data: 24
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 25
+    - Name: apiIdentifier
+      Entry: 1
+      Data: unlock_7th
+    - Name: countToDo
+      Entry: 3
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 8
+    - Name: tittle
+      Entry: 1
+      Data: Candy Addict
+    - Name: description
+      Entry: 1
+      Data: Collect 5000 Sprinkles
+    - Name: rewardCount
+      Entry: 3
+      Data: 100
+    - Name: selectedIcon
+      Entry: 10
+      Data: 26
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 27
+    - Name: apiIdentifier
+      Entry: 1
+      Data: collect_5k
+    - Name: countToDo
+      Entry: 3
+      Data: 5000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 8
+    - Name: tittle
+      Entry: 1
+      Data: Trip to the Dentist
+    - Name: description
+      Entry: 1
+      Data: Collect 10k sprinkles
+    - Name: rewardCount
+      Entry: 3
+      Data: 200
+    - Name: selectedIcon
+      Entry: 10
+      Data: 28
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 29
+    - Name: apiIdentifier
+      Entry: 1
+      Data: collect_10k
+    - Name: countToDo
+      Entry: 3
+      Data: 10000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 3
+    - Name: tittle
+      Entry: 1
+      Data: You cant kill me!
+    - Name: description
+      Entry: 1
+      Data: Revive after dying
+    - Name: rewardCount
+      Entry: 3
+      Data: 75
+    - Name: selectedIcon
+      Entry: 10
+      Data: 30
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 31
+    - Name: apiIdentifier
+      Entry: 1
+      Data: revive
+    - Name: countToDo
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 4
+    - Name: tittle
+      Entry: 1
+      Data: Getting Stronger
+    - Name: description
+      Entry: 1
+      Data: Level up any character once
+    - Name: rewardCount
+      Entry: 3
+      Data: 50
+    - Name: selectedIcon
+      Entry: 10
+      Data: 32
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 33
+    - Name: apiIdentifier
+      Entry: 1
+      Data: level_2
+    - Name: countToDo
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 8
+    - Name: tittle
+      Entry: 1
+      Data: Sweet Tooth
+    - Name: description
+      Entry: 1
+      Data: Collect 1000 sprinkles
+    - Name: rewardCount
+      Entry: 3
+      Data: 50
+    - Name: selectedIcon
+      Entry: 10
+      Data: 34
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 35
+    - Name: apiIdentifier
+      Entry: 1
+      Data: collect_1k
+    - Name: countToDo
+      Entry: 3
+      Data: 1000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: AchievementData, Assembly-CSharp
+    - Name: AchievementsTypes
+      Entry: 3
+      Data: 9
+    - Name: tittle
+      Entry: 1
+      Data: Start Playing!
+    - Name: description
+      Entry: 1
+      Data: Download Sweet Escape on IOS or Android
+    - Name: rewardCount
+      Entry: 3
+      Data: 50
+    - Name: selectedIcon
+      Entry: 10
+      Data: 36
+    - Name: unselectedIcon
+      Entry: 10
+      Data: 37
+    - Name: apiIdentifier
+      Entry: 1
+      Data: first_game
+    - Name: countToDo
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  achievementInfo:
+  - AchievementsTypes: 0
+    tittle: Toot Toot
+    description: Do a fart
+    rewardCount: 10
+    selectedIcon: {fileID: 21300000, guid: 3b2d45a6fb5af7949997a9dea032366a, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 0df2ff506dbcf674f82c176be3b0292d, type: 3}
+    apiIdentifier: fart
+    countToDo: 1
+  - AchievementsTypes: 1
+    tittle: New Kid on the Block
+    description: Unlock a new character
+    rewardCount: 100
+    selectedIcon: {fileID: 21300000, guid: 381e4c1c8ff51c94bbc620e154897a23, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 34d64fd1b6b12d744b448b4a6b4813ce, type: 3}
+    apiIdentifier: unlock_character
+    countToDo: 1
+  - AchievementsTypes: 2
+    tittle: God Mode
+    description: Score 10000 in one run in Arcade Mode
+    rewardCount: 500
+    selectedIcon: {fileID: 21300000, guid: 1b3e1e4e530a7ea4d809d103efb7deab, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 83e412e0548b31f4ebe4e7b52132bfc4, type: 3}
+    apiIdentifier: god_mode
+    countToDo: 10000
+  - AchievementsTypes: 3
+    tittle: "Death won\u2019t slow me down"
+    description: Revive after dying 5 times
+    rewardCount: 100
+    selectedIcon: {fileID: 21300000, guid: 9a02cabcd4459e14da42b0f7c7bbc66c, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 97a379921253d4649a2793f44206df14, type: 3}
+    apiIdentifier: revive_5
+    countToDo: 5
+  - AchievementsTypes: 10
+    tittle: Over 9000
+    description: Level up any character to level 5
+    rewardCount: 200
+    selectedIcon: {fileID: 21300000, guid: ecdd2b74c97edb14fa0600925524d8fd, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: fc8fb4c397838484491611868a5e760b, type: 3}
+    apiIdentifier: level_5
+    countToDo: 1
+  - AchievementsTypes: 5
+    tittle: Better than our devs
+    description: Score 5000 in one run in Arcade Mode
+    rewardCount: 200
+    selectedIcon: {fileID: 21300000, guid: 07069dc4c2056ce4e90514358e9dad81, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 488c54ebcd945c8419aa2fa5ccfb68e1, type: 3}
+    apiIdentifier: score_5000
+    countToDo: 5000
+  - AchievementsTypes: 6
+    tittle: Hey, Big Spender!
+    description: Spend 2000 coins in game
+    rewardCount: 200
+    selectedIcon: {fileID: 21300000, guid: 4cc82a7221702e94ab4e73f68d9b4a5f, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 1d541885cf25e7c44b7956e9cc8a8ab7, type: 3}
+    apiIdentifier: spend_2000
+    countToDo: 2000
+  - AchievementsTypes: 6
+    tittle: Casual Spender
+    description: Spend 500 coins in game
+    rewardCount: 100
+    selectedIcon: {fileID: 21300000, guid: f1d401eb39693984fadd814c48bf2e54, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 3d0847204dd97934d8e210aa1a6534fd, type: 3}
+    apiIdentifier: spend_500
+    countToDo: 500
+  - AchievementsTypes: 5
+    tittle: Impressive Score
+    description: Score 1000 in one run in Arcade Mode
+    rewardCount: 50
+    selectedIcon: {fileID: 21300000, guid: fb17c285a59cd5c43b05436aa74d8f53, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 278f8785e392fac4db9d1c2d068bb4f1, type: 3}
+    apiIdentifier: score_1000
+    countToDo: 1000
+  - AchievementsTypes: 6
+    tittle: Pocket Money
+    description: Spend 200 coins in game
+    rewardCount: 50
+    selectedIcon: {fileID: 21300000, guid: 4bf46ab703721934e981db4da634f921, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: ce8f38082f9d9024fa74a350dbcbdc3d, type: 3}
+    apiIdentifier: spend_200
+    countToDo: 200
+  - AchievementsTypes: 5
+    tittle: Great Score
+    description: Score 500 in one run in Arcade Mode
+    rewardCount: 10
+    selectedIcon: {fileID: 21300000, guid: b0f7cd600c79c96479c9bcc7b4c7aab8, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: c806c0aac0f410e41a9cbd302b0dcd6b, type: 3}
+    apiIdentifier: score_500
+    countToDo: 500
+  - AchievementsTypes: 5
+    tittle: Pro Score
+    description: Score 2000 in one run in Arcade Mode
+    rewardCount: 100
+    selectedIcon: {fileID: 21300000, guid: 75558051f21e50b4e983dbcfad5d502b, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 9b426142084c1ef44971cd18b00e5e7f, type: 3}
+    apiIdentifier: score_2000
+    countToDo: 2000
+  - AchievementsTypes: 7
+    tittle: Escape for a week
+    description: Unlock the 7th daily reward
+    rewardCount: 300
+    selectedIcon: {fileID: 21300000, guid: de9ae125f59fbf442859eb53f7f07376, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 603e9336568e6cd4d9df0255d2f450ef, type: 3}
+    apiIdentifier: unlock_7th
+    countToDo: 7
+  - AchievementsTypes: 8
+    tittle: Candy Addict
+    description: Collect 5000 Sprinkles
+    rewardCount: 100
+    selectedIcon: {fileID: 21300000, guid: 3c044be42dcf09c498829ba91ce25b31, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: f1de90c31352af349b0895a00786283a, type: 3}
+    apiIdentifier: collect_5k
+    countToDo: 5000
+  - AchievementsTypes: 8
+    tittle: Trip to the Dentist
+    description: Collect 10k sprinkles
+    rewardCount: 200
+    selectedIcon: {fileID: 21300000, guid: 1f6d74eebaedae84c9f391d26324e5a2, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 985d377e15c61e143b5bb6d955f74385, type: 3}
+    apiIdentifier: collect_10k
+    countToDo: 10000
+  - AchievementsTypes: 3
+    tittle: You cant kill me!
+    description: Revive after dying
+    rewardCount: 75
+    selectedIcon: {fileID: 21300000, guid: 03aa199335bb2f74e9f7f4704ae3c2f3, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 3af77a46eec8e734883548bad488c8ff, type: 3}
+    apiIdentifier: revive
+    countToDo: 1
+  - AchievementsTypes: 4
+    tittle: Getting Stronger
+    description: Level up any character once
+    rewardCount: 50
+    selectedIcon: {fileID: 21300000, guid: e1a43022bebee724dbc5560f171d9b38, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: cf1e4af37c7a0e04ba88bd251d0f6644, type: 3}
+    apiIdentifier: level_2
+    countToDo: 1
+  - AchievementsTypes: 8
+    tittle: Sweet Tooth
+    description: Collect 1000 sprinkles
+    rewardCount: 50
+    selectedIcon: {fileID: 21300000, guid: aa2256fd3dee63b458e306c0b8c99762, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 12201620d0e95ed40afcd7ed1d0ae988, type: 3}
+    apiIdentifier: collect_1k
+    countToDo: 1000
+  - AchievementsTypes: 9
+    tittle: Start Playing!
+    description: Download Sweet Escape on IOS or Android
+    rewardCount: 50
+    selectedIcon: {fileID: 21300000, guid: a8506d6e131c6734abc721c60196ac06, type: 3}
+    unselectedIcon: {fileID: 21300000, guid: 2f61eb51baf121f41b88a0a68dd94709, type: 3}
+    apiIdentifier: first_game
+    countToDo: 1
+  claimAchievementIcon: {fileID: 21300000, guid: 629613632fede244fb11c753441a4910, type: 3}
+  completedAchievementIcon: {fileID: 21300000, guid: 07b1fafc88fdd7440807c2e801976a98, type: 3}
+  defaultAchievementBoxSprite: {fileID: 21300000, guid: b2e825bb9f8771040b712c3aec18e580, type: 3}
+  claimableAchievementBoxSprite: {fileID: 21300000, guid: 2337d1d1b5661ca45a1b4c882a970200, type: 3}

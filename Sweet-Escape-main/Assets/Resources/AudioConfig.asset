@@ -1,0 +1,1391 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae15485544749c2b46c3e4ec6e1af9e, type: 3}
+  m_Name: AudioConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8300000, guid: 63aff2bea5b295442a53933ba9fed905, type: 3}
+    - {fileID: 8300000, guid: 1845650f54e29504280b1413c57348dc, type: 3}
+    - {fileID: 8300000, guid: ff77bab45ce1b7a4188627cd2e6ba9c4, type: 3}
+    - {fileID: 8300000, guid: 06176dee724c6b345856f967d7639c22, type: 3}
+    - {fileID: 8300000, guid: c2711b7eb626e7b4186d3e05006257f7, type: 3}
+    - {fileID: 8300000, guid: 2ac6e2c3f8c2f054ab329f848301d5a6, type: 3}
+    - {fileID: 8300000, guid: e0aeb438bd624044eb793ace3d79468a, type: 3}
+    - {fileID: 8300000, guid: f2e1b896b0f432c40b338bb53c3457d9, type: 3}
+    - {fileID: 8300000, guid: af589cc72a263a947815b6d4b13bb22c, type: 3}
+    - {fileID: 8300000, guid: 7b1747cad5ef3374a9e6d2d38e74d5a4, type: 3}
+    - {fileID: 8300000, guid: cf1378a019c7b894db8c59a1b25edb89, type: 3}
+    - {fileID: 8300000, guid: ffecee9bf81e7ce449d86b83796b2bda, type: 3}
+    - {fileID: 8300000, guid: 51e528ad2c014fc42bb54626ea903202, type: 3}
+    - {fileID: 8300000, guid: 5e54b400fb7a9bb4f9268ce38271cd3a, type: 3}
+    - {fileID: 8300000, guid: 4b2c18cb910fd5f4e9538d290a752ce6, type: 3}
+    - {fileID: 8300000, guid: ef9855c174fb4394da55e4817f5e5956, type: 3}
+    - {fileID: 8300000, guid: db5dd25e8c988024da4f95cdb5aa7cb1, type: 3}
+    - {fileID: 8300000, guid: 72d9d4796765ce948b18552ae955b307, type: 3}
+    - {fileID: 8300000, guid: ff2331fafb9543943bff96821de04bbb, type: 3}
+    - {fileID: 8300000, guid: bfb1c5aed04f88643a336df6189a2f7c, type: 3}
+    - {fileID: 8300000, guid: 69abed8d05825e94badc64a2e49bd45f, type: 3}
+    - {fileID: 8300000, guid: 243501917d9d1184ba167c462c2ceb01, type: 3}
+    - {fileID: 8300000, guid: 4af9437a2cc774b4c90b4742ab8d43ad, type: 3}
+    - {fileID: 8300000, guid: 33be25b94177d0743aee2e5d6b0fcd23, type: 3}
+    - {fileID: 8300000, guid: ee005d2f56eb11644a8c591a8ec3e08c, type: 3}
+    - {fileID: 8300000, guid: 9540829363b91ac4a839be35a1df2a86, type: 3}
+    - {fileID: 8300000, guid: 5cd1decc0c7c25e4bbefc264ad979131, type: 3}
+    - {fileID: 8300000, guid: 7cfd23ba5ac8fd146bb1850bab253629, type: 3}
+    - {fileID: 8300000, guid: ad5d001fad545f249b038d8c4578ab05, type: 3}
+    - {fileID: 8300000, guid: 3b7e4a31df8ac6643b4a787e62ade7d2, type: 3}
+    - {fileID: 8300000, guid: c1c864fb3a90ef44f8dadaa8078e27f7, type: 3}
+    - {fileID: 8300000, guid: 496b395ea980fa04baf0012d83192ff7, type: 3}
+    - {fileID: 8300000, guid: 89cd7c8fb96d0654e9d6e2234617065a, type: 3}
+    - {fileID: 8300000, guid: 5e3fb54ad14ad4c4c8e48a312f9df7d8, type: 3}
+    - {fileID: 8300000, guid: 542433bd89e7ce946b69fe757c5211b7, type: 3}
+    - {fileID: 8300000, guid: 81f91f93f72088c418d0316eb904b3f9, type: 3}
+    - {fileID: 8300000, guid: 58e3b32d426a8c3408d698a8998e1a13, type: 3}
+    - {fileID: 8300000, guid: 2b2da7079beba8c4bb1113f91a6acd60, type: 3}
+    - {fileID: 8300000, guid: 063ab7b731b9c194c96f94a1ba7f887f, type: 3}
+    - {fileID: 8300000, guid: 02c97d68ac25bd8458c97965cdc0aab7, type: 3}
+    - {fileID: 8300000, guid: b5cb20cfc2f11444984453cb75a8a342, type: 3}
+    - {fileID: 8300000, guid: 5358082fc18b9b24fb9171bf143e149b, type: 3}
+    - {fileID: 8300000, guid: b2acafed4e7750241a756c7fca24b5a5, type: 3}
+    - {fileID: 8300000, guid: 5a9a0eea06c99f34c9a3cbbddd821b25, type: 3}
+    - {fileID: 8300000, guid: 90eeff45709026b47be7cdd7ec948758, type: 3}
+    - {fileID: 8300000, guid: fccccefa27ddeda4fb5fcfb88bf77073, type: 3}
+    - {fileID: 8300000, guid: 585b5970a22177f45b9d9285974c034b, type: 3}
+    - {fileID: 8300000, guid: 4c5d5d4b8fa425843b8b1c7cc1e2906c, type: 3}
+    - {fileID: 8300000, guid: 758574c6e646ca146b2d43dd2f25a2b6, type: 3}
+    - {fileID: 8300000, guid: f70778bffb933234d80ec173363b7044, type: 3}
+    - {fileID: 8300000, guid: 828af0bc387934c43942eee93bdaaecd, type: 3}
+    - {fileID: 8300000, guid: 80e5e1efb4ad02b4cb75603164ae1d1d, type: 3}
+    - {fileID: 8300000, guid: f4628318ac21e614a914d9a9c0905452, type: 3}
+    - {fileID: 8300000, guid: 0e6607ad3dc523c4988218a7a7b97343, type: 3}
+    - {fileID: 8300000, guid: 734a368e2e1b642479af0203410772f1, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: audioMusicPresets
+      Entry: 7
+      Data: 0|UnityEngine.Rendering.SerializedDictionary`2[[Audio.AudioType, Assembly-CSharp],[Audio.AudioPreset,
+        Assembly-CSharp]], Unity.RenderPipelines.Core.Runtime
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Audio.AudioType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 0
+    - Name: volume
+      Entry: 4
+      Data: 0.15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 1
+    - Name: volume
+      Entry: 4
+      Data: 0.15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 2
+    - Name: volume
+      Entry: 4
+      Data: 0.15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: audioSFXPresets
+      Entry: 7
+      Data: 2|UnityEngine.Rendering.SerializedDictionary`2[[Audio.AudioType, Assembly-CSharp],[Audio.AudioPreset,
+        Assembly-CSharp]], Unity.RenderPipelines.Core.Runtime
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 52
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 3
+    - Name: volume
+      Entry: 4
+      Data: 0.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 4
+    - Name: volume
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 5
+    - Name: volume
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 6
+    - Name: volume
+      Entry: 4
+      Data: 0.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 7
+    - Name: volume
+      Entry: 4
+      Data: 0.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 8
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 9
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 10
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 11
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 13
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 12
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 14
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 13
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 15
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 14
+    - Name: volume
+      Entry: 4
+      Data: 0.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 15
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 17
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 16
+    - Name: volume
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 18
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 17
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 19
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 18
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 19
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 21
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 20
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 22
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 21
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 23
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 22
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 24
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 23
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 25
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 24
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 26
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 25
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 27
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 26
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 28
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 27
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 29
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 28
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 30
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 29
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 31
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 30
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 31
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 33
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 32
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 34
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 33
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 35
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 34
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 36
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 35
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 37
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 36
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 38
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 37
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 39
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 38
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 40
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 39
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 41
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 40
+    - Name: volume
+      Entry: 4
+      Data: 0.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 42
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 41
+    - Name: volume
+      Entry: 4
+      Data: 0.4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 43
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 42
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 44
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 43
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 45
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 44
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 46
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 45
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 47
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 46
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 48
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 47
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 49
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 48
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 50
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 49
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 53
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 50
+    - Name: volume
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 51
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 51
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 52
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 52
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 54
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 53
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 55
+    - Name: $v
+      Entry: 7
+      Data: Audio.AudioPreset, Assembly-CSharp
+    - Name: audioClip
+      Entry: 10
+      Data: 54
+    - Name: volume
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  audioMusicPresets:
+    m_Keys: 010000000200000005000000
+    m_Values:
+    - audioClip: {fileID: 8300000, guid: 63aff2bea5b295442a53933ba9fed905, type: 3}
+      volume: 0.15
+    - audioClip: {fileID: 8300000, guid: 1845650f54e29504280b1413c57348dc, type: 3}
+      volume: 0.15
+    - audioClip: {fileID: 8300000, guid: ff77bab45ce1b7a4188627cd2e6ba9c4, type: 3}
+      volume: 0.15
+  audioSFXPresets:
+    m_Keys: 0300000006000000070000000000000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f0000003000000031000000320000003500000033000000340000003600000037000000
+    m_Values:
+    - audioClip: {fileID: 8300000, guid: 06176dee724c6b345856f967d7639c22, type: 3}
+      volume: 0.25
+    - audioClip: {fileID: 8300000, guid: c2711b7eb626e7b4186d3e05006257f7, type: 3}
+      volume: 1
+    - audioClip: {fileID: 8300000, guid: 2ac6e2c3f8c2f054ab329f848301d5a6, type: 3}
+      volume: 1
+    - audioClip: {fileID: 8300000, guid: e0aeb438bd624044eb793ace3d79468a, type: 3}
+      volume: 0.25
+    - audioClip: {fileID: 8300000, guid: f2e1b896b0f432c40b338bb53c3457d9, type: 3}
+      volume: 0.25
+    - audioClip: {fileID: 8300000, guid: af589cc72a263a947815b6d4b13bb22c, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 7b1747cad5ef3374a9e6d2d38e74d5a4, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: cf1378a019c7b894db8c59a1b25edb89, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: ffecee9bf81e7ce449d86b83796b2bda, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 51e528ad2c014fc42bb54626ea903202, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 5e54b400fb7a9bb4f9268ce38271cd3a, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 4b2c18cb910fd5f4e9538d290a752ce6, type: 3}
+      volume: 0.25
+    - audioClip: {fileID: 8300000, guid: ef9855c174fb4394da55e4817f5e5956, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: db5dd25e8c988024da4f95cdb5aa7cb1, type: 3}
+      volume: 1
+    - audioClip: {fileID: 8300000, guid: 72d9d4796765ce948b18552ae955b307, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: ff2331fafb9543943bff96821de04bbb, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: bfb1c5aed04f88643a336df6189a2f7c, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 69abed8d05825e94badc64a2e49bd45f, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 243501917d9d1184ba167c462c2ceb01, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 4af9437a2cc774b4c90b4742ab8d43ad, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 33be25b94177d0743aee2e5d6b0fcd23, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: ee005d2f56eb11644a8c591a8ec3e08c, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 9540829363b91ac4a839be35a1df2a86, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 5cd1decc0c7c25e4bbefc264ad979131, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 7cfd23ba5ac8fd146bb1850bab253629, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: ad5d001fad545f249b038d8c4578ab05, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 3b7e4a31df8ac6643b4a787e62ade7d2, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: c1c864fb3a90ef44f8dadaa8078e27f7, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 496b395ea980fa04baf0012d83192ff7, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 89cd7c8fb96d0654e9d6e2234617065a, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 5e3fb54ad14ad4c4c8e48a312f9df7d8, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 542433bd89e7ce946b69fe757c5211b7, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 81f91f93f72088c418d0316eb904b3f9, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 58e3b32d426a8c3408d698a8998e1a13, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 2b2da7079beba8c4bb1113f91a6acd60, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 063ab7b731b9c194c96f94a1ba7f887f, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 02c97d68ac25bd8458c97965cdc0aab7, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: b5cb20cfc2f11444984453cb75a8a342, type: 3}
+      volume: 0.4
+    - audioClip: {fileID: 8300000, guid: 5358082fc18b9b24fb9171bf143e149b, type: 3}
+      volume: 0.4
+    - audioClip: {fileID: 8300000, guid: b2acafed4e7750241a756c7fca24b5a5, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 5a9a0eea06c99f34c9a3cbbddd821b25, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 90eeff45709026b47be7cdd7ec948758, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: fccccefa27ddeda4fb5fcfb88bf77073, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 585b5970a22177f45b9d9285974c034b, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 4c5d5d4b8fa425843b8b1c7cc1e2906c, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 758574c6e646ca146b2d43dd2f25a2b6, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: f70778bffb933234d80ec173363b7044, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 828af0bc387934c43942eee93bdaaecd, type: 3}
+      volume: 0.5
+    - audioClip: {fileID: 8300000, guid: 80e5e1efb4ad02b4cb75603164ae1d1d, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: f4628318ac21e614a914d9a9c0905452, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 0e6607ad3dc523c4988218a7a7b97343, type: 3}
+      volume: 0.3
+    - audioClip: {fileID: 8300000, guid: 734a368e2e1b642479af0203410772f1, type: 3}
+      volume: 0.3

@@ -1,0 +1,2319 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a14b37269335077459d7a42b065bf22e, type: 3}
+  m_Name: MapVariations
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 936714167719452383, guid: d38a4477f5ced4bfdb659f05d5684f1e, type: 3}
+    - {fileID: 6540797180252185756, guid: 4d1bf6c1e6dc449dcb4ad4bc0b828fe6, type: 3}
+    - {fileID: 853805684950412174, guid: fe3c8d1bf1ae847ed8d3307ea1916b85, type: 3}
+    - {fileID: 853805684950412174, guid: 45c098e095a34457ba8b29c40dfb8467, type: 3}
+    - {fileID: 853805684950412174, guid: 3767291f817f84ef3bfc131ffe683896, type: 3}
+    - {fileID: 853805684950412174, guid: 76376fc7ebc604a72ad413982b346aa0, type: 3}
+    - {fileID: 853805684950412174, guid: 3a271aa92ff9247a4a88ee74341827f4, type: 3}
+    - {fileID: 853805684950412174, guid: 49b83a71cf9c147c182cf0bc60caedf5, type: 3}
+    - {fileID: 853805684950412174, guid: 4aad5d42a9a124876a831e672244d041, type: 3}
+    - {fileID: 853805684950412174, guid: aa8cb143276c04d1ca759a589b23429e, type: 3}
+    - {fileID: 853805684950412174, guid: 29327366a1a21449fbcb786a0cc90487, type: 3}
+    - {fileID: 853805684950412174, guid: 2a137569ccfbe4a2a98dc68e2c993e69, type: 3}
+    - {fileID: 853805684950412174, guid: 3e13269e911d84f338a827876603a55e, type: 3}
+    - {fileID: 853805684950412174, guid: fdd6d4cc88c424352acc2b96a971a167, type: 3}
+    - {fileID: 853805684950412174, guid: a371b3d7d11f1411e92c4da658c32f3d, type: 3}
+    - {fileID: 853805684950412174, guid: c253c5a33593b469fad5f6cd0c5cd91b, type: 3}
+    - {fileID: 853805684950412174, guid: ff0c7b24b21a643e095695e12ecaef31, type: 3}
+    - {fileID: 853805684950412174, guid: e3019a84511964da1b04654c39cb1508, type: 3}
+    - {fileID: 853805684950412174, guid: 9a74b3821917548f88266c4f6eb2caea, type: 3}
+    - {fileID: 853805684950412174, guid: 84ae5dac1ac9c47ae80a4b1373076281, type: 3}
+    - {fileID: 936714167719452383, guid: bd7a47e3bc01b4993b053f3e23ec7ef8, type: 3}
+    - {fileID: 6540797180252185756, guid: e93ae31b604bc4b619d4c61d6350320a, type: 3}
+    - {fileID: 853805684950412174, guid: d97f857f4a3ad4998899ddb7a62c011a, type: 3}
+    - {fileID: 853805684950412174, guid: 1c380f19bc0a041b8b52b9b29c2124d7, type: 3}
+    - {fileID: 853805684950412174, guid: e6192771c4c3840f3ac5299423f48b86, type: 3}
+    - {fileID: 853805684950412174, guid: ab4c9991f1a084e6f88096e99c0773b0, type: 3}
+    - {fileID: 853805684950412174, guid: e408f701afa094b1f83e1e0289d58dba, type: 3}
+    - {fileID: 853805684950412174, guid: 45d23ad31b9b640eb94d14e6a2be13fe, type: 3}
+    - {fileID: 853805684950412174, guid: fe61977395c564e5595c1d45e6e1fe6e, type: 3}
+    - {fileID: 853805684950412174, guid: 19ee012f044d14fcb8f77101db178aff, type: 3}
+    - {fileID: 853805684950412174, guid: 530a759c7ff7e4f41a537aa947997086, type: 3}
+    - {fileID: 853805684950412174, guid: 03af04143a1164baa8647f1fab3fef57, type: 3}
+    - {fileID: 853805684950412174, guid: 09446517a8e024bfc843bf2537524c3b, type: 3}
+    - {fileID: 853805684950412174, guid: 266699b82f177404db2b1d17a81c982b, type: 3}
+    - {fileID: 853805684950412174, guid: 856da7056d01f423caaa63e54aa4ca63, type: 3}
+    - {fileID: 853805684950412174, guid: 073f87323713b4b0abda7fa0baad639c, type: 3}
+    - {fileID: 853805684950412174, guid: 7edcd1d31359c4b59ab97f6bc58c3c3e, type: 3}
+    - {fileID: 853805684950412174, guid: 5591317a8df6f479aabb8b25eba95c06, type: 3}
+    - {fileID: 853805684950412174, guid: 566877f28dc0a4a2181b022980f10876, type: 3}
+    - {fileID: 853805684950412174, guid: fba1a6ea491ad4e109401c4b1402f07c, type: 3}
+    - {fileID: 936714167719452383, guid: e91eddeb26c7446d783e38c6eb90a05f, type: 3}
+    - {fileID: 6540797180252185756, guid: 1d1474e61e3bc40d7887419a3bef4385, type: 3}
+    - {fileID: 853805684950412174, guid: a7c8b77d2c68b425fbf1a3b8a956564d, type: 3}
+    - {fileID: 853805684950412174, guid: 2ac69f21647f741278fb4c7d5c093bed, type: 3}
+    - {fileID: 853805684950412174, guid: e51cba9d348ac496eb531a8f2b26322d, type: 3}
+    - {fileID: 853805684950412174, guid: 8dac8b10d05f84f76b3776080ee63a7f, type: 3}
+    - {fileID: 853805684950412174, guid: adf785d2b41eb43c8bd33a4b7bb21d84, type: 3}
+    - {fileID: 853805684950412174, guid: 5679da10b0fef485ba14ec08322a7e23, type: 3}
+    - {fileID: 853805684950412174, guid: a2797397a74ac4821b8c25bfe2e59a24, type: 3}
+    - {fileID: 853805684950412174, guid: 9f1383cee58f94fb9ade7a17120bae11, type: 3}
+    - {fileID: 853805684950412174, guid: 44931c79b10cf4dc3974a7209628aa55, type: 3}
+    - {fileID: 853805684950412174, guid: 5f3380f8c6b98409ea6c36b114c4d98c, type: 3}
+    - {fileID: 853805684950412174, guid: d272ef2e246b8462bb0e1f75da9462ad, type: 3}
+    - {fileID: 853805684950412174, guid: 4ea848d88c869416083bee2e7980280d, type: 3}
+    - {fileID: 853805684950412174, guid: 8084a24251572402dbf5400d9139b72a, type: 3}
+    - {fileID: 853805684950412174, guid: fe70e807df3e64ef59d66f422d6f3cc0, type: 3}
+    - {fileID: 853805684950412174, guid: 8adda477782c84233a97701d01093631, type: 3}
+    - {fileID: 853805684950412174, guid: 856c0ac9982db40eda334394e82d219a, type: 3}
+    - {fileID: 853805684950412174, guid: 582170bc246f84edea7d52f4c97905f5, type: 3}
+    - {fileID: 853805684950412174, guid: a6ef56e11d4da49789b563f217d772c2, type: 3}
+    - {fileID: 936714167719452383, guid: fc9a53b68caf6443a9a4d4134c6d43b6, type: 3}
+    - {fileID: 6540797180252185756, guid: d9e66472d52d640fd8873f4da6b7d378, type: 3}
+    - {fileID: 853805684950412174, guid: 86789125523974ab292e40cac6d1d864, type: 3}
+    - {fileID: 853805684950412174, guid: 50843d6eec13043f2a1a71abda6aafd4, type: 3}
+    - {fileID: 853805684950412174, guid: 6f96037e6daa24447a683d73264c6df1, type: 3}
+    - {fileID: 853805684950412174, guid: 3577b700c65404e4389e99a9ac130a84, type: 3}
+    - {fileID: 853805684950412174, guid: 4b37c2138cda4475bbe146a74edaa0d1, type: 3}
+    - {fileID: 853805684950412174, guid: ab815b360f8114a81972fc16767719b1, type: 3}
+    - {fileID: 853805684950412174, guid: 88e1289e2a22f4a10842b4ecbbf2612a, type: 3}
+    - {fileID: 853805684950412174, guid: be554054a921f4cfb9e28196758477b3, type: 3}
+    - {fileID: 853805684950412174, guid: 6bc91e80e575743b4a7ec04bfd806f82, type: 3}
+    - {fileID: 853805684950412174, guid: 1f6a1bcac67614bc1acd4ed5a8c8a1b0, type: 3}
+    - {fileID: 853805684950412174, guid: 5d5e21c0e208e4149b71d13b048ccf07, type: 3}
+    - {fileID: 853805684950412174, guid: 1935426de87c94a348172f9942c9bda9, type: 3}
+    - {fileID: 853805684950412174, guid: 7cb9e26b4a7044968ba252b36ee1f601, type: 3}
+    - {fileID: 853805684950412174, guid: 39a5bd0ed1f554681ad5c56baf57fd40, type: 3}
+    - {fileID: 853805684950412174, guid: 32b9fa0bf04f04742a7ef57a09683470, type: 3}
+    - {fileID: 853805684950412174, guid: db0bd07e23b10419b8fa057724046c43, type: 3}
+    - {fileID: 853805684950412174, guid: 8927c9370d5bb48498425296ca6554a0, type: 3}
+    - {fileID: 853805684950412174, guid: 315cd1a28426046cf9b79a3e0e668bee, type: 3}
+    - {fileID: 936714167719452383, guid: 08487321a9f5445a4977573145bac2fa, type: 3}
+    - {fileID: 6540797180252185756, guid: 65b9b08be7ffd46d78f1a339d46eacae, type: 3}
+    - {fileID: 853805684950412174, guid: 105eaad54ca514fa98459750a836e468, type: 3}
+    - {fileID: 853805684950412174, guid: f9321aa6cd2024c1fb0a7a852864ca49, type: 3}
+    - {fileID: 853805684950412174, guid: ea371600c5e2a42a8a5047c01c3240e1, type: 3}
+    - {fileID: 853805684950412174, guid: 5f6d187a0ffa34256ab19a3d0825d23a, type: 3}
+    - {fileID: 853805684950412174, guid: 2db9d2567a5884df0af7987dd562e445, type: 3}
+    - {fileID: 853805684950412174, guid: 77b41207fe2e5497dac4ce5dd7971594, type: 3}
+    - {fileID: 853805684950412174, guid: 50f825dc519a847549f5890128ff7e50, type: 3}
+    - {fileID: 853805684950412174, guid: 096cb57ef77734690bd16ef02c3f5f42, type: 3}
+    - {fileID: 853805684950412174, guid: 7d9d3373a73084543ba82ecd55fe11f7, type: 3}
+    - {fileID: 853805684950412174, guid: dbc6b2a9ccb0549d99ff4bb0725321f6, type: 3}
+    - {fileID: 853805684950412174, guid: d134015c168fc4f159fa53786da5c30b, type: 3}
+    - {fileID: 853805684950412174, guid: e0fab3ebe1fb940ddaed810aa6fb3acf, type: 3}
+    - {fileID: 853805684950412174, guid: aadc62bf3ec524b65b3a8ccdfaa33d7d, type: 3}
+    - {fileID: 853805684950412174, guid: 79f76df330c95411996a7ec6c4dbdf63, type: 3}
+    - {fileID: 853805684950412174, guid: 265ae08eddb3247d28b79874e9bd2922, type: 3}
+    - {fileID: 853805684950412174, guid: 2e740a76bea41473aa659672ee8461f7, type: 3}
+    - {fileID: 853805684950412174, guid: 6328d100448914493be351a5c748d754, type: 3}
+    - {fileID: 853805684950412174, guid: 6dc3d4258d3fd46c98bb46ea2de870b4, type: 3}
+    - {fileID: 936714167719452383, guid: d9f48088afc1f415887629b478b18577, type: 3}
+    - {fileID: 6540797180252185756, guid: ec4204fae09e54b58b8c23480ad491d4, type: 3}
+    - {fileID: 853805684950412174, guid: 7ab15b906a586434fae21fc415a47294, type: 3}
+    - {fileID: 853805684950412174, guid: 39ba7e392640746f9a6c65df964bb45b, type: 3}
+    - {fileID: 853805684950412174, guid: c8bad03ad3b6e4c48a5937d5ca2e62cb, type: 3}
+    - {fileID: 853805684950412174, guid: 168ab45380eba45c08811411e8184e6d, type: 3}
+    - {fileID: 853805684950412174, guid: a0d0d2063b5c04fc4ba0ff1feafd8081, type: 3}
+    - {fileID: 853805684950412174, guid: 525785b1af7754664bb60ca99e6fead0, type: 3}
+    - {fileID: 853805684950412174, guid: e025da551b60a4cf19cf1e4eb9d67456, type: 3}
+    - {fileID: 853805684950412174, guid: 3a6a2e6ea5b2c4dedb4c02b82f4147fc, type: 3}
+    - {fileID: 853805684950412174, guid: ca3532a4611d04e29b3db1c24ec54183, type: 3}
+    - {fileID: 853805684950412174, guid: 969a80d73298342e79ef87fb05292ef2, type: 3}
+    - {fileID: 853805684950412174, guid: 372874daa652b4a7b8e8fbf706cd160b, type: 3}
+    - {fileID: 853805684950412174, guid: 125027678e5de45838373a339dcc8f0b, type: 3}
+    - {fileID: 853805684950412174, guid: 3b86cabaada7d4bba86f6afbbe47a234, type: 3}
+    - {fileID: 853805684950412174, guid: 8267b75c6600b45ecb9038093b0bcef9, type: 3}
+    - {fileID: 853805684950412174, guid: b4c62bf88dc9649c6890f3f21a0a01fd, type: 3}
+    - {fileID: 853805684950412174, guid: a9d72653e2acd497ca79344f6abb6df1, type: 3}
+    - {fileID: 853805684950412174, guid: 2935ba4ea2e49471fb4d7033866c3190, type: 3}
+    - {fileID: 853805684950412174, guid: 5136d0a5a51bd487ab32d45f985f3575, type: 3}
+    - {fileID: 936714167719452383, guid: c7f01b42400e1465ebb8cf6f1a10a84e, type: 3}
+    - {fileID: 6540797180252185756, guid: bf4e4bbc55a6b4a10bab59eddaff6853, type: 3}
+    - {fileID: 853805684950412174, guid: 2be838d5325ac4d4782481d93986cd43, type: 3}
+    - {fileID: 853805684950412174, guid: 2fbbd4a975b654eeda5bf948fd36c1e5, type: 3}
+    - {fileID: 853805684950412174, guid: 722ce99d6697844bb9cc9cb42029a596, type: 3}
+    - {fileID: 853805684950412174, guid: d2b3fff50f261484aad5ef7b47bd9e0b, type: 3}
+    - {fileID: 853805684950412174, guid: bf878c883654b4f7093177b90b98645c, type: 3}
+    - {fileID: 853805684950412174, guid: 94d948eb0c06348c3993d75c701c8a5f, type: 3}
+    - {fileID: 853805684950412174, guid: 8f9afdab15f614415ae1b2ec50d26962, type: 3}
+    - {fileID: 853805684950412174, guid: 07f74457b45c84d9c85cb1c1a44502d8, type: 3}
+    - {fileID: 853805684950412174, guid: 14d753515d18e457ca954cd1cc5cfb92, type: 3}
+    - {fileID: 853805684950412174, guid: bd401c74faa7e41f0a41e52e8ba8d766, type: 3}
+    - {fileID: 853805684950412174, guid: 594550a9716254c3d894207e2b994440, type: 3}
+    - {fileID: 853805684950412174, guid: e29223e699c244822b4140bbd45f70a9, type: 3}
+    - {fileID: 853805684950412174, guid: 28f0ac58f66ca40a7b941f3bec1fb674, type: 3}
+    - {fileID: 853805684950412174, guid: e4202001aa5284e089eb608ce59df886, type: 3}
+    - {fileID: 853805684950412174, guid: 12a23921201c541e58dc1ba65df697a8, type: 3}
+    - {fileID: 853805684950412174, guid: c6b83eac6738e4d6cbb14e5914757cec, type: 3}
+    - {fileID: 853805684950412174, guid: 41fa73b5e685046a69117fa745bca5bb, type: 3}
+    - {fileID: 853805684950412174, guid: 135a7771401254a7cb3e316d2ab41c83, type: 3}
+    - {fileID: 936714167719452383, guid: 434d935ffe97e4ef68c7c6eb62e6ff55, type: 3}
+    - {fileID: 6540797180252185756, guid: 76fc7749ef8454752a4f7ddd7c2a06b0, type: 3}
+    - {fileID: 853805684950412174, guid: 6b4758ac55d95481681d8c0dc29bea40, type: 3}
+    - {fileID: 853805684950412174, guid: bdd8cb14d3fca4003b72c970fc799b0a, type: 3}
+    - {fileID: 853805684950412174, guid: 4d223cf64c06b48348277dbb41e2bf02, type: 3}
+    - {fileID: 853805684950412174, guid: 13985c2cffe8d40d8a07d6954e069d44, type: 3}
+    - {fileID: 853805684950412174, guid: e5e1b972b22ea434d8a2c5b2baa4478c, type: 3}
+    - {fileID: 853805684950412174, guid: 42eaaaac2bec54333a9253cc3643fae3, type: 3}
+    - {fileID: 853805684950412174, guid: ef033024805be43ff862477c2594a3e8, type: 3}
+    - {fileID: 853805684950412174, guid: a17eb9a5179aa4990a505ff36a50b067, type: 3}
+    - {fileID: 853805684950412174, guid: 04ba2ecd1f805464aa9618cf3afed6f9, type: 3}
+    - {fileID: 853805684950412174, guid: 21afe10ae44a34c50a57636f9a629d3d, type: 3}
+    - {fileID: 853805684950412174, guid: 285d3b4be576f436b9fa419df083b884, type: 3}
+    - {fileID: 853805684950412174, guid: d2e209efb629241d7befd99524a19485, type: 3}
+    - {fileID: 853805684950412174, guid: 2ff2c1eba033c41abb922e974e83a333, type: 3}
+    - {fileID: 853805684950412174, guid: 55c7a2a4a6877488da9d8ba68c58ed10, type: 3}
+    - {fileID: 853805684950412174, guid: d963d19c51a3d4f9eaee7c599c5b885d, type: 3}
+    - {fileID: 853805684950412174, guid: f68cfabc162804e0f8f2b11e95083a32, type: 3}
+    - {fileID: 853805684950412174, guid: 742a3ffefbe94488c9f81b47a3bf4f17, type: 3}
+    - {fileID: 853805684950412174, guid: adc8ab1dd873f44a881cdf9f962b31a3, type: 3}
+    - {fileID: 936714167719452383, guid: 8bd08706506b14f1da13ba151edd924e, type: 3}
+    - {fileID: 6540797180252185756, guid: 6c13a3d11143547519e65c4f2ed7d06b, type: 3}
+    - {fileID: 853805684950412174, guid: 92fc44c1e090d480d9392473eb8814e7, type: 3}
+    - {fileID: 853805684950412174, guid: 63df3931305be468d9e2598d4f110eb6, type: 3}
+    - {fileID: 853805684950412174, guid: 0a3f384a0064a48eab3e0ee3ca871992, type: 3}
+    - {fileID: 853805684950412174, guid: 2249ddc2af59f40d3a63d54b7777baeb, type: 3}
+    - {fileID: 853805684950412174, guid: dbadaa9d66b1d444089ac3ea69eaff1a, type: 3}
+    - {fileID: 853805684950412174, guid: fb4cfe7915fcb46e9b468985379d1a8b, type: 3}
+    - {fileID: 853805684950412174, guid: 236a821e3764e468b88397587a2f7155, type: 3}
+    - {fileID: 853805684950412174, guid: 9d391ccc735024dc0b51f7657a595cb2, type: 3}
+    - {fileID: 853805684950412174, guid: 57918824def424fdaab400d9c77f0145, type: 3}
+    - {fileID: 853805684950412174, guid: b0665b3e2d89548c2bf728dc90978ec3, type: 3}
+    - {fileID: 853805684950412174, guid: 9a3c83515d8194a28b893ea806f41080, type: 3}
+    - {fileID: 853805684950412174, guid: e4c868e987e0442f9a6b09ff6ee7fa23, type: 3}
+    - {fileID: 853805684950412174, guid: 4b0feae7dc7df4657b9d24880c44d0de, type: 3}
+    - {fileID: 853805684950412174, guid: e8452f7158a7346f2a578d0f8310fa33, type: 3}
+    - {fileID: 853805684950412174, guid: 3cadeb32524534bef9a3a58392bcee3b, type: 3}
+    - {fileID: 853805684950412174, guid: 47eda52a6cfb048d69aab6d18d9d493f, type: 3}
+    - {fileID: 853805684950412174, guid: 4580e0617fc004e76807091378ae2725, type: 3}
+    - {fileID: 853805684950412174, guid: 627a7f93c841646c088736b11894e3f4, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Rooms
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[BiomeEnum, Assembly-CSharp],[System.Collections.Generic.Dictionary`2[[LevelDifficultyEnum,
+        Assembly-CSharp],[System.Collections.Generic.List`1[[MapGeneration.MapDataStruct,
+        Assembly-CSharp]], mscorlib]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[BiomeEnum, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[LevelDifficultyEnum, Assembly-CSharp],[System.Collections.Generic.List`1[[MapGeneration.MapDataStruct,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.EnumEqualityComparer`1[[LevelDifficultyEnum,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 8|System.Collections.Generic.Dictionary`2[[LevelDifficultyEnum, Assembly-CSharp],[System.Collections.Generic.List`1[[MapGeneration.MapDataStruct,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 20
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 20
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 34
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 35
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 38
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 39
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 20
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 41
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 42
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 43
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 44
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 45
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 46
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 47
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 48
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 49
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 51
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 52
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 53
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 54
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 55
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 56
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 57
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 58
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 59
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 13|System.Collections.Generic.Dictionary`2[[LevelDifficultyEnum, Assembly-CSharp],[System.Collections.Generic.List`1[[MapGeneration.MapDataStruct,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 20
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 61
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 62
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 63
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 64
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 65
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 66
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 67
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 68
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 69
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 70
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 71
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 72
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 73
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 74
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 76
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 77
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 78
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 79
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 16|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 20
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 80
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 81
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 82
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 83
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 84
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 86
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 87
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 88
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 89
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 90
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 91
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 92
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 93
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 94
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 95
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 96
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 97
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 98
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 99
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 20
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 101
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 102
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 103
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 104
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 105
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 106
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 107
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 108
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 109
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 110
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 111
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 112
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 113
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 114
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 115
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 116
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 117
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 118
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 119
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 18|System.Collections.Generic.Dictionary`2[[LevelDifficultyEnum, Assembly-CSharp],[System.Collections.Generic.List`1[[MapGeneration.MapDataStruct,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 20|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 20
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 120
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 121
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 122
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 123
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 124
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 125
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 126
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 127
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 128
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 129
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 130
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 131
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 132
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 133
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 134
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 135
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 136
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 137
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 138
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 139
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 20
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 140
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 141
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 142
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 143
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 144
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 145
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 146
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 147
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 148
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 149
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 151
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 152
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 153
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 154
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 155
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 156
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 157
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 158
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 159
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 22|System.Collections.Generic.List`1[[MapGeneration.MapDataStruct, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 20
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 160
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 161
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 162
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 163
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 164
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 165
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 166
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 167
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 168
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 169
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 170
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 171
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 172
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 173
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 174
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 175
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 176
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 177
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 178
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: MapGeneration.MapDataStruct, Assembly-CSharp
+    - Name: tilemapRoom
+      Entry: 10
+      Data: 179
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  MapsDirectory: Assets/Levels/Biomes
+  factoryColorBackground: {r: 0.16078432, g: 0.1764706, b: 0.25882354, a: 0}
+  severColorBackground: {r: 0.105882354, g: 0.15294118, b: 0.14901961, a: 0}
+  radiationColorBackground: {r: 0.17254902, g: 0.12941177, b: 0.17254902, a: 0}
+  factorySpriteBackground: {fileID: 0}
+  severSpriteBackground: {fileID: 0}
+  radiationSpriteBackground: {fileID: 0}

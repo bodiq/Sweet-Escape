@@ -1,0 +1,1459 @@
+fileFormatVersion: 2
+guid: 2d9db947b90fdaa4393dabbd5b078bf4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cream Sprite Green_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1338
+        width: 16
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149852bcbf475224d9fcef5ff90b9f78
+      internalID: 700669400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1338
+        width: 16
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7532e6b3ffe95d41a5fc299674432f4
+      internalID: -653751727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_2
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1338
+        width: 16
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0765fb5c351404a840432e4f59ee0f
+      internalID: -262035442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1338
+        width: 16
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c95a0613aadf4409ae8a2a8296680f
+      internalID: 1158615855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_4
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1221
+        width: 26
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cedc8a8685f78a41b3b869e39cdcb9c
+      internalID: -89293761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1221
+        width: 26
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354aaf54dfd187b45b7ef55715530c9c
+      internalID: -1826796070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1221
+        width: 26
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982a6fa5b0d25e74fb2b8dcf02014d14
+      internalID: 1474082981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1104
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b39e78b37749b9488970fb5fe79fb4e
+      internalID: 1018100351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_8
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1104
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165b602e41603d449a4321026b20ee26
+      internalID: -1637049302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_9
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1104
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0784cf1e7ac3541beb6deaded3bbfe
+      internalID: -1511788338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1104
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dab5b39ebf11349960535edfd829af
+      internalID: -1552625061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_11
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1104
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d6ea33b09346a4ba3c2294875e595e
+      internalID: 404383730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_12
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1104
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095e23e5ef509bf46a0cadd517d0f226
+      internalID: -1249612095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_13
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1104
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e65d3b61a3c88b41b0e90f681f7720d
+      internalID: -2104159220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_14
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1104
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3845e59087249b49b2efe6d4f7c1d0b
+      internalID: -587572065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 988
+        width: 67
+        height: 19
+      alignment: 9
+      pivot: {x: 0.88, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75c8eaa422618f44ab829e89be277b5
+      internalID: -911646240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 988
+        width: 67
+        height: 19
+      alignment: 9
+      pivot: {x: 0.88, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5025a44b0e9905c4596b27982aa82fdd
+      internalID: -377565958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 988
+        width: 67
+        height: 19
+      alignment: 9
+      pivot: {x: 0.88, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f635fa852a544343ab2bce71a857eaf
+      internalID: 1940011508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_18
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 988
+        width: 67
+        height: 19
+      alignment: 9
+      pivot: {x: 0.88, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d3a9982c9e0ad4da542257b37aa6c1
+      internalID: 1575602700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 866
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cdfa8696c66544087f4c1d2914a5d6
+      internalID: 1787019735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_20
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 866
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0601341347d6c344876cae4026effa0
+      internalID: 1463694228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_21
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 866
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce761a1bd16a4e84796909015d7a3ba5
+      internalID: -82159897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 752
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8616cb6937eaa8845ac49de3816ab937
+      internalID: -410961142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_23
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 752
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ee5b282b2b9f040af2af47c1bb9d5c
+      internalID: -77780175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_24
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 752
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ef3556eb420044aae9978933e6a8d9
+      internalID: -82689835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_25
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 752
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd53b12effde0c14dbc613cf99a4aefa
+      internalID: -1054555250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_26
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 752
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3685cbd4c8acfeb46b016981366b4326
+      internalID: 298092678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_27
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 752
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f410aa6b5a8804ea0f8eba4d6fdbb6
+      internalID: 1687342004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_28
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 752
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2318c513d40458b46a15461c739fc316
+      internalID: -2032455506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_29
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 752
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9394ef8303f19542b1cae6ae2b89113
+      internalID: -1122031954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_30
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 752
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d4344236b2f764991fffc0a7ee712e
+      internalID: 988636984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_31
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 585
+        width: 16
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928b852046a03194e856f36d9c31ba82
+      internalID: -1248080418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_32
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 584
+        width: 16
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55abfbe44b431ce4f9b2f4a2d4c4b79f
+      internalID: 205813355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_33
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 584
+        width: 16
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69af4aa7d4bae0d49b5c1050083cb4bb
+      internalID: 27339446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_34
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 584
+        width: 16
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed57ff26a2a2c0489e2c1decaadb4a5
+      internalID: 1376283083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_35
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 584
+        width: 16
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58fda7fe09fe9b48983c93e3df70d1c
+      internalID: 1705539300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_36
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 518
+        width: 28
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d903145b8787e4883d669defb71263
+      internalID: 1761735084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_37
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 518
+        width: 28
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18f1bc29e471544aaf407a4d61c4412
+      internalID: 823242601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_38
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 518
+        width: 28
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcf4c1a7150e2f49acbf0ff5f4bb0e0
+      internalID: -1038206568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 390
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cdc132176ebe846a47a3fb678db52f
+      internalID: -309416846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_40
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 390
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759e2546f303e8b4da184bb2c9d15dea
+      internalID: -919896759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_41
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 390
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bd85c177740264aae2ecf962eb32eb
+      internalID: -2084698757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_42
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 390
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7c507e7eb8bab4eb73128880b300ce
+      internalID: 1551291499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_43
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 390
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cda933d89372f48987d6f810b82c3e
+      internalID: -976616546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_44
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 389
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8090da460c8252040a2a1eae020e3f22
+      internalID: 154754344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_45
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 390
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80603f5420d67ec479df054792b4b0d6
+      internalID: 1375088344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_46
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 390
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277d22a584492d345a121ca01ee0e008
+      internalID: 1007133778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_64
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 155
+        width: 18
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa057f694d4b584db843fedcbf4e86b
+      internalID: -1180950396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_65
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 155
+        width: 18
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14116fd69217ed245abc8027e7b9facc
+      internalID: -1327987069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_66
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 155
+        width: 18
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab46ad03019b3140b5e79062081f898
+      internalID: 304161801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_67
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 155
+        width: 18
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a928155e279b8469e8e529af1f857e
+      internalID: 1603930241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_68
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 155
+        width: 18
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33df77428060d614cb9cd0893f5a85ce
+      internalID: -473974896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_69
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 155
+        width: 18
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f63c10099918a43bcdabbe6656a392
+      internalID: 1663216308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_70
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 45
+        width: 16
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de35e7440bc8ed4f872ed0bf6a89f32
+      internalID: 1235781226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_71
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 45
+        width: 16
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3231a25d50239294a86f0eeb45639c9e
+      internalID: 800437188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_72
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 45
+        width: 16
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3777b61b87935cf42b418f767fd68e91
+      internalID: -1069242262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_73
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 45
+        width: 16
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb907213fdcba241a45cc9d6d6e59c4
+      internalID: 247443156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Green_74
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 45
+        width: 16
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9d63b8e881a604db2c7e6355db0b39
+      internalID: 1225376014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cream Sprite Green_0: 700669400
+      Cream Sprite Green_1: -653751727
+      Cream Sprite Green_10: 1176140909
+      Cream Sprite Green_11: -1102261840
+      Cream Sprite Green_12: -1629157539
+      Cream Sprite Green_13: -1298350816
+      Cream Sprite Green_14: -858183897
+      Cream Sprite Green_15: -135055795
+      Cream Sprite Green_16: -782563900
+      Cream Sprite Green_17: 1307118042
+      Cream Sprite Green_18: 1251407358
+      Cream Sprite Green_19: 554469220
+      Cream Sprite Green_2: -262035442
+      Cream Sprite Green_20: 1123680802
+      Cream Sprite Green_21: 2117198485
+      Cream Sprite Green_22: 1933827848
+      Cream Sprite Green_23: 668132390
+      Cream Sprite Green_24: 2039703131
+      Cream Sprite Green_25: -1524725959
+      Cream Sprite Green_26: -828307521
+      Cream Sprite Green_27: 1523688399
+      Cream Sprite Green_28: 1191206016
+      Cream Sprite Green_29: 1880805020
+      Cream Sprite Green_3: 1158615855
+      Cream Sprite Green_30: 393543674
+      Cream Sprite Green_31: -866441379
+      Cream Sprite Green_32: -1560533517
+      Cream Sprite Green_33: 360835499
+      Cream Sprite Green_34: 2122106957
+      Cream Sprite Green_35: -1551051702
+      Cream Sprite Green_36: 1664674378
+      Cream Sprite Green_37: 1486690378
+      Cream Sprite Green_38: 580138119
+      Cream Sprite Green_39: -107089666
+      Cream Sprite Green_4: -89293761
+      Cream Sprite Green_40: 2039099280
+      Cream Sprite Green_41: -492400777
+      Cream Sprite Green_42: -1898898588
+      Cream Sprite Green_43: 595935456
+      Cream Sprite Green_44: -1713792980
+      Cream Sprite Green_45: -1893900135
+      Cream Sprite Green_46: 1950571724
+      Cream Sprite Green_47: 1588188928
+      Cream Sprite Green_48: 666248161
+      Cream Sprite Green_49: 1421856593
+      Cream Sprite Green_5: -1826796070
+      Cream Sprite Green_50: -2055859654
+      Cream Sprite Green_51: 1331202286
+      Cream Sprite Green_52: -348328284
+      Cream Sprite Green_53: -182838618
+      Cream Sprite Green_54: 565316056
+      Cream Sprite Green_55: -524109592
+      Cream Sprite Green_56: -1025435294
+      Cream Sprite Green_57: 1847626934
+      Cream Sprite Green_58: 1342252051
+      Cream Sprite Green_59: -604263058
+      Cream Sprite Green_6: -1209298750
+      Cream Sprite Green_60: -1306268567
+      Cream Sprite Green_61: 305343885
+      Cream Sprite Green_62: -1452238479
+      Cream Sprite Green_63: 1100911734
+      Cream Sprite Green_64: -1089489725
+      Cream Sprite Green_65: 1842851216
+      Cream Sprite Green_66: 917697989
+      Cream Sprite Green_67: -2073051656
+      Cream Sprite Green_68: 1136502303
+      Cream Sprite Green_69: 36072035
+      Cream Sprite Green_7: 1244657141
+      Cream Sprite Green_70: -595401054
+      Cream Sprite Green_71: 22631223
+      Cream Sprite Green_72: 1041157091
+      Cream Sprite Green_73: 1941733665
+      Cream Sprite Green_74: 782274048
+      Cream Sprite Green_8: 927580308
+      Cream Sprite Green_9: -1103564267
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

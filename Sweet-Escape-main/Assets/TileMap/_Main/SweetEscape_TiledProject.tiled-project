@@ -1,0 +1,16 @@
+{
+    "automappingRulesFile": "../../../../../../Downloads/Projects/SweetEscape/Tiled_Rules/Rules.txt",
+    "commands": [
+    ],
+    "compatibilityVersion": 1100,
+    "extensionsPath": ".",
+    "folders": [
+        ".",
+        "../../../../../../Downloads/Projects/SweetEscape/Tiled_Rules",
+        "../_Levels"
+    ],
+    "properties": [
+    ],
+    "propertyTypes": [
+    ]
+}

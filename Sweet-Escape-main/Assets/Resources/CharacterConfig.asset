@@ -1,0 +1,1170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 503a2bf8aafa4d23a8848bce5367fc51, type: 3}
+  m_Name: CharacterConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: da195d78c0b2df44dade453454171eb4, type: 3}
+    - {fileID: 7400000, guid: 0b64fa98baa69fc4b8a50a652c8c1f5c, type: 2}
+    - {fileID: 976863378634496285, guid: 42763ed837f7ae043a27d07fb74aaa78, type: 3}
+    - {fileID: 8020343219828760338, guid: 696274d09af4ffa4f96f9c137916023d, type: 3}
+    - {fileID: 21300000, guid: 01d2836151c7cb846897bfbd6b4a2dcd, type: 3}
+    - {fileID: 3621579878417908464, guid: 1aee5622abdaefd4e9e45ba1ef62cc13, type: 3}
+    - {fileID: 21300000, guid: 37048f0e69f6ba84f82f1ba91c92ad62, type: 3}
+    - {fileID: 21300000, guid: 272ba4fb396110248bc87f63b6ca31b4, type: 3}
+    - {fileID: 21300000, guid: f1a3a6ecb31f5674da48c6e4d9cbeadf, type: 3}
+    - {fileID: 21300000, guid: 820396d6968fa8a4988216e026e779ab, type: 3}
+    - {fileID: 1018100351, guid: 281a10f0af9d1e14a9ea297e9a262204, type: 3}
+    - {fileID: 21300000, guid: bc8abd9683722db43935a1baad86d54e, type: 3}
+    - {fileID: 9100000, guid: 6d0738dd41046f046b4297225d192fdb, type: 2}
+    - {fileID: 9100000, guid: d59f394c9089a8545bef2c29d81567c2, type: 2}
+    - {fileID: 21300000, guid: cd35f09667361d44c8b1d5aa97fc975f, type: 3}
+    - {fileID: 1018100351, guid: 172bf5b5765650b48b114e68c748c581, type: 3}
+    - {fileID: 21300000, guid: 61d29d3b715e06e4c9ffc01bc433ba9e, type: 3}
+    - {fileID: 9100000, guid: 189bba6e1a6778b49b3dacb35e9ed3c4, type: 2}
+    - {fileID: 9100000, guid: 2131cd999d8db354bb2adc2c22c25d8e, type: 2}
+    - {fileID: 21300000, guid: b1597069b2cab564a9aa72914ab26fd7, type: 3}
+    - {fileID: 1018100351, guid: 78be5b78f0312114abed6f4384a53c6d, type: 3}
+    - {fileID: 21300000, guid: 15d0003c33e2a7c43a4552d7be67c5ce, type: 3}
+    - {fileID: 9100000, guid: 2dcb42c0419fb0249801497feba35da2, type: 2}
+    - {fileID: 9100000, guid: 53c57b5c93fc77543846cadb2b419d06, type: 2}
+    - {fileID: 21300000, guid: 900b958195100ab41a027e2a4386c42a, type: 3}
+    - {fileID: 21300000, guid: 41db907917304d44a9942c47efbbeaab, type: 3}
+    - {fileID: 5524345893967538658, guid: 91ef191ce6fbb5e4199d43519a5c3716, type: 3}
+    - {fileID: 1434559851970737240, guid: 112fb26af399f0944b8d7705d61c9fde, type: 3}
+    - {fileID: 82838914775303471, guid: 72000662da905c14884e5058d4483a54, type: 3}
+    - {fileID: 21300000, guid: 97860df7793fcfb4d82d044f4923d34b, type: 3}
+    - {fileID: 21300000, guid: 876ad58b96389d24da5b0602ea1f50a9, type: 3}
+    - {fileID: 21300000, guid: b3e9dc00eac776f40b56ba1b937a3705, type: 3}
+    - {fileID: 21300000, guid: 4d7c4f27c19b4984f8fb129b88a577d9, type: 3}
+    - {fileID: 21300000, guid: 3b33c81251652c64987abcbf8898abc3, type: 3}
+    - {fileID: 522496507, guid: ec635eb93e95b91439d2b50010b0a1bb, type: 3}
+    - {fileID: 9100000, guid: 341520f0fcbd30c47b66389632b9a02a, type: 2}
+    - {fileID: 9100000, guid: c7f5dc1e28129cf4b80f32d198c0ea89, type: 2}
+    - {fileID: 21300000, guid: d7e9c0f9848479d44a944dcfdef30d3b, type: 3}
+    - {fileID: 522496507, guid: 2c14a114dd0d4fe46b53d460d5bf0dc8, type: 3}
+    - {fileID: 21300000, guid: 47f1e9ad569a49e49bff79ec5732e8e7, type: 3}
+    - {fileID: 9100000, guid: 763952034eda4db4083d6c3092d00200, type: 2}
+    - {fileID: 9100000, guid: 1913b3b6ac17f0140bb9c291407dd824, type: 2}
+    - {fileID: 21300000, guid: b331c9d76a5ea50408ed4eecf2d8d4b7, type: 3}
+    - {fileID: 522496507, guid: 22bccb56fa1e7b04ab8b75695ca4cf48, type: 3}
+    - {fileID: 21300000, guid: 6695f71c885c97c488c66ef67cfee763, type: 3}
+    - {fileID: 9100000, guid: 8607cdea9ee2f3d448084c1b40e73b49, type: 2}
+    - {fileID: 9100000, guid: 427c05a527e713b46a8097fc6dae7c68, type: 2}
+    - {fileID: 21300000, guid: ff9b8645cecb54a41b80e51f38a0184a, type: 3}
+    - {fileID: 21300000, guid: 3a2ad55c679636145a318310527c889c, type: 3}
+    - {fileID: 5524345893967538658, guid: 7409c027f2072f249b5a3ea9ccc0ef17, type: 3}
+    - {fileID: 8476974107630463940, guid: fc195468e7f7f9248ad7d1ca50ffa75d, type: 3}
+    - {fileID: 7892389420073297694, guid: 57a16b3aded767a4c82989c4b3523511, type: 3}
+    - {fileID: 21300000, guid: 44dd47238cd28f64fb7f5138cc5ac19c, type: 3}
+    - {fileID: 7348566135231003546, guid: 5c2b81da02a9d3d4c920e1db544f9dfb, type: 3}
+    - {fileID: 21300000, guid: 7049ee1830fb642419ec6cd1c22c2bd3, type: 3}
+    - {fileID: 21300000, guid: b7e79a7d6dbd7fc4a9cb700e51b5959e, type: 3}
+    - {fileID: 21300000, guid: 45698aa68d7e0ce4a8d3515cdb8254bc, type: 3}
+    - {fileID: 21300000, guid: 0b1ffe64b542dd34abe8b287f64251a3, type: 3}
+    - {fileID: 522496507, guid: c7279e19eb5aac34e8b53c66160d8b88, type: 3}
+    - {fileID: 9100000, guid: 4511f5bed8f123546b7a2e3f53103fb8, type: 2}
+    - {fileID: 9100000, guid: 97a77ce2307e81a43831623fa2924464, type: 2}
+    - {fileID: 21300000, guid: 52be5cbe9eca29e45b2ca27ba8b94379, type: 3}
+    - {fileID: 522496507, guid: 6a9322a0f86237c4496195d865f424da, type: 3}
+    - {fileID: 21300000, guid: a6fe3b3a61e0e744e85d840ed88d07fe, type: 3}
+    - {fileID: 9100000, guid: d4365a4ccd573ba4ba5e479900c55e7f, type: 2}
+    - {fileID: 9100000, guid: b405e55a04b922e43aa89533854d2852, type: 2}
+    - {fileID: 21300000, guid: 29c97b41ee9ccf046a6bbf60042d9ff2, type: 3}
+    - {fileID: 522496507, guid: ac3065bb45bbdbf4eabe2ad367a0b059, type: 3}
+    - {fileID: 21300000, guid: ff8d5a1e910215c4b8e52bd4243ed88b, type: 3}
+    - {fileID: 9100000, guid: d170e29fdac4df74693adc1ec6912ad7, type: 2}
+    - {fileID: 9100000, guid: 867c7a43c887b7348b781074a137b914, type: 2}
+    - {fileID: 21300000, guid: 959c24a46a0b7694db5240ef3c6158d2, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: characterData
+      Entry: 7
+      Data: 0|UnityEngine.Rendering.SerializedDictionary`2[[Enums.Characters, Assembly-CSharp],[Structs.CharacterPreset,
+        Assembly-CSharp]], Unity.RenderPipelines.Core.Runtime
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Enums.Characters,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: Structs.CharacterPreset, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Noob
+    - Name: fullRectIcon
+      Entry: 10
+      Data: 0
+    - Name: mainMenuCharacterAnimationClip
+      Entry: 10
+      Data: 1
+    - Name: player
+      Entry: 10
+      Data: 2
+    - Name: abilityList
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Structs.AbilityData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 0
+    - Name: Ability
+      Entry: 6
+      Data: 
+    - Name: AbilityIcon
+      Entry: 6
+      Data: 
+    - Name: AbilityName
+      Entry: 1
+      Data: Nothing
+    - Name: AbilityDescription
+      Entry: 1
+      Data: Nothing
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 1
+    - Name: Ability
+      Entry: 10
+      Data: 3
+    - Name: AbilityIcon
+      Entry: 10
+      Data: 4
+    - Name: AbilityName
+      Entry: 1
+      Data: Shield
+    - Name: AbilityDescription
+      Entry: 1
+      Data: You got one shield
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 2
+    - Name: Ability
+      Entry: 10
+      Data: 5
+    - Name: AbilityIcon
+      Entry: 10
+      Data: 6
+    - Name: AbilityName
+      Entry: 1
+      Data: Sprinkles x1.5
+    - Name: AbilityDescription
+      Entry: 1
+      Data: Your sprinkle points x1.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 1
+    - Name: Ability
+      Entry: 10
+      Data: 3
+    - Name: AbilityIcon
+      Entry: 10
+      Data: 7
+    - Name: AbilityName
+      Entry: 1
+      Data: Two Shields
+    - Name: AbilityDescription
+      Entry: 1
+      Data: You got two shields
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 2
+    - Name: Ability
+      Entry: 10
+      Data: 5
+    - Name: AbilityIcon
+      Entry: 10
+      Data: 8
+    - Name: AbilityName
+      Entry: 1
+      Data: Sprinkles x3
+    - Name: AbilityDescription
+      Entry: 1
+      Data: Your sprinkle points x3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: skinData
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[Structs.SkinData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: Structs.SkinData, Assembly-CSharp
+    - Name: skinIcon
+      Entry: 10
+      Data: 9
+    - Name: skinName
+      Entry: 1
+      Data: Minty Fresh
+    - Name: characterSkinSprite
+      Entry: 10
+      Data: 10
+    - Name: characterSkinMenuSprite
+      Entry: 10
+      Data: 11
+    - Name: skinEnum
+      Entry: 3
+      Data: 0
+    - Name: defaultAnimatorController
+      Entry: 10
+      Data: 12
+    - Name: shieldedAnimatorController
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.SkinData, Assembly-CSharp
+    - Name: skinIcon
+      Entry: 10
+      Data: 14
+    - Name: skinName
+      Entry: 1
+      Data: Og Perp
+    - Name: characterSkinSprite
+      Entry: 10
+      Data: 15
+    - Name: characterSkinMenuSprite
+      Entry: 10
+      Data: 16
+    - Name: skinEnum
+      Entry: 3
+      Data: 1
+    - Name: defaultAnimatorController
+      Entry: 10
+      Data: 17
+    - Name: shieldedAnimatorController
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.SkinData, Assembly-CSharp
+    - Name: skinIcon
+      Entry: 10
+      Data: 19
+    - Name: skinName
+      Entry: 1
+      Data: Anti Noob
+    - Name: characterSkinSprite
+      Entry: 10
+      Data: 20
+    - Name: characterSkinMenuSprite
+      Entry: 10
+      Data: 21
+    - Name: skinEnum
+      Entry: 3
+      Data: 2
+    - Name: defaultAnimatorController
+      Entry: 10
+      Data: 22
+    - Name: shieldedAnimatorController
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: priceToUnlock
+      Entry: 3
+      Data: 0
+    - Name: characterSelectionIconSprite
+      Entry: 10
+      Data: 24
+    - Name: backgroundCharacterSelectionColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.5058824
+    - Name: 
+      Entry: 4
+      Data: 0.9843138
+    - Name: 
+      Entry: 4
+      Data: 0.7568628
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: Structs.CharacterPreset, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Meltie
+    - Name: fullRectIcon
+      Entry: 10
+      Data: 25
+    - Name: mainMenuCharacterAnimationClip
+      Entry: 6
+      Data: 
+    - Name: player
+      Entry: 10
+      Data: 26
+    - Name: abilityList
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[Structs.AbilityData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 6
+    - Name: Ability
+      Entry: 10
+      Data: 27
+    - Name: AbilityIcon
+      Entry: 6
+      Data: 
+    - Name: AbilityName
+      Entry: 1
+      Data: 'Immune to one fire trap. '
+    - Name: AbilityDescription
+      Entry: 1
+      Data: 'Immune to one fire trap. '
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 5
+    - Name: Ability
+      Entry: 10
+      Data: 28
+    - Name: AbilityIcon
+      Entry: 10
+      Data: 29
+    - Name: AbilityName
+      Entry: 1
+      Data: +10% Magnets appearing
+    - Name: AbilityDescription
+      Entry: 1
+      Data: +10% Magnets appearing
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 6
+    - Name: Ability
+      Entry: 10
+      Data: 27
+    - Name: AbilityIcon
+      Entry: 10
+      Data: 30
+    - Name: AbilityName
+      Entry: 1
+      Data: Immune to three fire traps
+    - Name: AbilityDescription
+      Entry: 1
+      Data: Immune to three fire traps
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 5
+    - Name: Ability
+      Entry: 10
+      Data: 28
+    - Name: AbilityIcon
+      Entry: 10
+      Data: 31
+    - Name: AbilityName
+      Entry: 1
+      Data: +20% Magnets appearing
+    - Name: AbilityDescription
+      Entry: 1
+      Data: +20% Magnets appearing
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 6
+    - Name: Ability
+      Entry: 10
+      Data: 27
+    - Name: AbilityIcon
+      Entry: 10
+      Data: 32
+    - Name: AbilityName
+      Entry: 1
+      Data: Immune to all fire effects, forever
+    - Name: AbilityDescription
+      Entry: 1
+      Data: Immune to all fire effects, forever
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: skinData
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[Structs.SkinData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: Structs.SkinData, Assembly-CSharp
+    - Name: skinIcon
+      Entry: 10
+      Data: 33
+    - Name: skinName
+      Entry: 1
+      Data: Hot Cream
+    - Name: characterSkinSprite
+      Entry: 10
+      Data: 34
+    - Name: characterSkinMenuSprite
+      Entry: 10
+      Data: 25
+    - Name: skinEnum
+      Entry: 3
+      Data: 6
+    - Name: defaultAnimatorController
+      Entry: 10
+      Data: 35
+    - Name: shieldedAnimatorController
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.SkinData, Assembly-CSharp
+    - Name: skinIcon
+      Entry: 10
+      Data: 37
+    - Name: skinName
+      Entry: 1
+      Data: Burnt Crisp
+    - Name: characterSkinSprite
+      Entry: 10
+      Data: 38
+    - Name: characterSkinMenuSprite
+      Entry: 10
+      Data: 39
+    - Name: skinEnum
+      Entry: 3
+      Data: 7
+    - Name: defaultAnimatorController
+      Entry: 10
+      Data: 40
+    - Name: shieldedAnimatorController
+      Entry: 10
+      Data: 41
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.SkinData, Assembly-CSharp
+    - Name: skinIcon
+      Entry: 10
+      Data: 42
+    - Name: skinName
+      Entry: 1
+      Data: Rocket Fuel
+    - Name: characterSkinSprite
+      Entry: 10
+      Data: 43
+    - Name: characterSkinMenuSprite
+      Entry: 10
+      Data: 44
+    - Name: skinEnum
+      Entry: 3
+      Data: 8
+    - Name: defaultAnimatorController
+      Entry: 10
+      Data: 45
+    - Name: shieldedAnimatorController
+      Entry: 10
+      Data: 46
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: priceToUnlock
+      Entry: 3
+      Data: 1200
+    - Name: characterSelectionIconSprite
+      Entry: 10
+      Data: 47
+    - Name: backgroundCharacterSelectionColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.9843138
+    - Name: 
+      Entry: 4
+      Data: 0.376470625
+    - Name: 
+      Entry: 4
+      Data: 0.498039246
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: Structs.CharacterPreset, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Kermit
+    - Name: fullRectIcon
+      Entry: 10
+      Data: 48
+    - Name: mainMenuCharacterAnimationClip
+      Entry: 6
+      Data: 
+    - Name: player
+      Entry: 10
+      Data: 49
+    - Name: abilityList
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Structs.AbilityData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 7
+    - Name: Ability
+      Entry: 10
+      Data: 50
+    - Name: AbilityIcon
+      Entry: 6
+      Data: 
+    - Name: AbilityName
+      Entry: 1
+      Data: Coin grabbing tongue
+    - Name: AbilityDescription
+      Entry: 1
+      Data: Coin grabbing tongue
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 3
+    - Name: Ability
+      Entry: 10
+      Data: 51
+    - Name: AbilityIcon
+      Entry: 10
+      Data: 52
+    - Name: AbilityName
+      Entry: 1
+      Data: +15% Golden spoon appearing
+    - Name: AbilityDescription
+      Entry: 1
+      Data: +15% Golden spoon appearing
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 4
+    - Name: Ability
+      Entry: 10
+      Data: 53
+    - Name: AbilityIcon
+      Entry: 10
+      Data: 54
+    - Name: AbilityName
+      Entry: 1
+      Data: +50% grabbing radius
+    - Name: AbilityDescription
+      Entry: 1
+      Data: +50% grabbing radius*
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 3
+    - Name: Ability
+      Entry: 10
+      Data: 51
+    - Name: AbilityIcon
+      Entry: 10
+      Data: 55
+    - Name: AbilityName
+      Entry: 1
+      Data: +25% Golden spoon appearing
+    - Name: AbilityDescription
+      Entry: 1
+      Data: +25% Golden spoon appearing
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.AbilityData, Assembly-CSharp
+    - Name: AbilityType
+      Entry: 3
+      Data: 4
+    - Name: Ability
+      Entry: 10
+      Data: 53
+    - Name: AbilityIcon
+      Entry: 10
+      Data: 56
+    - Name: AbilityName
+      Entry: 1
+      Data: +100% grabbing radius
+    - Name: AbilityDescription
+      Entry: 1
+      Data: +100% grabbing radius
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: skinData
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[Structs.SkinData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: Structs.SkinData, Assembly-CSharp
+    - Name: skinIcon
+      Entry: 10
+      Data: 57
+    - Name: skinName
+      Entry: 1
+      Data: Seasame Green
+    - Name: characterSkinSprite
+      Entry: 10
+      Data: 58
+    - Name: characterSkinMenuSprite
+      Entry: 10
+      Data: 48
+    - Name: skinEnum
+      Entry: 3
+      Data: 3
+    - Name: defaultAnimatorController
+      Entry: 10
+      Data: 59
+    - Name: shieldedAnimatorController
+      Entry: 10
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.SkinData, Assembly-CSharp
+    - Name: skinIcon
+      Entry: 10
+      Data: 61
+    - Name: skinName
+      Entry: 1
+      Data: Tropical
+    - Name: characterSkinSprite
+      Entry: 10
+      Data: 62
+    - Name: characterSkinMenuSprite
+      Entry: 10
+      Data: 63
+    - Name: skinEnum
+      Entry: 3
+      Data: 4
+    - Name: defaultAnimatorController
+      Entry: 10
+      Data: 64
+    - Name: shieldedAnimatorController
+      Entry: 10
+      Data: 65
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.SkinData, Assembly-CSharp
+    - Name: skinIcon
+      Entry: 10
+      Data: 66
+    - Name: skinName
+      Entry: 1
+      Data: Toxic
+    - Name: characterSkinSprite
+      Entry: 10
+      Data: 67
+    - Name: characterSkinMenuSprite
+      Entry: 10
+      Data: 68
+    - Name: skinEnum
+      Entry: 3
+      Data: 5
+    - Name: defaultAnimatorController
+      Entry: 10
+      Data: 69
+    - Name: shieldedAnimatorController
+      Entry: 10
+      Data: 70
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: priceToUnlock
+      Entry: 3
+      Data: 2500
+    - Name: characterSelectionIconSprite
+      Entry: 10
+      Data: 71
+    - Name: backgroundCharacterSelectionColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.572549045
+    - Name: 
+      Entry: 4
+      Data: 0.815686345
+    - Name: 
+      Entry: 4
+      Data: 0.309803933
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: Structs.CharacterPreset, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Kermit
+    - Name: fullRectIcon
+      Entry: 6
+      Data: 
+    - Name: mainMenuCharacterAnimationClip
+      Entry: 6
+      Data: 
+    - Name: player
+      Entry: 6
+      Data: 
+    - Name: abilityList
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[Structs.AbilityData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: skinData
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[Structs.SkinData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: priceToUnlock
+      Entry: 3
+      Data: 0
+    - Name: characterSelectionIconSprite
+      Entry: 6
+      Data: 
+    - Name: backgroundCharacterSelectionColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  priceUpgradePerLevel: 150
+  stepPriceToRevive: 200
+  defaultPriceToRevive: 200
+  minimumDurationItemMoveToPlayer: 0.01
+  maximumDurationItemMoveToPlayer: 0.1
+  immunityDuration: 3
+  characterData:
+    m_Keys: 00000000010000000200000003000000
+    m_Values:
+    - name: Noob
+      fullRectIcon: {fileID: 21300000, guid: da195d78c0b2df44dade453454171eb4, type: 3}
+      mainMenuCharacterAnimationClip: {fileID: 7400000, guid: 0b64fa98baa69fc4b8a50a652c8c1f5c, type: 2}
+      player: {fileID: 976863378634496285, guid: 42763ed837f7ae043a27d07fb74aaa78, type: 3}
+      abilityList:
+      - AbilityType: 0
+        Ability: {fileID: 0}
+        AbilityIcon: {fileID: 0}
+        AbilityName: Nothing
+        AbilityDescription: Nothing
+      - AbilityType: 1
+        Ability: {fileID: 8020343219828760338, guid: 696274d09af4ffa4f96f9c137916023d, type: 3}
+        AbilityIcon: {fileID: 21300000, guid: 01d2836151c7cb846897bfbd6b4a2dcd, type: 3}
+        AbilityName: Shield
+        AbilityDescription: You got one shield
+      - AbilityType: 2
+        Ability: {fileID: 3621579878417908464, guid: 1aee5622abdaefd4e9e45ba1ef62cc13, type: 3}
+        AbilityIcon: {fileID: 21300000, guid: 37048f0e69f6ba84f82f1ba91c92ad62, type: 3}
+        AbilityName: Sprinkles x1.5
+        AbilityDescription: Your sprinkle points x1.5
+      - AbilityType: 1
+        Ability: {fileID: 8020343219828760338, guid: 696274d09af4ffa4f96f9c137916023d, type: 3}
+        AbilityIcon: {fileID: 21300000, guid: 272ba4fb396110248bc87f63b6ca31b4, type: 3}
+        AbilityName: Two Shields
+        AbilityDescription: You got two shields
+      - AbilityType: 2
+        Ability: {fileID: 3621579878417908464, guid: 1aee5622abdaefd4e9e45ba1ef62cc13, type: 3}
+        AbilityIcon: {fileID: 21300000, guid: f1a3a6ecb31f5674da48c6e4d9cbeadf, type: 3}
+        AbilityName: Sprinkles x3
+        AbilityDescription: Your sprinkle points x3
+      skinData:
+      - skinIcon: {fileID: 21300000, guid: 820396d6968fa8a4988216e026e779ab, type: 3}
+        skinName: Minty Fresh
+        characterSkinSprite: {fileID: 1018100351, guid: 281a10f0af9d1e14a9ea297e9a262204, type: 3}
+        characterSkinMenuSprite: {fileID: 21300000, guid: bc8abd9683722db43935a1baad86d54e, type: 3}
+        skinEnum: 0
+        defaultAnimatorController: {fileID: 9100000, guid: 6d0738dd41046f046b4297225d192fdb, type: 2}
+        shieldedAnimatorController: {fileID: 9100000, guid: d59f394c9089a8545bef2c29d81567c2, type: 2}
+      - skinIcon: {fileID: 21300000, guid: cd35f09667361d44c8b1d5aa97fc975f, type: 3}
+        skinName: Og Perp
+        characterSkinSprite: {fileID: 1018100351, guid: 172bf5b5765650b48b114e68c748c581, type: 3}
+        characterSkinMenuSprite: {fileID: 21300000, guid: 61d29d3b715e06e4c9ffc01bc433ba9e, type: 3}
+        skinEnum: 1
+        defaultAnimatorController: {fileID: 9100000, guid: 189bba6e1a6778b49b3dacb35e9ed3c4, type: 2}
+        shieldedAnimatorController: {fileID: 9100000, guid: 2131cd999d8db354bb2adc2c22c25d8e, type: 2}
+      - skinIcon: {fileID: 21300000, guid: b1597069b2cab564a9aa72914ab26fd7, type: 3}
+        skinName: Anti Noob
+        characterSkinSprite: {fileID: 1018100351, guid: 78be5b78f0312114abed6f4384a53c6d, type: 3}
+        characterSkinMenuSprite: {fileID: 21300000, guid: 15d0003c33e2a7c43a4552d7be67c5ce, type: 3}
+        skinEnum: 2
+        defaultAnimatorController: {fileID: 9100000, guid: 2dcb42c0419fb0249801497feba35da2, type: 2}
+        shieldedAnimatorController: {fileID: 9100000, guid: 53c57b5c93fc77543846cadb2b419d06, type: 2}
+      priceToUnlock: 0
+      characterSelectionIconSprite: {fileID: 21300000, guid: 900b958195100ab41a027e2a4386c42a, type: 3}
+      backgroundCharacterSelectionColor: {r: 0.5058824, g: 0.9843138, b: 0.7568628, a: 1}
+    - name: Meltie
+      fullRectIcon: {fileID: 21300000, guid: 41db907917304d44a9942c47efbbeaab, type: 3}
+      mainMenuCharacterAnimationClip: {fileID: 0}
+      player: {fileID: 5524345893967538658, guid: 91ef191ce6fbb5e4199d43519a5c3716, type: 3}
+      abilityList:
+      - AbilityType: 6
+        Ability: {fileID: 1434559851970737240, guid: 112fb26af399f0944b8d7705d61c9fde, type: 3}
+        AbilityIcon: {fileID: 0}
+        AbilityName: 'Immune to one fire trap. '
+        AbilityDescription: 'Immune to one fire trap. '
+      - AbilityType: 5
+        Ability: {fileID: 82838914775303471, guid: 72000662da905c14884e5058d4483a54, type: 3}
+        AbilityIcon: {fileID: 21300000, guid: 97860df7793fcfb4d82d044f4923d34b, type: 3}
+        AbilityName: +10% Magnets appearing
+        AbilityDescription: +10% Magnets appearing
+      - AbilityType: 6
+        Ability: {fileID: 1434559851970737240, guid: 112fb26af399f0944b8d7705d61c9fde, type: 3}
+        AbilityIcon: {fileID: 21300000, guid: 876ad58b96389d24da5b0602ea1f50a9, type: 3}
+        AbilityName: Immune to three fire traps
+        AbilityDescription: Immune to three fire traps
+      - AbilityType: 5
+        Ability: {fileID: 82838914775303471, guid: 72000662da905c14884e5058d4483a54, type: 3}
+        AbilityIcon: {fileID: 21300000, guid: b3e9dc00eac776f40b56ba1b937a3705, type: 3}
+        AbilityName: +20% Magnets appearing
+        AbilityDescription: +20% Magnets appearing
+      - AbilityType: 6
+        Ability: {fileID: 1434559851970737240, guid: 112fb26af399f0944b8d7705d61c9fde, type: 3}
+        AbilityIcon: {fileID: 21300000, guid: 4d7c4f27c19b4984f8fb129b88a577d9, type: 3}
+        AbilityName: Immune to all fire effects, forever
+        AbilityDescription: Immune to all fire effects, forever
+      skinData:
+      - skinIcon: {fileID: 21300000, guid: 3b33c81251652c64987abcbf8898abc3, type: 3}
+        skinName: Hot Cream
+        characterSkinSprite: {fileID: 522496507, guid: ec635eb93e95b91439d2b50010b0a1bb, type: 3}
+        characterSkinMenuSprite: {fileID: 21300000, guid: 41db907917304d44a9942c47efbbeaab, type: 3}
+        skinEnum: 6
+        defaultAnimatorController: {fileID: 9100000, guid: 341520f0fcbd30c47b66389632b9a02a, type: 2}
+        shieldedAnimatorController: {fileID: 9100000, guid: c7f5dc1e28129cf4b80f32d198c0ea89, type: 2}
+      - skinIcon: {fileID: 21300000, guid: d7e9c0f9848479d44a944dcfdef30d3b, type: 3}
+        skinName: Burnt Crisp
+        characterSkinSprite: {fileID: 522496507, guid: 2c14a114dd0d4fe46b53d460d5bf0dc8, type: 3}
+        characterSkinMenuSprite: {fileID: 21300000, guid: 47f1e9ad569a49e49bff79ec5732e8e7, type: 3}
+        skinEnum: 7
+        defaultAnimatorController: {fileID: 9100000, guid: 763952034eda4db4083d6c3092d00200, type: 2}
+        shieldedAnimatorController: {fileID: 9100000, guid: 1913b3b6ac17f0140bb9c291407dd824, type: 2}
+      - skinIcon: {fileID: 21300000, guid: b331c9d76a5ea50408ed4eecf2d8d4b7, type: 3}
+        skinName: Rocket Fuel
+        characterSkinSprite: {fileID: 522496507, guid: 22bccb56fa1e7b04ab8b75695ca4cf48, type: 3}
+        characterSkinMenuSprite: {fileID: 21300000, guid: 6695f71c885c97c488c66ef67cfee763, type: 3}
+        skinEnum: 8
+        defaultAnimatorController: {fileID: 9100000, guid: 8607cdea9ee2f3d448084c1b40e73b49, type: 2}
+        shieldedAnimatorController: {fileID: 9100000, guid: 427c05a527e713b46a8097fc6dae7c68, type: 2}
+      priceToUnlock: 1200
+      characterSelectionIconSprite: {fileID: 21300000, guid: ff9b8645cecb54a41b80e51f38a0184a, type: 3}
+      backgroundCharacterSelectionColor: {r: 0.9843138, g: 0.37647063, b: 0.49803925, a: 1}
+    - name: Kermit
+      fullRectIcon: {fileID: 21300000, guid: 3a2ad55c679636145a318310527c889c, type: 3}
+      mainMenuCharacterAnimationClip: {fileID: 0}
+      player: {fileID: 5524345893967538658, guid: 7409c027f2072f249b5a3ea9ccc0ef17, type: 3}
+      abilityList:
+      - AbilityType: 7
+        Ability: {fileID: 8476974107630463940, guid: fc195468e7f7f9248ad7d1ca50ffa75d, type: 3}
+        AbilityIcon: {fileID: 0}
+        AbilityName: Coin grabbing tongue
+        AbilityDescription: Coin grabbing tongue
+      - AbilityType: 3
+        Ability: {fileID: 7892389420073297694, guid: 57a16b3aded767a4c82989c4b3523511, type: 3}
+        AbilityIcon: {fileID: 21300000, guid: 44dd47238cd28f64fb7f5138cc5ac19c, type: 3}
+        AbilityName: +15% Golden spoon appearing
+        AbilityDescription: +15% Golden spoon appearing
+      - AbilityType: 4
+        Ability: {fileID: 7348566135231003546, guid: 5c2b81da02a9d3d4c920e1db544f9dfb, type: 3}
+        AbilityIcon: {fileID: 21300000, guid: 7049ee1830fb642419ec6cd1c22c2bd3, type: 3}
+        AbilityName: +50% grabbing radius
+        AbilityDescription: +50% grabbing radius*
+      - AbilityType: 3
+        Ability: {fileID: 7892389420073297694, guid: 57a16b3aded767a4c82989c4b3523511, type: 3}
+        AbilityIcon: {fileID: 21300000, guid: b7e79a7d6dbd7fc4a9cb700e51b5959e, type: 3}
+        AbilityName: +25% Golden spoon appearing
+        AbilityDescription: +25% Golden spoon appearing
+      - AbilityType: 4
+        Ability: {fileID: 7348566135231003546, guid: 5c2b81da02a9d3d4c920e1db544f9dfb, type: 3}
+        AbilityIcon: {fileID: 21300000, guid: 45698aa68d7e0ce4a8d3515cdb8254bc, type: 3}
+        AbilityName: +100% grabbing radius
+        AbilityDescription: +100% grabbing radius
+      skinData:
+      - skinIcon: {fileID: 21300000, guid: 0b1ffe64b542dd34abe8b287f64251a3, type: 3}
+        skinName: Seasame Green
+        characterSkinSprite: {fileID: 522496507, guid: c7279e19eb5aac34e8b53c66160d8b88, type: 3}
+        characterSkinMenuSprite: {fileID: 21300000, guid: 3a2ad55c679636145a318310527c889c, type: 3}
+        skinEnum: 3
+        defaultAnimatorController: {fileID: 9100000, guid: 4511f5bed8f123546b7a2e3f53103fb8, type: 2}
+        shieldedAnimatorController: {fileID: 9100000, guid: 97a77ce2307e81a43831623fa2924464, type: 2}
+      - skinIcon: {fileID: 21300000, guid: 52be5cbe9eca29e45b2ca27ba8b94379, type: 3}
+        skinName: Tropical
+        characterSkinSprite: {fileID: 522496507, guid: 6a9322a0f86237c4496195d865f424da, type: 3}
+        characterSkinMenuSprite: {fileID: 21300000, guid: a6fe3b3a61e0e744e85d840ed88d07fe, type: 3}
+        skinEnum: 4
+        defaultAnimatorController: {fileID: 9100000, guid: d4365a4ccd573ba4ba5e479900c55e7f, type: 2}
+        shieldedAnimatorController: {fileID: 9100000, guid: b405e55a04b922e43aa89533854d2852, type: 2}
+      - skinIcon: {fileID: 21300000, guid: 29c97b41ee9ccf046a6bbf60042d9ff2, type: 3}
+        skinName: Toxic
+        characterSkinSprite: {fileID: 522496507, guid: ac3065bb45bbdbf4eabe2ad367a0b059, type: 3}
+        characterSkinMenuSprite: {fileID: 21300000, guid: ff8d5a1e910215c4b8e52bd4243ed88b, type: 3}
+        skinEnum: 5
+        defaultAnimatorController: {fileID: 9100000, guid: d170e29fdac4df74693adc1ec6912ad7, type: 2}
+        shieldedAnimatorController: {fileID: 9100000, guid: 867c7a43c887b7348b781074a137b914, type: 2}
+      priceToUnlock: 2500
+      characterSelectionIconSprite: {fileID: 21300000, guid: 959c24a46a0b7694db5240ef3c6158d2, type: 3}
+      backgroundCharacterSelectionColor: {r: 0.57254905, g: 0.81568635, b: 0.30980393, a: 1}
+    - name: Kermit
+      fullRectIcon: {fileID: 0}
+      mainMenuCharacterAnimationClip: {fileID: 0}
+      player: {fileID: 0}
+      abilityList: []
+      skinData: []
+      priceToUnlock: 0
+      characterSelectionIconSprite: {fileID: 0}
+      backgroundCharacterSelectionColor: {r: 0, g: 0, b: 0, a: 0}

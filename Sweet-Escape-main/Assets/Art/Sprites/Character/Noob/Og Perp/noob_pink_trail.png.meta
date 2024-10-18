@@ -1,0 +1,677 @@
+fileFormatVersion: 2
+guid: 5a227f0042783e3409393b4948590afe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 82
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a849b1166410b8140844f244d2a89240
+      internalID: -2033165239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 82
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e18348f3e809544ad9139e8de3a0fe
+      internalID: -273506458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 82
+        width: 16
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4977b244c9cb624ea521e502a135023
+      internalID: 304893849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 82
+        width: 16
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38612031fd159948ad54f63a0592e2b
+      internalID: 463377737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 82
+        width: 16
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246680498b119074d9c9ca59595a28a3
+      internalID: -1758549842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 46
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a50170f4e892474fb695201f2c11838
+      internalID: 742101907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 64
+        width: 16
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5065508, y: 0.8343048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfdb1f0cd37ec543ab038d8bdebf9a2
+      internalID: 2005187937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 48
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfd63908be2a314298f2cc8a22b6348
+      internalID: -971440276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 64
+        width: 16
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5040512, y: 0.8317731}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346de77dd26897b48bee51f5a8f72e6f
+      internalID: -905247176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_13
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 28
+        width: 16
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5012498, y: 0.75499964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568f1173e7129ab4ab347f1610841bfb
+      internalID: 1368719316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_14
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 28
+        width: 16
+        height: 4
+      alignment: 9
+      pivot: {x: 0.4999981, y: 0.75236464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5881272ab20c14b9c52d62ca8b152c
+      internalID: -846505142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25250876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac0fc1e726674e44978e33d9fbd59eb
+      internalID: -111698092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 10
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.37625456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e984ac5a87f887a44a11aaae6723b1fd
+      internalID: -1651275092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 8
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96785eed1602cee4da3d0767c253792f
+      internalID: -1965470119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_18
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 10
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44bb02c670b4af4c82cba730c00f0dd
+      internalID: 1661050696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_19
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 10
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc878b7b64d04c4284fbfa57a8d609d
+      internalID: 957169163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 65
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e147fbf2454d5d54a980e7b35ff5e5dc
+      internalID: -804047227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_6
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 66
+        width: 16
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5000005, y: 0.4786957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c5642c92f7dac4a9917bce75b0a40c
+      internalID: 1479994511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 65
+        width: 16
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6814682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56efb6f9501b784c832aed2cb204f7a
+      internalID: -1501046262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 45
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2567c581af429f14cbdfe90931ee8255
+      internalID: -1381017553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 28
+        width: 16
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5026326, y: 0.75273323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b939e4ed14e484ab848e1fe83f291a
+      internalID: 1655554838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 29
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8243b29d91fe245997872190a72d28
+      internalID: -1396158799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 44
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a92bc1d9e1d3b4e8850253e2d2a0d0
+      internalID: -493228645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_23
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 44
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cc01f133e1b0e4f9f6451b661e2258
+      internalID: -646258616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cream Sprite Trail Green_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 30
+        width: 16
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.24883986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf89aab24c6a3ac44b13711cf56dff57
+      internalID: 957517939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cream Sprite Trail Green_0: -2033165239
+      Cream Sprite Trail Green_1: -273506458
+      Cream Sprite Trail Green_10: -971440276
+      Cream Sprite Trail Green_11: -905247176
+      Cream Sprite Trail Green_12: -1381017553
+      Cream Sprite Trail Green_13: 1368719316
+      Cream Sprite Trail Green_14: -846505142
+      Cream Sprite Trail Green_15: -111698092
+      Cream Sprite Trail Green_16: -1651275092
+      Cream Sprite Trail Green_17: -1965470119
+      Cream Sprite Trail Green_18: 1661050696
+      Cream Sprite Trail Green_19: 957169163
+      Cream Sprite Trail Green_2: 304893849
+      Cream Sprite Trail Green_20: 1655554838
+      Cream Sprite Trail Green_21: -1396158799
+      Cream Sprite Trail Green_22: -493228645
+      Cream Sprite Trail Green_23: -646258616
+      Cream Sprite Trail Green_24: 957517939
+      Cream Sprite Trail Green_3: 463377737
+      Cream Sprite Trail Green_4: -1758549842
+      Cream Sprite Trail Green_5: -804047227
+      Cream Sprite Trail Green_6: 1479994511
+      Cream Sprite Trail Green_7: -1501046262
+      Cream Sprite Trail Green_8: 742101907
+      Cream Sprite Trail Green_9: 2005187937
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

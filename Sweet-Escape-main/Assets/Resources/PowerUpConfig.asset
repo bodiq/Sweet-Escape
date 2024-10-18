@@ -1,0 +1,894 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55393082ed0144da826a5b904a3610a2, type: 3}
+  m_Name: PowerUpConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3428950917592867198, guid: 0892b0fc2fb2ede40889abdff2b0d45e, type: 3}
+    - {fileID: 4034928805945108182, guid: 499ce441f9fe8844291ec5b81a306679, type: 3}
+    - {fileID: 1791136317955800836, guid: f3918fdf103e552409b852edfd75b7c9, type: 3}
+    - {fileID: 1791136317955800836, guid: 338d1db2721cd614187fdef6d41fa7e3, type: 3}
+    - {fileID: 2389175783650238737, guid: dfba4493275fd14429cb9efd9dd054d5, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: costPerLevel
+      Entry: 3
+      Data: 200
+    - Name: powerUpPresets
+      Entry: 7
+      Data: 0|UnityEngine.Rendering.SerializedDictionary`2[[Enums.PowerUps, Assembly-CSharp],[Structs.PowerUpPreset,
+        Assembly-CSharp]], Unity.RenderPipelines.Core.Runtime
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Enums.PowerUps,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: Structs.PowerUpPreset, Assembly-CSharp
+    - Name: powerUpName
+      Entry: 1
+      Data: 
+    - Name: duration
+      Entry: 4
+      Data: 0
+    - Name: startDescriptionText
+      Entry: 1
+      Data: ' '
+    - Name: endDescriptionText
+      Entry: 1
+      Data: ' '
+    - Name: startCoefficientMultiplier
+      Entry: 4
+      Data: 0
+    - Name: perLevelAdditionalMultiplier
+      Entry: 4
+      Data: 0
+    - Name: startDuration
+      Entry: 4
+      Data: 0
+    - Name: perLevelAdditionalDuration
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: Structs.PowerUpPreset, Assembly-CSharp
+    - Name: powerUpName
+      Entry: 1
+      Data: Waffle Shield
+    - Name: duration
+      Entry: 4
+      Data: 0
+    - Name: startDescriptionText
+      Entry: 1
+      Data: 'Protects you from one hit of lethal damage, max '
+    - Name: endDescriptionText
+      Entry: 1
+      Data: ' '
+    - Name: startCoefficientMultiplier
+      Entry: 4
+      Data: 3
+    - Name: perLevelAdditionalMultiplier
+      Entry: 4
+      Data: 0
+    - Name: startDuration
+      Entry: 4
+      Data: 3
+    - Name: perLevelAdditionalDuration
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: Structs.PowerUpPreset, Assembly-CSharp
+    - Name: powerUpName
+      Entry: 1
+      Data: Magnet
+    - Name: duration
+      Entry: 4
+      Data: 0.3
+    - Name: startDescriptionText
+      Entry: 1
+      Data: 'Attracts all coins & sprinkles on screen multiplied by '
+    - Name: endDescriptionText
+      Entry: 1
+      Data: x
+    - Name: startCoefficientMultiplier
+      Entry: 4
+      Data: 1
+    - Name: perLevelAdditionalMultiplier
+      Entry: 4
+      Data: 0.2
+    - Name: startDuration
+      Entry: 4
+      Data: 0
+    - Name: perLevelAdditionalDuration
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: Structs.PowerUpPreset, Assembly-CSharp
+    - Name: powerUpName
+      Entry: 1
+      Data: Chill Blast
+    - Name: duration
+      Entry: 4
+      Data: 10
+    - Name: startDescriptionText
+      Entry: 1
+      Data: 'Freezes all enemies and traps for '
+    - Name: endDescriptionText
+      Entry: 1
+      Data: ' seconds'
+    - Name: startCoefficientMultiplier
+      Entry: 4
+      Data: 0
+    - Name: perLevelAdditionalMultiplier
+      Entry: 4
+      Data: 0
+    - Name: startDuration
+      Entry: 4
+      Data: 3
+    - Name: perLevelAdditionalDuration
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: Structs.PowerUpPreset, Assembly-CSharp
+    - Name: powerUpName
+      Entry: 1
+      Data: Golden Spoon
+    - Name: duration
+      Entry: 4
+      Data: 10
+    - Name: startDescriptionText
+      Entry: 1
+      Data: 'Turns all sprinkles into coins for '
+    - Name: endDescriptionText
+      Entry: 1
+      Data: ' seconds'
+    - Name: startCoefficientMultiplier
+      Entry: 4
+      Data: 0
+    - Name: perLevelAdditionalMultiplier
+      Entry: 4
+      Data: 0
+    - Name: startDuration
+      Entry: 4
+      Data: 3
+    - Name: perLevelAdditionalDuration
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: Structs.PowerUpPreset, Assembly-CSharp
+    - Name: powerUpName
+      Entry: 1
+      Data: Hundreds and thousands
+    - Name: duration
+      Entry: 4
+      Data: 10
+    - Name: startDescriptionText
+      Entry: 1
+      Data: Sprinkles worth
+    - Name: endDescriptionText
+      Entry: 1
+      Data: ' points for '
+    - Name: startCoefficientMultiplier
+      Entry: 4
+      Data: 1.2
+    - Name: perLevelAdditionalMultiplier
+      Entry: 4
+      Data: 0.1
+    - Name: startDuration
+      Entry: 4
+      Data: 5
+    - Name: perLevelAdditionalDuration
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: powerUpPrefabs
+      Entry: 7
+      Data: 2|UnityEngine.Rendering.SerializedDictionary`2[[Enums.PowerUps, Assembly-CSharp],[UnityEngine.GameObject,
+        UnityEngine.CoreModule]], Unity.RenderPipelines.Core.Runtime
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: powerUpAppearance
+      Entry: 7
+      Data: 3|UnityEngine.Rendering.SerializedDictionary`2[[Enums.Characters, Assembly-CSharp],[Extensions.RandomPack`1[[Enums.PowerUps,
+        Assembly-CSharp]], Assembly-CSharp]], Unity.RenderPipelines.Core.Runtime
+    - Name: comparer
+      Entry: 7
+      Data: 4|System.Collections.Generic.EnumEqualityComparer`1[[Enums.Characters,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 5|Extensions.RandomPack`1[[Enums.PowerUps, Assembly-CSharp]], Assembly-CSharp
+    - Name: Elements
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Extensions.RandomPack`1+Element[[Enums.PowerUps,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 7|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 1
+    - Name: chance
+      Entry: 4
+      Data: 0.190000013
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 2
+    - Name: chance
+      Entry: 4
+      Data: 0.190000013
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 3
+    - Name: chance
+      Entry: 4
+      Data: 0.190000013
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 4
+    - Name: chance
+      Entry: 4
+      Data: 0.190000013
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 5
+    - Name: chance
+      Entry: 4
+      Data: 0.190000013
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 0
+    - Name: chance
+      Entry: 4
+      Data: 0.0499999933
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 13|Extensions.RandomPack`1[[Enums.PowerUps, Assembly-CSharp]], Assembly-CSharp
+    - Name: Elements
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[Extensions.RandomPack`1+Element[[Enums.PowerUps,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 15|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 1
+    - Name: chance
+      Entry: 4
+      Data: 0.190000013
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 2
+    - Name: chance
+      Entry: 4
+      Data: 0.190000013
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 3
+    - Name: chance
+      Entry: 4
+      Data: 0.190000013
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 4
+    - Name: chance
+      Entry: 4
+      Data: 0.190000013
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 5
+    - Name: chance
+      Entry: 4
+      Data: 0.190000013
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 0
+    - Name: chance
+      Entry: 4
+      Data: 0.0499999933
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 21|Extensions.RandomPack`1[[Enums.PowerUps, Assembly-CSharp]], Assembly-CSharp
+    - Name: Elements
+      Entry: 7
+      Data: 22|System.Collections.Generic.List`1[[Extensions.RandomPack`1+Element[[Enums.PowerUps,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 23|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 1
+    - Name: chance
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 2
+    - Name: chance
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 3
+    - Name: chance
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 4
+    - Name: chance
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 5
+    - Name: chance
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 28|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 0
+    - Name: chance
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 29|Extensions.RandomPack`1[[Enums.PowerUps, Assembly-CSharp]], Assembly-CSharp
+    - Name: Elements
+      Entry: 7
+      Data: 30|System.Collections.Generic.List`1[[Extensions.RandomPack`1+Element[[Enums.PowerUps,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 31|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 0
+    - Name: chance
+      Entry: 4
+      Data: 0.25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 1
+    - Name: chance
+      Entry: 4
+      Data: 0.15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 2
+    - Name: chance
+      Entry: 4
+      Data: 0.15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 3
+    - Name: chance
+      Entry: 4
+      Data: 0.15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 4
+    - Name: chance
+      Entry: 4
+      Data: 0.15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 36|Extensions.RandomPack`1+Element[[Enums.PowerUps, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 5
+    - Name: chance
+      Entry: 4
+      Data: 0.15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  costPerLevel: 200
+  powerUpPresets:
+    m_Keys: 000000000100000002000000030000000400000005000000
+    m_Values:
+    - powerUpName: 
+      duration: 0
+      startDescriptionText: ' '
+      endDescriptionText: ' '
+      startCoefficientMultiplier: 0
+      perLevelAdditionalMultiplier: 0
+      startDuration: 0
+      perLevelAdditionalDuration: 0
+    - powerUpName: Waffle Shield
+      duration: 0
+      startDescriptionText: 'Protects you from one hit of lethal damage, max '
+      endDescriptionText: ' '
+      startCoefficientMultiplier: 3
+      perLevelAdditionalMultiplier: 0
+      startDuration: 3
+      perLevelAdditionalDuration: 0
+    - powerUpName: Magnet
+      duration: 0.3
+      startDescriptionText: 'Attracts all coins & sprinkles on screen multiplied
+        by '
+      endDescriptionText: x
+      startCoefficientMultiplier: 1
+      perLevelAdditionalMultiplier: 0.2
+      startDuration: 0
+      perLevelAdditionalDuration: 0
+    - powerUpName: Chill Blast
+      duration: 10
+      startDescriptionText: 'Freezes all enemies and traps for '
+      endDescriptionText: ' seconds'
+      startCoefficientMultiplier: 0
+      perLevelAdditionalMultiplier: 0
+      startDuration: 3
+      perLevelAdditionalDuration: 1
+    - powerUpName: Golden Spoon
+      duration: 10
+      startDescriptionText: 'Turns all sprinkles into coins for '
+      endDescriptionText: ' seconds'
+      startCoefficientMultiplier: 0
+      perLevelAdditionalMultiplier: 0
+      startDuration: 3
+      perLevelAdditionalDuration: 1
+    - powerUpName: Hundreds and thousands
+      duration: 10
+      startDescriptionText: Sprinkles worth
+      endDescriptionText: ' points for '
+      startCoefficientMultiplier: 1.2
+      perLevelAdditionalMultiplier: 0.1
+      startDuration: 5
+      perLevelAdditionalDuration: 1
+  powerUpPrefabs:
+    m_Keys: 000000000100000002000000030000000400000005000000
+    m_Values:
+    - {fileID: 0}
+    - {fileID: 3428950917592867198, guid: 0892b0fc2fb2ede40889abdff2b0d45e, type: 3}
+    - {fileID: 4034928805945108182, guid: 499ce441f9fe8844291ec5b81a306679, type: 3}
+    - {fileID: 1791136317955800836, guid: f3918fdf103e552409b852edfd75b7c9, type: 3}
+    - {fileID: 1791136317955800836, guid: 338d1db2721cd614187fdef6d41fa7e3, type: 3}
+    - {fileID: 2389175783650238737, guid: dfba4493275fd14429cb9efd9dd054d5, type: 3}
+  powerUpAppearance:
+    m_Keys: 00000000010000000200000003000000
+    m_Values: []

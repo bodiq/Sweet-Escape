@@ -1,0 +1,397 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38a33cc2b73f4d2abaf7b51a87e8bbe7, type: 3}
+  m_Name: DailyRewardConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: 70616350e6dba1b4ab009c22e9c2b7bf, type: 3}
+    - {fileID: 21300000, guid: 9bf40a5b999ec484f91d403aed03b5de, type: 3}
+    - {fileID: 21300000, guid: 8ef80f840489543499c9f686559ed225, type: 3}
+    - {fileID: 21300000, guid: 730caf4d8669b9144a1ac9a98f3731f6, type: 3}
+    - {fileID: 21300000, guid: 7bf27c4cdbaae4c4ba1ac1dc4838f95f, type: 3}
+    - {fileID: 21300000, guid: cbf4a4243e63d0740a1ac780deea53cc, type: 3}
+    - {fileID: 21300000, guid: 72aecd1704445ba458179cec2685c937, type: 3}
+    - {fileID: 21300000, guid: 64f77f82e40392f4caf5abf8d9feca68, type: 3}
+    - {fileID: 21300000, guid: e3c7b40c6422ffc49944196f9f078f7b, type: 3}
+    - {fileID: 1018100351, guid: 78be5b78f0312114abed6f4384a53c6d, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: dailyRewards
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Structs.DailyRewardList, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardList, Assembly-CSharp
+    - Name: dailyRewards
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Structs.DailyRewardData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardData, Assembly-CSharp
+    - Name: dailyRewardType
+      Entry: 3
+      Data: 0
+    - Name: rewardIconOnIceCream
+      Entry: 10
+      Data: 0
+    - Name: rewardIconOnPopup
+      Entry: 10
+      Data: 1
+    - Name: rewardTextOnPopup
+      Entry: 1
+      Data: 50 Coins
+    - Name: reward
+      Entry: 1
+      Data: Coins
+    - Name: count
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardList, Assembly-CSharp
+    - Name: dailyRewards
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Structs.DailyRewardData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardData, Assembly-CSharp
+    - Name: dailyRewardType
+      Entry: 3
+      Data: 0
+    - Name: rewardIconOnIceCream
+      Entry: 10
+      Data: 2
+    - Name: rewardIconOnPopup
+      Entry: 10
+      Data: 1
+    - Name: rewardTextOnPopup
+      Entry: 1
+      Data: 100 Coins
+    - Name: reward
+      Entry: 1
+      Data: Coins
+    - Name: count
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardList, Assembly-CSharp
+    - Name: dailyRewards
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[Structs.DailyRewardData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardData, Assembly-CSharp
+    - Name: dailyRewardType
+      Entry: 3
+      Data: 0
+    - Name: rewardIconOnIceCream
+      Entry: 10
+      Data: 3
+    - Name: rewardIconOnPopup
+      Entry: 10
+      Data: 1
+    - Name: rewardTextOnPopup
+      Entry: 1
+      Data: 200 Coins
+    - Name: reward
+      Entry: 1
+      Data: Coins
+    - Name: count
+      Entry: 3
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardList, Assembly-CSharp
+    - Name: dailyRewards
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[Structs.DailyRewardData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardData, Assembly-CSharp
+    - Name: dailyRewardType
+      Entry: 3
+      Data: 1
+    - Name: rewardIconOnIceCream
+      Entry: 10
+      Data: 4
+    - Name: rewardIconOnPopup
+      Entry: 10
+      Data: 5
+    - Name: rewardTextOnPopup
+      Entry: 1
+      Data: 1 Shield
+    - Name: reward
+      Entry: 1
+      Data: Wafer shield
+    - Name: count
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardList, Assembly-CSharp
+    - Name: dailyRewards
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[Structs.DailyRewardData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardData, Assembly-CSharp
+    - Name: dailyRewardType
+      Entry: 3
+      Data: 0
+    - Name: rewardIconOnIceCream
+      Entry: 10
+      Data: 6
+    - Name: rewardIconOnPopup
+      Entry: 10
+      Data: 1
+    - Name: rewardTextOnPopup
+      Entry: 1
+      Data: 400 Coins
+    - Name: reward
+      Entry: 1
+      Data: Coins
+    - Name: count
+      Entry: 3
+      Data: 400
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardList, Assembly-CSharp
+    - Name: dailyRewards
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Structs.DailyRewardData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardData, Assembly-CSharp
+    - Name: dailyRewardType
+      Entry: 3
+      Data: 0
+    - Name: rewardIconOnIceCream
+      Entry: 10
+      Data: 7
+    - Name: rewardIconOnPopup
+      Entry: 10
+      Data: 1
+    - Name: rewardTextOnPopup
+      Entry: 1
+      Data: 500 coins
+    - Name: reward
+      Entry: 1
+      Data: Coins
+    - Name: count
+      Entry: 3
+      Data: 500
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardList, Assembly-CSharp
+    - Name: dailyRewards
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[Structs.DailyRewardData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Structs.DailyRewardData, Assembly-CSharp
+    - Name: dailyRewardType
+      Entry: 3
+      Data: 2
+    - Name: rewardIconOnIceCream
+      Entry: 10
+      Data: 8
+    - Name: rewardIconOnPopup
+      Entry: 10
+      Data: 9
+    - Name: rewardTextOnPopup
+      Entry: 1
+      Data: AntiNoob Skin
+    - Name: reward
+      Entry: 1
+      Data: Surprise
+    - Name: count
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  dailyRewards:
+  - dailyRewards:
+    - dailyRewardType: 0
+      rewardIconOnIceCream: {fileID: 21300000, guid: 70616350e6dba1b4ab009c22e9c2b7bf, type: 3}
+      rewardIconOnPopup: {fileID: 21300000, guid: 9bf40a5b999ec484f91d403aed03b5de, type: 3}
+      rewardTextOnPopup: 50 Coins
+      reward: Coins
+      count: 50
+  - dailyRewards:
+    - dailyRewardType: 0
+      rewardIconOnIceCream: {fileID: 21300000, guid: 8ef80f840489543499c9f686559ed225, type: 3}
+      rewardIconOnPopup: {fileID: 21300000, guid: 9bf40a5b999ec484f91d403aed03b5de, type: 3}
+      rewardTextOnPopup: 100 Coins
+      reward: Coins
+      count: 100
+  - dailyRewards:
+    - dailyRewardType: 0
+      rewardIconOnIceCream: {fileID: 21300000, guid: 730caf4d8669b9144a1ac9a98f3731f6, type: 3}
+      rewardIconOnPopup: {fileID: 21300000, guid: 9bf40a5b999ec484f91d403aed03b5de, type: 3}
+      rewardTextOnPopup: 200 Coins
+      reward: Coins
+      count: 200
+  - dailyRewards:
+    - dailyRewardType: 1
+      rewardIconOnIceCream: {fileID: 21300000, guid: 7bf27c4cdbaae4c4ba1ac1dc4838f95f, type: 3}
+      rewardIconOnPopup: {fileID: 21300000, guid: cbf4a4243e63d0740a1ac780deea53cc, type: 3}
+      rewardTextOnPopup: 1 Shield
+      reward: Wafer shield
+      count: 1
+  - dailyRewards:
+    - dailyRewardType: 0
+      rewardIconOnIceCream: {fileID: 21300000, guid: 72aecd1704445ba458179cec2685c937, type: 3}
+      rewardIconOnPopup: {fileID: 21300000, guid: 9bf40a5b999ec484f91d403aed03b5de, type: 3}
+      rewardTextOnPopup: 400 Coins
+      reward: Coins
+      count: 400
+  - dailyRewards:
+    - dailyRewardType: 0
+      rewardIconOnIceCream: {fileID: 21300000, guid: 64f77f82e40392f4caf5abf8d9feca68, type: 3}
+      rewardIconOnPopup: {fileID: 21300000, guid: 9bf40a5b999ec484f91d403aed03b5de, type: 3}
+      rewardTextOnPopup: 500 coins
+      reward: Coins
+      count: 500
+  - dailyRewards:
+    - dailyRewardType: 2
+      rewardIconOnIceCream: {fileID: 21300000, guid: e3c7b40c6422ffc49944196f9f078f7b, type: 3}
+      rewardIconOnPopup: {fileID: 1018100351, guid: 78be5b78f0312114abed6f4384a53c6d, type: 3}
+      rewardTextOnPopup: AntiNoob Skin
+      reward: Surprise
+      count: 1

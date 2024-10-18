@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff72ddc2da234e244a8e96eb44e4c03d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DefaultPixelsPerUnit: 16
+  m_DefaultEdgesPerEllipse: 32
+  m_AnimationFramerate: 20
+  m_DefaultMaterial: {fileID: 0}
+  m_MaterialMatchings: []
+  m_ObjectTypesXml: {fileID: 0}
+  m_ParseXmlError: 
+  m_CollisionGeometryType: 1
+  m_LayerColors:
+  - {r: 0.27450982, g: 0.50980395, b: 0.7058824, a: 1}
+  - {r: 1, g: 0.3882353, b: 0.2784314, a: 1}
+  - {r: 0.9411765, g: 0.972549, b: 1, a: 1}
+  - {r: 0.5764706, g: 0.4392157, b: 0.85882354, a: 1}
+  - {r: 0.6901961, g: 0.8784314, b: 0.9019608, a: 1}
+  - {r: 0.56078434, g: 0.7372549, b: 0.54509807, a: 1}
+  - {r: 0.9411765, g: 0.9019608, b: 0.54901963, a: 1}
+  - {r: 0.8039216, g: 0.36078432, b: 0.36078432, a: 1}
+  - {r: 0.827451, g: 0.827451, b: 0.827451, a: 1}
+  - {r: 1, g: 1, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.49803922, a: 1}
+  - {r: 0.93333334, g: 0.9098039, b: 0.6666667, a: 1}
+  - {r: 1, g: 0.89411765, b: 0.76862746, a: 1}
+  - {r: 0.6901961, g: 0.76862746, b: 0.87058824, a: 1}
+  - {r: 1, g: 0.85490197, b: 0.7254902, a: 1}
+  - {r: 1, g: 0.89411765, b: 0.88235295, a: 1}
+  - {r: 0.9607843, g: 1, b: 0.98039216, a: 1}
+  - {r: 0.54509807, g: 0, b: 0, a: 1}
+  - {r: 0.7529412, g: 0.7529412, b: 0.7529412, a: 1}
+  - {r: 0.85490197, g: 0.4392157, b: 0.8392157, a: 1}
+  - {r: 0.6, g: 0.19607843, b: 0.8, a: 1}
+  - {r: 0.33333334, g: 0.41960785, b: 0.18431373, a: 1}
+  - {r: 0.11764706, g: 0.5647059, b: 1, a: 1}
+  - {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+  - {r: 0.9411765, g: 1, b: 0.9411765, a: 1}
+  - {r: 1, g: 0.7137255, b: 0.75686276, a: 1}
+  - {r: 0.8666667, g: 0.627451, b: 0.8666667, a: 1}
+  - {r: 0.6784314, g: 1, b: 0.18431373, a: 1}
+  - {r: 1, g: 0.98039216, b: 0.98039216, a: 1}
+  - {r: 1, g: 0.64705884, b: 0, a: 1}
+  - {r: 0, g: 1, b: 1, a: 1}
+  - {r: 0.7372549, g: 0.56078434, b: 0.56078434, a: 1}
+  m_CustomObjectTypes: []
+  m_PrefabReplacements:
+  - m_TypeName: Coin
+    m_Prefab: {fileID: 4285083401787738779, guid: 877ed871d9eb74541bd1cf4e83adb6d7, type: 3}
+  - m_TypeName: Sprinkle
+    m_Prefab: {fileID: 6962569055165460362, guid: 8ed5ef050f300bf42be7b19879ff42ac, type: 3}
+  - m_TypeName: PowerUpManager
+    m_Prefab: {fileID: 1982876776930302862, guid: fb8165b96ac47f34595e2cfb8424d74b, type: 3}
+  - m_TypeName: Factory_Dropper
+    m_Prefab: {fileID: 7630278745633988912, guid: f68ea351520497044afcf43346c960f8, type: 3}
+  - m_TypeName: Factory_Fireball
+    m_Prefab: {fileID: 5989985466596603869, guid: ab65a504a308c514fb5f07c53969a0d0, type: 3}
+  - m_TypeName: Factory_FireCannon00
+    m_Prefab: {fileID: 775476051496510885, guid: e62f5c8cdd10d6543b0aa9830253e5fb, type: 3}
+  - m_TypeName: Factory_FireCannon01
+    m_Prefab: {fileID: 3065438148598021430, guid: 09b4065d3104f4647a12d5f143c010a5, type: 3}
+  - m_TypeName: Factory_FireCannon02
+    m_Prefab: {fileID: 6833006525495237760, guid: 6f8926e2b0a075c4d85de8ba3e58c383, type: 3}
+  - m_TypeName: Factory_FireCannon03
+    m_Prefab: {fileID: 3488055032114357596, guid: 78d49848e3fd77145a8c86aafebd74c8, type: 3}
+  - m_TypeName: Factory_HiddenSpike00
+    m_Prefab: {fileID: 7687242190284872795, guid: 8fd83b8d5eb49f54b93fc1e1cef6fdeb, type: 3}
+  - m_TypeName: Factory_HiddenSpike01
+    m_Prefab: {fileID: 7687242190284872795, guid: e97021cbb98bcb44b8fe91c24589f02a, type: 3}
+  - m_TypeName: Factory_HiddenSpike02
+    m_Prefab: {fileID: 7687242190284872795, guid: cafc22f6b63dc4746a03ce91cd1b8c93, type: 3}
+  - m_TypeName: Factory_HiddenSpike03
+    m_Prefab: {fileID: 7687242190284872795, guid: 142f0c64a22410e4ca288f5e5a7d3fc1, type: 3}
+  - m_TypeName: Factory_HiddenSpike04
+    m_Prefab: {fileID: 7687242190284872795, guid: ccb2eb0a9c226694e8bf747502145932, type: 3}
+  - m_TypeName: Factory_HiddenSpike05
+    m_Prefab: {fileID: 7687242190284872795, guid: 30ed6f26c4b858747b077c95122ed4d3, type: 3}
+  - m_TypeName: Factory_HiddenSpike06
+    m_Prefab: {fileID: 7687242190284872795, guid: 4814238547e2b264f9ffe23e0d1867c9, type: 3}
+  - m_TypeName: Factory_HiddenSpike07
+    m_Prefab: {fileID: 7687242190284872795, guid: 6cf4545e7cf2a764dba2d4de382892cd, type: 3}
+  - m_TypeName: Factory_HiddenSpike08
+    m_Prefab: {fileID: 7687242190284872795, guid: 3dffb5c5f47a7984aabda3da58905b49, type: 3}
+  - m_TypeName: Factory_HiddenSpike09
+    m_Prefab: {fileID: 7687242190284872795, guid: 78d143e5d671d564384973565798f744, type: 3}
+  - m_TypeName: Factory_HiddenSpike10
+    m_Prefab: {fileID: 7687242190284872795, guid: c9ae44b5cc4257743a5d705a051e2049, type: 3}
+  - m_TypeName: Factory_HiddenSpike11
+    m_Prefab: {fileID: 7687242190284872795, guid: bdf523b9a47e61249b7fbacc1e8a2a16, type: 3}
+  - m_TypeName: Factory_HiddenSpike12
+    m_Prefab: {fileID: 7687242190284872795, guid: 1dd3d8e889b292f4880ff6ae48e85d35, type: 3}
+  - m_TypeName: Factory_HiddenSpike13
+    m_Prefab: {fileID: 7687242190284872795, guid: aa674d691c37e594a8ba4e147ac97c71, type: 3}
+  - m_TypeName: Factory_HiddenSpike14
+    m_Prefab: {fileID: 7687242190284872795, guid: 489c1446e5eb1d442ac37c7fd0595b5d, type: 3}
+  - m_TypeName: Factory_HiddenSpike15
+    m_Prefab: {fileID: 7687242190284872795, guid: 0944883d45ace3c4e86fd329e8020ec9, type: 3}
+  - m_TypeName: Factory_HiddenSpike16
+    m_Prefab: {fileID: 4898939495675091492, guid: 44c9f76d430844896adffe68f59fa8ac, type: 3}
+  - m_TypeName: Factory_HiddenSpike17
+    m_Prefab: {fileID: 4898939495675091492, guid: 74c82eb43a49c47a2a206519bbd9492f, type: 3}
+  - m_TypeName: Factory_HiddenSpike18
+    m_Prefab: {fileID: 4898939495675091492, guid: 6593e209db89e4cfaab2a8e5f5316005, type: 3}
+  - m_TypeName: Factory_HiddenSpike19
+    m_Prefab: {fileID: 4898939495675091492, guid: e5329144482dc4a4e9d3e34c4c5af57e, type: 3}
+  - m_TypeName: Factory_HiddenSpike20
+    m_Prefab: {fileID: 4898939495675091492, guid: f354ae286d8d447ecbf87343f9c17ce3, type: 3}
+  - m_TypeName: Factory_HiddenSpike21
+    m_Prefab: {fileID: 4898939495675091492, guid: 667f55b4464984fcd86a2d641044d452, type: 3}
+  - m_TypeName: Factory_HiddenSpike22
+    m_Prefab: {fileID: 4898939495675091492, guid: 2d5c0cb37b96a4f36a7665283838f147, type: 3}
+  - m_TypeName: Factory_HiddenSpike23
+    m_Prefab: {fileID: 4898939495675091492, guid: 5e538c84696da4995a87837019a0d9a4, type: 3}
+  - m_TypeName: Factory_HiddenSpike24
+    m_Prefab: {fileID: 4898939495675091492, guid: 5bb7f2ce36af34d1d987ed8bef512f08, type: 3}
+  - m_TypeName: Factory_HiddenSpike25
+    m_Prefab: {fileID: 4898939495675091492, guid: c06163b85a3b64dd3abf0746f9a2ea5f, type: 3}
+  - m_TypeName: Factory_HiddenSpike26
+    m_Prefab: {fileID: 4898939495675091492, guid: d01ebf087fe8943bca153863a7b82cff, type: 3}
+  - m_TypeName: Factory_HiddenSpike27
+    m_Prefab: {fileID: 4898939495675091492, guid: 73d3e722e120f4620934c79291f34ad6, type: 3}
+  - m_TypeName: Factory_HiddenSpike28
+    m_Prefab: {fileID: 4898939495675091492, guid: 9ad8e1ac1ac594157a3209e056b9da11, type: 3}
+  - m_TypeName: Factory_HiddenSpike29
+    m_Prefab: {fileID: 4898939495675091492, guid: 3dd95c1f948ef4af3a3be7c93e33b88d, type: 3}
+  - m_TypeName: Factory_HiddenSpike30
+    m_Prefab: {fileID: 4898939495675091492, guid: a3b3c85a35976496396df6713f66a72d, type: 3}
+  - m_TypeName: Factory_HiddenSpike31
+    m_Prefab: {fileID: 4898939495675091492, guid: 6e4f13b9d5b104cf8aef15718056bbe8, type: 3}
+  - m_TypeName: Factory_HiddenSpike32
+    m_Prefab: {fileID: 4898939495675091492, guid: 78fbacef301a0404cb08c9121ef0f5f9, type: 3}
+  - m_TypeName: Factory_HiddenSpike33
+    m_Prefab: {fileID: 4898939495675091492, guid: 8a07e7ee2a8b64b01b925156b2f36cea, type: 3}
+  - m_TypeName: Factory_HiddenSpike34
+    m_Prefab: {fileID: 4898939495675091492, guid: 8e77d3063b63a47c0a224f9ca88d3d7d, type: 3}
+  - m_TypeName: Factory_HiddenSpike35
+    m_Prefab: {fileID: 4898939495675091492, guid: ec0f8579a9e67426eaacfc0b0c045c89, type: 3}
+  - m_TypeName: Factory_HiddenSpike36
+    m_Prefab: {fileID: 4898939495675091492, guid: 580271bbd62f64de0806dde24adb367b, type: 3}
+  - m_TypeName: Factory_HiddenSpike37
+    m_Prefab: {fileID: 4898939495675091492, guid: 54eca61e426004b468a49901ac1cd932, type: 3}
+  - m_TypeName: Factory_HiddenSpike38
+    m_Prefab: {fileID: 4898939495675091492, guid: 8d6bcffa61469447290a64c5aa93e40c, type: 3}
+  - m_TypeName: Factory_HiddenSpike39
+    m_Prefab: {fileID: 4898939495675091492, guid: 685113d24e64e495d89111b16209a77d, type: 3}
+  - m_TypeName: Factory_HiddenSpike40
+    m_Prefab: {fileID: 4898939495675091492, guid: ac6bd1e3a09ad4f19b5c67b86feed09c, type: 3}
+  - m_TypeName: Factory_HiddenSpike41
+    m_Prefab: {fileID: 4898939495675091492, guid: 8608975f076194b1fbb4138cbc57acfb, type: 3}
+  - m_TypeName: Factory_HiddenSpike42
+    m_Prefab: {fileID: 4898939495675091492, guid: e6c9e16f5c7184e6b8343ba21346fd7c, type: 3}
+  - m_TypeName: Factory_HiddenSpike43
+    m_Prefab: {fileID: 4898939495675091492, guid: 1cea4fc2f259d40bd951932b0a574300, type: 3}
+  - m_TypeName: Factory_HiddenSpike44
+    m_Prefab: {fileID: 4898939495675091492, guid: 60552ae8284e441238013e97db8b424f, type: 3}
+  - m_TypeName: Factory_HiddenSpike45
+    m_Prefab: {fileID: 4898939495675091492, guid: a487eff59a96445998eb7cc35a0475e1, type: 3}
+  - m_TypeName: Factory_HiddenSpike46
+    m_Prefab: {fileID: 4898939495675091492, guid: c65eaa692cd2c43b5841f9d330f46717, type: 3}
+  - m_TypeName: Factory_HidingBuzzsaw00
+    m_Prefab: {fileID: 774414967989042558, guid: e59c390de6d9c6c4b89f2db305481ae6, type: 3}
+  - m_TypeName: Factory_HidingBuzzsaw01
+    m_Prefab: {fileID: 774414967989042558, guid: a3ad4c0f3e7b50045aed832a0bc3d758, type: 3}
+  - m_TypeName: Factory_HidingBuzzsaw02
+    m_Prefab: {fileID: 774414967989042558, guid: 4c0e46fb5c05ccd4487f5645622ec6fa, type: 3}
+  - m_TypeName: Factory_HidingBuzzsaw03
+    m_Prefab: {fileID: 774414967989042558, guid: 6de0f83cd678deb47af33f23631c4472, type: 3}
+  - m_TypeName: Factory_KillblockHorizontal
+    m_Prefab: {fileID: 1580582552043503380, guid: 8f55c457751e3df42b42b28d292020de, type: 3}
+  - m_TypeName: Factory_KillblockVertical
+    m_Prefab: {fileID: 1707179079495507711, guid: f0d4d2476c206c5458707734123b94dc, type: 3}
+  - m_TypeName: Factory_SlamblockHorizontal
+    m_Prefab: {fileID: 3449493575061426020, guid: 29ceb2fb4a441314e995186ccded62aa, type: 3}
+  - m_TypeName: Factory_SlamblockVertical
+    m_Prefab: {fileID: 3130244460920907809, guid: fa345bc10c575514e96d154660ef5014, type: 3}
+  - m_TypeName: Factory_SmallbotHorizontal
+    m_Prefab: {fileID: 488337275971354166, guid: 99680fea28dc5664d88e52fd077d0254, type: 3}
+  - m_TypeName: Factory_SmallbotVertical
+    m_Prefab: {fileID: 6792676404897153602, guid: 521e9f59c78f1c04db22de8fb688c779, type: 3}
+  - m_TypeName: Factory_StaticSpike00
+    m_Prefab: {fileID: 7214723648689513346, guid: f253c9a96c4aa104294bc2c21353c6cc, type: 3}
+  - m_TypeName: Factory_StaticSpike01
+    m_Prefab: {fileID: 7214723648689513346, guid: cfc0080474d5e714198cd2a4afdc1450, type: 3}
+  - m_TypeName: Factory_StaticSpike02
+    m_Prefab: {fileID: 7214723648689513346, guid: 8467d27a3b874f2448dfa0b1f92d043e, type: 3}
+  - m_TypeName: Factory_StaticSpike03
+    m_Prefab: {fileID: 7214723648689513346, guid: 6083af4b1ad898d4a93ee4f0753c80d8, type: 3}
+  - m_TypeName: Factory_StaticSpike04
+    m_Prefab: {fileID: 7214723648689513346, guid: 179b1b573c3ba9148a1a581a0ae29ca3, type: 3}
+  - m_TypeName: Factory_StaticSpike05
+    m_Prefab: {fileID: 7214723648689513346, guid: 7bab5b5a34771c843b568bb3edc3a3a1, type: 3}
+  - m_TypeName: Factory_StaticSpike06
+    m_Prefab: {fileID: 7214723648689513346, guid: 68de0b207c9ba6340a936e9045428976, type: 3}
+  - m_TypeName: Factory_StaticSpike07
+    m_Prefab: {fileID: 7214723648689513346, guid: 201c41c378e316f41b4e130bd6d74c85, type: 3}
+  - m_TypeName: Factory_StaticSpike08
+    m_Prefab: {fileID: 7214723648689513346, guid: 34b2a34598a33c442a096d90064908f5, type: 3}
+  - m_TypeName: Factory_StaticSpike09
+    m_Prefab: {fileID: 7214723648689513346, guid: fd389a46bf2cad44d814da38d71312f5, type: 3}
+  - m_TypeName: Factory_StaticSpike10
+    m_Prefab: {fileID: 7214723648689513346, guid: a6e04efce1bc4bf41baaa81704eab2de, type: 3}
+  - m_TypeName: Factory_StaticSpike11
+    m_Prefab: {fileID: 7214723648689513346, guid: 5c9fb822b53ae244e87f8bd550faf67d, type: 3}
+  - m_TypeName: Factory_StaticSpike12
+    m_Prefab: {fileID: 7214723648689513346, guid: 3992d2d4a5e0f5846bc6821ebf781efd, type: 3}
+  - m_TypeName: Factory_StaticSpike13
+    m_Prefab: {fileID: 7214723648689513346, guid: e5d05478e8230074ab67e92452bb4ed7, type: 3}
+  - m_TypeName: Factory_StaticSpike14
+    m_Prefab: {fileID: 7214723648689513346, guid: 5471e3c0a407ab243b13a80912756df6, type: 3}
+  - m_TypeName: Factory_StaticSpike15
+    m_Prefab: {fileID: 7214723648689513346, guid: 4cd3d51ea01f8b04293b88e75bdc2f64, type: 3}
+  - m_TypeName: Factory_StaticSpike16
+    m_Prefab: {fileID: 4579416159970101833, guid: 57df473116796471d8755848e236a677, type: 3}
+  - m_TypeName: Factory_StaticSpike17
+    m_Prefab: {fileID: 4579416159970101833, guid: 5fd5c000d003e42589ec0747cebe391c, type: 3}
+  - m_TypeName: Factory_StaticSpike18
+    m_Prefab: {fileID: 4579416159970101833, guid: c24e6e989186c49c3a01170bd19962bf, type: 3}
+  - m_TypeName: Factory_StaticSpike19
+    m_Prefab: {fileID: 4579416159970101833, guid: 9439bb43fdaf649fdb8d7b753cb899d3, type: 3}
+  - m_TypeName: Factory_StaticSpike20
+    m_Prefab: {fileID: 4579416159970101833, guid: f98b3241f398c4b3f87790539c19b124, type: 3}
+  - m_TypeName: Factory_StaticSpike21
+    m_Prefab: {fileID: 4579416159970101833, guid: f0f2190b10d2848a58b077477c8dcf27, type: 3}
+  - m_TypeName: Factory_StaticSpike22
+    m_Prefab: {fileID: 4579416159970101833, guid: d1de3a58beb4943f590e55aebd36538a, type: 3}
+  - m_TypeName: Factory_StaticSpike23
+    m_Prefab: {fileID: 4579416159970101833, guid: 305f6680f04604b8588edcea37a4d930, type: 3}
+  - m_TypeName: Factory_StaticSpike24
+    m_Prefab: {fileID: 4579416159970101833, guid: a2495a466850e4c8e9a460a6d1fc87ee, type: 3}
+  - m_TypeName: Factory_StaticSpike25
+    m_Prefab: {fileID: 4579416159970101833, guid: b8a3e4cb269244db6892ae035bd7d2f0, type: 3}
+  - m_TypeName: Factory_StaticSpike26
+    m_Prefab: {fileID: 4579416159970101833, guid: 635ce086030c448659866d42c636611b, type: 3}
+  - m_TypeName: Factory_StaticSpike27
+    m_Prefab: {fileID: 4579416159970101833, guid: 07ef666ce69f24924af8a1e18d227e25, type: 3}
+  - m_TypeName: Factory_StaticSpike28
+    m_Prefab: {fileID: 4579416159970101833, guid: 70072d7f379fb443caed1bac6c16b49c, type: 3}
+  - m_TypeName: Factory_StaticSpike29
+    m_Prefab: {fileID: 4579416159970101833, guid: e8b27980b814942e1adc128c19579fd5, type: 3}
+  - m_TypeName: Factory_StaticSpike30
+    m_Prefab: {fileID: 4579416159970101833, guid: 5f3bd6136abb54a72bb931cf79573cf3, type: 3}
+  - m_TypeName: Factory_StaticSpike31
+    m_Prefab: {fileID: 4579416159970101833, guid: a26eb1709ec4d49cc95c2429911e418b, type: 3}
+  - m_TypeName: Factory_StaticSpike32
+    m_Prefab: {fileID: 4579416159970101833, guid: 4b75809cee4dd4bd891d2811e205e519, type: 3}
+  - m_TypeName: Factory_StaticSpike33
+    m_Prefab: {fileID: 4579416159970101833, guid: b5bb8028fce0149b49f490a457a23f55, type: 3}
+  - m_TypeName: Factory_StaticSpike34
+    m_Prefab: {fileID: 4579416159970101833, guid: ccb45558890194620bed657e584561a4, type: 3}
+  - m_TypeName: Factory_StaticSpike35
+    m_Prefab: {fileID: 4579416159970101833, guid: fde16b74b485648e3897db40b68ce198, type: 3}
+  - m_TypeName: Factory_StaticSpike36
+    m_Prefab: {fileID: 4579416159970101833, guid: cdcc2b681bf10429ebcd61329a09a34c, type: 3}
+  - m_TypeName: Factory_StaticSpike37
+    m_Prefab: {fileID: 4579416159970101833, guid: f2749fc5e5c63458380a44f6e0220a4c, type: 3}
+  - m_TypeName: Factory_StaticSpike38
+    m_Prefab: {fileID: 4579416159970101833, guid: d9818e14c3e3d4ba29a9bb08481290d9, type: 3}
+  - m_TypeName: Factory_StaticSpike39
+    m_Prefab: {fileID: 4579416159970101833, guid: de755da8911f5408e983e42a48d7008b, type: 3}
+  - m_TypeName: Factory_StaticSpike40
+    m_Prefab: {fileID: 4579416159970101833, guid: ef280c5b823354220852347e9fe8218c, type: 3}
+  - m_TypeName: Factory_StaticSpike41
+    m_Prefab: {fileID: 4579416159970101833, guid: 27af868b566914f99ad7c18ff27b4d6f, type: 3}
+  - m_TypeName: Factory_StaticSpike42
+    m_Prefab: {fileID: 4579416159970101833, guid: 9897739686a854d71ac64fd7631af95d, type: 3}
+  - m_TypeName: Factory_StaticSpike43
+    m_Prefab: {fileID: 4579416159970101833, guid: 5656caefadb81478a91a5144c6762138, type: 3}
+  - m_TypeName: Factory_StaticSpike44
+    m_Prefab: {fileID: 4579416159970101833, guid: b5ae158d133804d7ebf9f1a90faf96d3, type: 3}
+  - m_TypeName: Factory_StaticSpike45
+    m_Prefab: {fileID: 4579416159970101833, guid: c6d61b78495aa4563aac0e6a6bd1cf46, type: 3}
+  - m_TypeName: Factory_StaticSpike46
+    m_Prefab: {fileID: 4579416159970101833, guid: 0de005e3bb9574227afe4b660a5a74d8, type: 3}
+  - m_TypeName: Sewers_HiddenSpike00
+    m_Prefab: {fileID: 6300986376440899513, guid: b91a64c73f162407f8aa8925af4544c1, type: 3}
+  - m_TypeName: Sewers_HiddenSpike01
+    m_Prefab: {fileID: 6300986376440899513, guid: d557b1765b40a4f8ca31906376dc9216, type: 3}
+  - m_TypeName: Sewers_HiddenSpike02
+    m_Prefab: {fileID: 6300986376440899513, guid: 7295bfa1979894907974a1516da635d4, type: 3}
+  - m_TypeName: Sewers_HiddenSpike03
+    m_Prefab: {fileID: 6300986376440899513, guid: 3f99f5725b645438d940e93a0df711df, type: 3}
+  - m_TypeName: Sewers_HiddenSpike04
+    m_Prefab: {fileID: 6300986376440899513, guid: 8b9363c808b3041fbb214ed3ed4dca66, type: 3}
+  - m_TypeName: Sewers_HiddenSpike05
+    m_Prefab: {fileID: 6300986376440899513, guid: 56bc0492ec149447195b2a97e42df5c1, type: 3}
+  - m_TypeName: Sewers_HiddenSpike06
+    m_Prefab: {fileID: 6300986376440899513, guid: 0bb3776c4f52f4ce8b2e02477e2d24fd, type: 3}
+  - m_TypeName: Sewers_HiddenSpike07
+    m_Prefab: {fileID: 6300986376440899513, guid: 81673bbf586fd443dabf12fef4423c17, type: 3}
+  - m_TypeName: Sewers_HiddenSpike08
+    m_Prefab: {fileID: 6300986376440899513, guid: 2678f938427524d4a81ae74e03ef5f4a, type: 3}
+  - m_TypeName: Sewers_HiddenSpike09
+    m_Prefab: {fileID: 6300986376440899513, guid: fbcddc64a195a4845a78f6150e5e4de4, type: 3}
+  - m_TypeName: Sewers_HiddenSpike10
+    m_Prefab: {fileID: 6300986376440899513, guid: c5a18e157da2246a4ab2d1751bd1cb55, type: 3}
+  - m_TypeName: Sewers_HiddenSpike11
+    m_Prefab: {fileID: 6300986376440899513, guid: f494bc3976c1441f8978316a0d8de677, type: 3}
+  - m_TypeName: Sewers_HiddenSpike12
+    m_Prefab: {fileID: 6300986376440899513, guid: b385bee3f27a74673bcd783ba37fb4f9, type: 3}
+  - m_TypeName: Sewers_HiddenSpike13
+    m_Prefab: {fileID: 6300986376440899513, guid: 11b1b1203c9794a1e8237ece71d54623, type: 3}
+  - m_TypeName: Sewers_HiddenSpike14
+    m_Prefab: {fileID: 6300986376440899513, guid: c6248225783f4402f845eac3ec105ed9, type: 3}
+  - m_TypeName: Sewers_HiddenSpike15
+    m_Prefab: {fileID: 6300986376440899513, guid: aae6bb56cce5d44a8bb3ab4c685c9dd6, type: 3}
+  - m_TypeName: Sewers_HiddenSpike16
+    m_Prefab: {fileID: 6300986376440899513, guid: 5358a34af057e40949ea2396862e70b6, type: 3}
+  - m_TypeName: Sewers_HiddenSpike17
+    m_Prefab: {fileID: 6300986376440899513, guid: 04f49b32bfa974dc18da4ed0179938ce, type: 3}
+  - m_TypeName: Sewers_HiddenSpike18
+    m_Prefab: {fileID: 6300986376440899513, guid: 0b5fe4880ee0c41a7b03b1727dac20ef, type: 3}
+  - m_TypeName: Sewers_HiddenSpike19
+    m_Prefab: {fileID: 6300986376440899513, guid: bfe199a3deb8243939d625648d301c4e, type: 3}
+  - m_TypeName: Sewers_HiddenSpike20
+    m_Prefab: {fileID: 6300986376440899513, guid: 6c22774b5056d4efa85096bcc0f238bb, type: 3}
+  - m_TypeName: Sewers_HiddenSpike21
+    m_Prefab: {fileID: 6300986376440899513, guid: 27f9a724955324882ac04d5a9570dca7, type: 3}
+  - m_TypeName: Sewers_HiddenSpike22
+    m_Prefab: {fileID: 6300986376440899513, guid: 6d367a2a84f674014ad53649bd5a18b2, type: 3}
+  - m_TypeName: Sewers_HiddenSpike23
+    m_Prefab: {fileID: 6300986376440899513, guid: ea7b6129c57424c4dbf354c2b1bbf52e, type: 3}
+  - m_TypeName: Sewers_HiddenSpike24
+    m_Prefab: {fileID: 6300986376440899513, guid: cab476ae3d23c4c5a9492bd01ea8415c, type: 3}
+  - m_TypeName: Sewers_HiddenSpike25
+    m_Prefab: {fileID: 6300986376440899513, guid: 3bca050876356421c94613fbaa3db93f, type: 3}
+  - m_TypeName: Sewers_HiddenSpike26
+    m_Prefab: {fileID: 6300986376440899513, guid: c89cd27adb7694744ae60aefad4130df, type: 3}
+  - m_TypeName: Sewers_HiddenSpike27
+    m_Prefab: {fileID: 6300986376440899513, guid: 21de3b3501b194788965169f5a214a42, type: 3}
+  - m_TypeName: Sewers_HiddenSpike28
+    m_Prefab: {fileID: 6300986376440899513, guid: 8f67164373e0c4041a6827d69467109a, type: 3}
+  - m_TypeName: Sewers_HiddenSpike29
+    m_Prefab: {fileID: 6300986376440899513, guid: dc1c95868d16e4f25a932ebd24a12eb1, type: 3}
+  - m_TypeName: Sewers_HiddenSpike30
+    m_Prefab: {fileID: 6300986376440899513, guid: 9e8b43afc03164a3aa13144736cf26e4, type: 3}
+  - m_TypeName: Sewers_HiddenSpike31
+    m_Prefab: {fileID: 6300986376440899513, guid: 091080223098c417b91250473bc57792, type: 3}
+  - m_TypeName: Sewers_HiddenSpike32
+    m_Prefab: {fileID: 6300986376440899513, guid: 6d143403c916f49928deeb24bcf49edd, type: 3}
+  - m_TypeName: Sewers_HiddenSpike33
+    m_Prefab: {fileID: 6300986376440899513, guid: 1611b330cad34437daa0b06bfd23065e, type: 3}
+  - m_TypeName: Sewers_HiddenSpike34
+    m_Prefab: {fileID: 6300986376440899513, guid: eb0d36d2002604ee1a85bae6b6b25c5f, type: 3}
+  - m_TypeName: Sewers_HiddenSpike35
+    m_Prefab: {fileID: 6300986376440899513, guid: 14a3b20b81ef941ffb3c7e1d822bedb1, type: 3}
+  - m_TypeName: Sewers_HiddenSpike36
+    m_Prefab: {fileID: 6300986376440899513, guid: 14133a43e77654813a71d638b71009b6, type: 3}
+  - m_TypeName: Sewers_HiddenSpike37
+    m_Prefab: {fileID: 6300986376440899513, guid: 4cdb9c1e51d68472bb4b5ec6f5e2a603, type: 3}
+  - m_TypeName: Sewers_HiddenSpike38
+    m_Prefab: {fileID: 6300986376440899513, guid: 3a037302c58624b7491a53046947f6b7, type: 3}
+  - m_TypeName: Sewers_HiddenSpike39
+    m_Prefab: {fileID: 6300986376440899513, guid: d002378621e8748068d362f3d10a0786, type: 3}
+  - m_TypeName: Sewers_HiddenSpike40
+    m_Prefab: {fileID: 6300986376440899513, guid: 6ecbcaae2ca7847fa8b546b6f2cc47d5, type: 3}
+  - m_TypeName: Sewers_HiddenSpike41
+    m_Prefab: {fileID: 6300986376440899513, guid: 7125c7676bb424d5f832189d80fef236, type: 3}
+  - m_TypeName: Sewers_HiddenSpike42
+    m_Prefab: {fileID: 6300986376440899513, guid: ec929b1c7a5a14263a6a4ba47b33be41, type: 3}
+  - m_TypeName: Sewers_HiddenSpike43
+    m_Prefab: {fileID: 6300986376440899513, guid: 1597e64823c9448668ddb8cf8d4615c2, type: 3}
+  - m_TypeName: Sewers_HiddenSpike44
+    m_Prefab: {fileID: 6300986376440899513, guid: 4ede8c21959294a268c53ba1707afc0a, type: 3}
+  - m_TypeName: Sewers_HiddenSpike45
+    m_Prefab: {fileID: 6300986376440899513, guid: 634187fd9def3454c865fa90528c0b68, type: 3}
+  - m_TypeName: Sewers_HiddenSpike46
+    m_Prefab: {fileID: 6300986376440899513, guid: 920a726ee50dd4cd09867d128d150e46, type: 3}
+  - m_TypeName: Sewers_StaticSpike00
+    m_Prefab: {fileID: 6540477243122481008, guid: de226d2bd6f94cb49a4bbe776be08ef6, type: 3}
+  - m_TypeName: Sewers_StaticSpike01
+    m_Prefab: {fileID: 6540477243122481008, guid: 251580e0a2d30d148a89f9c8fae550f1, type: 3}
+  - m_TypeName: Sewers_StaticSpike02
+    m_Prefab: {fileID: 6540477243122481008, guid: dd8ff8aa42410de4f9d486e8d6b437d1, type: 3}
+  - m_TypeName: Sewers_StaticSpike03
+    m_Prefab: {fileID: 6540477243122481008, guid: b650d819fd8fd254f894c1b192fe7111, type: 3}
+  - m_TypeName: Sewers_StaticSpike04
+    m_Prefab: {fileID: 6540477243122481008, guid: 1455e497d4620464b88af468c3cc4235, type: 3}
+  - m_TypeName: Sewers_StaticSpike05
+    m_Prefab: {fileID: 6540477243122481008, guid: c294d001aaab2124295d1b16e88f362e, type: 3}
+  - m_TypeName: Sewers_StaticSpike06
+    m_Prefab: {fileID: 6540477243122481008, guid: f9e66def0004dcc498f954c14ff71f66, type: 3}
+  - m_TypeName: Sewers_StaticSpike07
+    m_Prefab: {fileID: 6540477243122481008, guid: 5a6d6947836336f49a1c24f74c938284, type: 3}
+  - m_TypeName: Sewers_StaticSpike08
+    m_Prefab: {fileID: 6540477243122481008, guid: 603593567bb861643901c5ee1711dc59, type: 3}
+  - m_TypeName: Sewers_StaticSpike09
+    m_Prefab: {fileID: 6540477243122481008, guid: 0784742c6717432489f3a70737389e41, type: 3}
+  - m_TypeName: Sewers_StaticSpike10
+    m_Prefab: {fileID: 6540477243122481008, guid: 0b61baa0ca6d3dd45831d331e070e4b8, type: 3}
+  - m_TypeName: Sewers_StaticSpike11
+    m_Prefab: {fileID: 6540477243122481008, guid: 58ee15ab5c4f65d40b8a4744fe338457, type: 3}
+  - m_TypeName: Sewers_StaticSpike12
+    m_Prefab: {fileID: 6540477243122481008, guid: 7686a97beea008b42b244b18c13e4041, type: 3}
+  - m_TypeName: Sewers_StaticSpike13
+    m_Prefab: {fileID: 6540477243122481008, guid: 0a955cd3073b7d74ebe5e7a1a193db6c, type: 3}
+  - m_TypeName: Sewers_StaticSpike14
+    m_Prefab: {fileID: 6540477243122481008, guid: ddb2dbdd3be83e74884cd9860bd3c9d3, type: 3}
+  - m_TypeName: Sewers_StaticSpike15
+    m_Prefab: {fileID: 6540477243122481008, guid: da79cb9d0f07de747950807da6ee305e, type: 3}
+  - m_TypeName: Sewers_StaticSpike16
+    m_Prefab: {fileID: 6540477243122481008, guid: 5245d3673adc8e04c88758e9ec90af64, type: 3}
+  - m_TypeName: Sewers_StaticSpike17
+    m_Prefab: {fileID: 6540477243122481008, guid: f946b77680cd35d4fac18ac7349efbc2, type: 3}
+  - m_TypeName: Sewers_StaticSpike18
+    m_Prefab: {fileID: 6540477243122481008, guid: 423c7596ce3d2fe43bcf100e7bb0f522, type: 3}
+  - m_TypeName: Sewers_StaticSpike19
+    m_Prefab: {fileID: 6540477243122481008, guid: 018f36097fcd4744a9e7d627ff3fc552, type: 3}
+  - m_TypeName: Sewers_StaticSpike20
+    m_Prefab: {fileID: 6540477243122481008, guid: 15b579ff822f4ae4c84f89473387d496, type: 3}
+  - m_TypeName: Sewers_StaticSpike21
+    m_Prefab: {fileID: 6540477243122481008, guid: 4570ad6e969ccf54b911931720c4cc82, type: 3}
+  - m_TypeName: Sewers_StaticSpike22
+    m_Prefab: {fileID: 6540477243122481008, guid: 6f35a6b7b9792654aa3b420a916012cb, type: 3}
+  - m_TypeName: Sewers_StaticSpike23
+    m_Prefab: {fileID: 6540477243122481008, guid: d09000c4d50957948aef087cc189f8d9, type: 3}
+  - m_TypeName: Sewers_StaticSpike24
+    m_Prefab: {fileID: 6540477243122481008, guid: 7be5fe63693534f46a96d2c72e403d6c, type: 3}
+  - m_TypeName: Sewers_StaticSpike25
+    m_Prefab: {fileID: 6540477243122481008, guid: 8d9a20ec5c1367b4a9b5fd7802daa808, type: 3}
+  - m_TypeName: Sewers_StaticSpike26
+    m_Prefab: {fileID: 6540477243122481008, guid: 2bf61c00d7ddae34ea9a4b1a0102d0ff, type: 3}
+  - m_TypeName: Sewers_StaticSpike27
+    m_Prefab: {fileID: 6540477243122481008, guid: 754669675416ef642b078216678eddd9, type: 3}
+  - m_TypeName: Sewers_StaticSpike28
+    m_Prefab: {fileID: 6540477243122481008, guid: 74ff8a817848b914780169122daf4c42, type: 3}
+  - m_TypeName: Sewers_StaticSpike29
+    m_Prefab: {fileID: 6540477243122481008, guid: de118812adcf8dd4baf6b12c82263c45, type: 3}
+  - m_TypeName: Sewers_StaticSpike30
+    m_Prefab: {fileID: 6540477243122481008, guid: 9392c7c47381df94baf751d54f9bef50, type: 3}
+  - m_TypeName: Sewers_StaticSpike31
+    m_Prefab: {fileID: 6540477243122481008, guid: 0da0a94945c61a346833dba7ca880086, type: 3}
+  - m_TypeName: Sewers_StaticSpike32
+    m_Prefab: {fileID: 6540477243122481008, guid: 9fcdac10fce47f848b1cf87cac258a46, type: 3}
+  - m_TypeName: Sewers_StaticSpike33
+    m_Prefab: {fileID: 6540477243122481008, guid: 1ec597192361fc74ea8ebb5d81d5086a, type: 3}
+  - m_TypeName: Sewers_StaticSpike34
+    m_Prefab: {fileID: 6540477243122481008, guid: 9e8ec20646013ac4ca98fea5f80dd475, type: 3}
+  - m_TypeName: Sewers_StaticSpike35
+    m_Prefab: {fileID: 6540477243122481008, guid: 0dcc49b3518b2db428298d48117ec3ea, type: 3}
+  - m_TypeName: Sewers_StaticSpike36
+    m_Prefab: {fileID: 6540477243122481008, guid: eaa1147810f9f5246b4352e62b600752, type: 3}
+  - m_TypeName: Sewers_StaticSpike37
+    m_Prefab: {fileID: 6540477243122481008, guid: feefd9dc6dc090747a5f7611b52fc9b1, type: 3}
+  - m_TypeName: Sewers_StaticSpike38
+    m_Prefab: {fileID: 6540477243122481008, guid: e71be889f2effe3448a821fa55979156, type: 3}
+  - m_TypeName: Sewers_StaticSpike39
+    m_Prefab: {fileID: 6540477243122481008, guid: 2b096fdcfab5b944985eebf4b20d5fe0, type: 3}
+  - m_TypeName: Sewers_StaticSpike40
+    m_Prefab: {fileID: 6540477243122481008, guid: 464c6635ed8d35246bb9de7d38e75e31, type: 3}
+  - m_TypeName: Sewers_StaticSpike41
+    m_Prefab: {fileID: 6540477243122481008, guid: a941c1a49cd20db43afadf4adf497683, type: 3}
+  - m_TypeName: Sewers_StaticSpike42
+    m_Prefab: {fileID: 6540477243122481008, guid: b7a4eb1c7d2e37d44a5732ad3db4f2ee, type: 3}
+  - m_TypeName: Sewers_StaticSpike43
+    m_Prefab: {fileID: 6540477243122481008, guid: 9c3a9a2833b8d604e857075a3b3a46d2, type: 3}
+  - m_TypeName: Sewers_StaticSpike44
+    m_Prefab: {fileID: 6540477243122481008, guid: 1fdbca16ecf4a8041a3284685d18a35b, type: 3}
+  - m_TypeName: Sewers_StaticSpike45
+    m_Prefab: {fileID: 6540477243122481008, guid: 6d1025b586117684a991e7be448a409e, type: 3}
+  - m_TypeName: Sewers_StaticSpike46
+    m_Prefab: {fileID: 6540477243122481008, guid: a220c50f5ec64b744973db1bc89f9721, type: 3}
+  - m_TypeName: Radiation_StaticSpike00
+    m_Prefab: {fileID: 3515618340569134988, guid: f60de9d59d80e4f55840e5e7f9a57645, type: 3}
+  - m_TypeName: Radiation_StaticSpike01
+    m_Prefab: {fileID: 3515618340569134988, guid: a4aaa59154040451abfc56bb4da07dec, type: 3}
+  - m_TypeName: Radiation_StaticSpike02
+    m_Prefab: {fileID: 3515618340569134988, guid: 48cb3a2a89e694752b9e0016c7bac064, type: 3}
+  - m_TypeName: Radiation_StaticSpike03
+    m_Prefab: {fileID: 3515618340569134988, guid: df067e808a9ac4ce7b550ad2fffde9fb, type: 3}
+  - m_TypeName: Radiation_StaticSpike04
+    m_Prefab: {fileID: 3515618340569134988, guid: f832689b8113d4825984bc97b4edcf8b, type: 3}
+  - m_TypeName: Radiation_StaticSpike05
+    m_Prefab: {fileID: 3515618340569134988, guid: 633491ece052042a98b1d47b0fe189fb, type: 3}
+  - m_TypeName: Radiation_StaticSpike06
+    m_Prefab: {fileID: 3515618340569134988, guid: e86dbdf32872848e48ed6eea1e728671, type: 3}
+  - m_TypeName: Radiation_StaticSpike07
+    m_Prefab: {fileID: 3515618340569134988, guid: 70b84a569caf0446d89b138f931e6aae, type: 3}
+  - m_TypeName: Radiation_StaticSpike08
+    m_Prefab: {fileID: 3515618340569134988, guid: 9be722874c53b47f89e3949343c9ae21, type: 3}
+  - m_TypeName: Radiation_StaticSpike09
+    m_Prefab: {fileID: 3515618340569134988, guid: b167282fe27424f84b871899682f0d42, type: 3}
+  - m_TypeName: Radiation_StaticSpike10
+    m_Prefab: {fileID: 3515618340569134988, guid: 10ed25d043fe94493a2f08d2e7b34846, type: 3}
+  - m_TypeName: Radiation_StaticSpike11
+    m_Prefab: {fileID: 3515618340569134988, guid: 3ed04c9e133be452ab8ced48d003f0f7, type: 3}
+  - m_TypeName: Radiation_StaticSpike12
+    m_Prefab: {fileID: 3515618340569134988, guid: da1bf62cbfb25455b94cd4296b90a0e6, type: 3}
+  - m_TypeName: Radiation_StaticSpike13
+    m_Prefab: {fileID: 3515618340569134988, guid: 95c3dbb4879144f61b944203348090d1, type: 3}
+  - m_TypeName: Radiation_StaticSpike14
+    m_Prefab: {fileID: 3515618340569134988, guid: e14798e6e717b45918bd9e7c5553118b, type: 3}
+  - m_TypeName: Radiation_StaticSpike15
+    m_Prefab: {fileID: 3515618340569134988, guid: afdedf87eedc7423fb30d5737be53392, type: 3}
+  - m_TypeName: Radiation_StaticSpike16
+    m_Prefab: {fileID: 3515618340569134988, guid: cfefa03c8709e40f3b88b3a8fd8602c3, type: 3}
+  - m_TypeName: Radiation_StaticSpike17
+    m_Prefab: {fileID: 3515618340569134988, guid: 93d79047caacc41edbc8eeb4e6c4a75a, type: 3}
+  - m_TypeName: Radiation_StaticSpike18
+    m_Prefab: {fileID: 3515618340569134988, guid: 228415b7cdddb4ab0b9efc1d2700161b, type: 3}
+  - m_TypeName: Radiation_StaticSpike19
+    m_Prefab: {fileID: 3515618340569134988, guid: b1ea1ebcb36de4dd1960f605717fc2ee, type: 3}
+  - m_TypeName: Radiation_StaticSpike20
+    m_Prefab: {fileID: 3515618340569134988, guid: a28e25d6e09ef4ad3a12cd274d01fbea, type: 3}
+  - m_TypeName: Radiation_StaticSpike21
+    m_Prefab: {fileID: 3515618340569134988, guid: 0aeee8d99cb3c404ebacb52e7020231d, type: 3}
+  - m_TypeName: Radiation_StaticSpike22
+    m_Prefab: {fileID: 3515618340569134988, guid: 85b2a157710ec45518f2810ee9743638, type: 3}
+  - m_TypeName: Radiation_StaticSpike23
+    m_Prefab: {fileID: 3515618340569134988, guid: c1c24287c62544937b5e9b6e9c8fc4e6, type: 3}
+  - m_TypeName: Radiation_StaticSpike24
+    m_Prefab: {fileID: 3515618340569134988, guid: b52c951a25386412b8be373101bad320, type: 3}
+  - m_TypeName: Radiation_StaticSpike25
+    m_Prefab: {fileID: 3515618340569134988, guid: dd0d3c72efbf74ba8808cf289275d8b0, type: 3}
+  - m_TypeName: Radiation_StaticSpike26
+    m_Prefab: {fileID: 3515618340569134988, guid: 2a7fde6b8351c4f14a374f094f6d01c1, type: 3}
+  - m_TypeName: Radiation_StaticSpike27
+    m_Prefab: {fileID: 3515618340569134988, guid: 639d7dd4514354565a7e87919635f457, type: 3}
+  - m_TypeName: Radiation_StaticSpike28
+    m_Prefab: {fileID: 3515618340569134988, guid: 60492b84c90cb458bb5bc2cddd2ff678, type: 3}
+  - m_TypeName: Radiation_StaticSpike29
+    m_Prefab: {fileID: 3515618340569134988, guid: e73124f89fee84fba9c2b9ea64881a76, type: 3}
+  - m_TypeName: Radiation_StaticSpike30
+    m_Prefab: {fileID: 3515618340569134988, guid: 3359f344c39624a83a0745619b22ce2f, type: 3}
+  - m_TypeName: Radiation_StaticSpike31
+    m_Prefab: {fileID: 3515618340569134988, guid: 8f89774264b52448ab2c745562d019d3, type: 3}
+  - m_TypeName: Radiation_StaticSpike32
+    m_Prefab: {fileID: 3515618340569134988, guid: e908d76fbbbcb44b786dcffec6a8b9ea, type: 3}
+  - m_TypeName: Radiation_StaticSpike33
+    m_Prefab: {fileID: 3515618340569134988, guid: 684ea558be24b467e902d78870361f72, type: 3}
+  - m_TypeName: Radiation_StaticSpike34
+    m_Prefab: {fileID: 3515618340569134988, guid: d1dba888650b84e18acc1692c1131268, type: 3}
+  - m_TypeName: Radiation_StaticSpike35
+    m_Prefab: {fileID: 3515618340569134988, guid: e8d4cde7e5c3a4bc6ab399bdaf093e1d, type: 3}
+  - m_TypeName: Radiation_StaticSpike36
+    m_Prefab: {fileID: 3515618340569134988, guid: 10f1bf56ba2744e5e9a4f1b3ddce749f, type: 3}
+  - m_TypeName: Radiation_StaticSpike37
+    m_Prefab: {fileID: 3515618340569134988, guid: 6b25c6f6f8bbf4534a39ca2cc1c4d344, type: 3}
+  - m_TypeName: Radiation_StaticSpike38
+    m_Prefab: {fileID: 3515618340569134988, guid: 265506c0decc9492f967deb9649d3759, type: 3}
+  - m_TypeName: Radiation_StaticSpike39
+    m_Prefab: {fileID: 3515618340569134988, guid: 1541f482bfbfc465081e90e6906e4759, type: 3}
+  - m_TypeName: Radiation_StaticSpike40
+    m_Prefab: {fileID: 3515618340569134988, guid: 22d8577b7f56f472a96b5aab2ecc1aa0, type: 3}
+  - m_TypeName: Radiation_StaticSpike41
+    m_Prefab: {fileID: 3515618340569134988, guid: dc48042c8fa9d4b10910a45f934e293d, type: 3}
+  - m_TypeName: Radiation_StaticSpike42
+    m_Prefab: {fileID: 3515618340569134988, guid: cbc883ffe17a7422c9c0727ff96cc1d9, type: 3}
+  - m_TypeName: Radiation_StaticSpike43
+    m_Prefab: {fileID: 3515618340569134988, guid: c8be905a016414e7db809c651a1c2ad4, type: 3}
+  - m_TypeName: Radiation_StaticSpike44
+    m_Prefab: {fileID: 3515618340569134988, guid: 6e83f4f858d064c79886c19338f61557, type: 3}
+  - m_TypeName: Radiation_StaticSpike45
+    m_Prefab: {fileID: 3515618340569134988, guid: 41eec95a94eba4fc4b7efc360a390b94, type: 3}
+  - m_TypeName: Radiation_StaticSpike46
+    m_Prefab: {fileID: 3515618340569134988, guid: b2fe9feb627d449ef9e5aa4b7ac684dc, type: 3}
+  - m_TypeName: Radiation_HiddenSpike00
+    m_Prefab: {fileID: 3731196853454751800, guid: 8b43a4cd3372a4f14ad4f0200b5caf6d, type: 3}
+  - m_TypeName: Radiation_HiddenSpike01
+    m_Prefab: {fileID: 3731196853454751800, guid: ef5597d9edce44e97a4c46687f368dc0, type: 3}
+  - m_TypeName: Radiation_HiddenSpike02
+    m_Prefab: {fileID: 3731196853454751800, guid: abbc0054308fb4379b564a3a692680d2, type: 3}
+  - m_TypeName: Radiation_HiddenSpike03
+    m_Prefab: {fileID: 3731196853454751800, guid: 15f70db48c10547cb9e556d88326260e, type: 3}
+  - m_TypeName: Radiation_HiddenSpike04
+    m_Prefab: {fileID: 3731196853454751800, guid: 4ea217814529c42c7b42dd858baef18a, type: 3}
+  - m_TypeName: Radiation_HiddenSpike05
+    m_Prefab: {fileID: 3731196853454751800, guid: e7de21d72cca54701b3be14652efb471, type: 3}
+  - m_TypeName: Radiation_HiddenSpike06
+    m_Prefab: {fileID: 3731196853454751800, guid: ffe245bae72714ce9acc7f65c7dcbf30, type: 3}
+  - m_TypeName: Radiation_HiddenSpike07
+    m_Prefab: {fileID: 3731196853454751800, guid: 251fe082503f246638850158eb5afb31, type: 3}
+  - m_TypeName: Radiation_HiddenSpike08
+    m_Prefab: {fileID: 3731196853454751800, guid: ac52440f5e8e94321b45765ec2e545fb, type: 3}
+  - m_TypeName: Radiation_HiddenSpike09
+    m_Prefab: {fileID: 3731196853454751800, guid: 17912c7d424ef4ef1b9806ae72084d8f, type: 3}
+  - m_TypeName: Radiation_HiddenSpike10
+    m_Prefab: {fileID: 3731196853454751800, guid: fbc095b43fee042be821add79105813e, type: 3}
+  - m_TypeName: Radiation_HiddenSpike11
+    m_Prefab: {fileID: 3731196853454751800, guid: 65eb6a3bea3e74052ae443f42ca5fe8c, type: 3}
+  - m_TypeName: Radiation_HiddenSpike12
+    m_Prefab: {fileID: 3731196853454751800, guid: e3f807397754d43b0a516198a1f1cd31, type: 3}
+  - m_TypeName: Radiation_HiddenSpike13
+    m_Prefab: {fileID: 3731196853454751800, guid: cf4e963ae18e84958acfc694a3076b58, type: 3}
+  - m_TypeName: Radiation_HiddenSpike14
+    m_Prefab: {fileID: 3731196853454751800, guid: 09fd4887a13d048ff8671c8d0412c533, type: 3}
+  - m_TypeName: Radiation_HiddenSpike15
+    m_Prefab: {fileID: 3731196853454751800, guid: 8d43809f58f5d4d82a254babe0870c6b, type: 3}
+  - m_TypeName: Radiation_HiddenSpike16
+    m_Prefab: {fileID: 3731196853454751800, guid: 5bf4d4c84ccd447bb819546537627789, type: 3}
+  - m_TypeName: Radiation_HiddenSpike17
+    m_Prefab: {fileID: 3731196853454751800, guid: a24cfe997b9fb4717bde9464f23593ec, type: 3}
+  - m_TypeName: Radiation_HiddenSpike18
+    m_Prefab: {fileID: 3731196853454751800, guid: 7fb51e7cc696d486ba977265fa016d20, type: 3}
+  - m_TypeName: Radiation_HiddenSpike19
+    m_Prefab: {fileID: 3731196853454751800, guid: 4ab0fe6e2acef499db9d9deeebbb1ec0, type: 3}
+  - m_TypeName: Radiation_HiddenSpike20
+    m_Prefab: {fileID: 3731196853454751800, guid: 45bff667c8003490c901af1e230b54d1, type: 3}
+  - m_TypeName: Radiation_HiddenSpike21
+    m_Prefab: {fileID: 3731196853454751800, guid: 1a97b63774b6f4bd2893d1428f0b2f20, type: 3}
+  - m_TypeName: Radiation_HiddenSpike22
+    m_Prefab: {fileID: 3731196853454751800, guid: ae2848a940d6c457b9bf1e62cf5a5995, type: 3}
+  - m_TypeName: Radiation_HiddenSpike23
+    m_Prefab: {fileID: 3731196853454751800, guid: 8a7dcbc1315734952b42cb28ce6ff9d8, type: 3}
+  - m_TypeName: Radiation_HiddenSpike24
+    m_Prefab: {fileID: 3731196853454751800, guid: 3efd092242f514610a1931ac0ca1f680, type: 3}
+  - m_TypeName: Radiation_HiddenSpike25
+    m_Prefab: {fileID: 3731196853454751800, guid: 09e7d2d9102e448c3a70696a3b8ac02a, type: 3}
+  - m_TypeName: Radiation_HiddenSpike26
+    m_Prefab: {fileID: 3731196853454751800, guid: 79e1e88c7f9af42adadbdbd89356e101, type: 3}
+  - m_TypeName: Radiation_HiddenSpike27
+    m_Prefab: {fileID: 3731196853454751800, guid: 95f2f6888904d47fe95ec5a7f48608fc, type: 3}
+  - m_TypeName: Radiation_HiddenSpike28
+    m_Prefab: {fileID: 3731196853454751800, guid: a7b507a8e51c14035b19cf6c59f00a77, type: 3}
+  - m_TypeName: Radiation_HiddenSpike29
+    m_Prefab: {fileID: 3731196853454751800, guid: 896b0c9b8e17f418bb2f9e2bec7caf94, type: 3}
+  - m_TypeName: Radiation_HiddenSpike30
+    m_Prefab: {fileID: 3731196853454751800, guid: e0a1f2a81e06a4aa1b0c2f043665e7e0, type: 3}
+  - m_TypeName: Radiation_HiddenSpike31
+    m_Prefab: {fileID: 3731196853454751800, guid: b1792d0867afa42b0a4b868cdfd473d0, type: 3}
+  - m_TypeName: Radiation_HiddenSpike32
+    m_Prefab: {fileID: 3731196853454751800, guid: 3fcd30a18f4a6444db9373f7967f06a8, type: 3}
+  - m_TypeName: Radiation_HiddenSpike33
+    m_Prefab: {fileID: 3731196853454751800, guid: 7441001bda693423db294851d4519048, type: 3}
+  - m_TypeName: Radiation_HiddenSpike34
+    m_Prefab: {fileID: 3731196853454751800, guid: 4911d5d4148234e95939e9eba64af3bb, type: 3}
+  - m_TypeName: Radiation_HiddenSpike35
+    m_Prefab: {fileID: 3731196853454751800, guid: 551821ef016c54a2396cdcf152d18898, type: 3}
+  - m_TypeName: Radiation_HiddenSpike36
+    m_Prefab: {fileID: 3731196853454751800, guid: 82cf7f6b9ef8b4e0abd7fa97d8a102bd, type: 3}
+  - m_TypeName: Radiation_HiddenSpike37
+    m_Prefab: {fileID: 3731196853454751800, guid: f7c91f65a0eea4ec8b1daecac1e0d08a, type: 3}
+  - m_TypeName: Radiation_HiddenSpike38
+    m_Prefab: {fileID: 3731196853454751800, guid: f88a925110ea94729aa4d15d5e5eaca9, type: 3}
+  - m_TypeName: Radiation_HiddenSpike39
+    m_Prefab: {fileID: 3731196853454751800, guid: 04123e5bce19c47e394dfac5b838c4f5, type: 3}
+  - m_TypeName: Radiation_HiddenSpike40
+    m_Prefab: {fileID: 3731196853454751800, guid: 823aea2990e25497bb22428ce8ab35a5, type: 3}
+  - m_TypeName: Radiation_HiddenSpike41
+    m_Prefab: {fileID: 3731196853454751800, guid: 327ce3da28b6347af93729bd5135c86e, type: 3}
+  - m_TypeName: Radiation_HiddenSpike42
+    m_Prefab: {fileID: 3731196853454751800, guid: 197380306be884eb082aa7eea8fa087b, type: 3}
+  - m_TypeName: Radiation_HiddenSpike43
+    m_Prefab: {fileID: 3731196853454751800, guid: c232233949dc94574947f469416f5c1f, type: 3}
+  - m_TypeName: Radiation_HiddenSpike44
+    m_Prefab: {fileID: 3731196853454751800, guid: a4ce205d2ccba4701969e6e95173c7aa, type: 3}
+  - m_TypeName: Radiation_HiddenSpike45
+    m_Prefab: {fileID: 3731196853454751800, guid: cd395dc3ef87c4df6bc9a94e09ae3c73, type: 3}
+  - m_TypeName: Radiation_HiddenSpike46
+    m_Prefab: {fileID: 3731196853454751800, guid: f5b7c879285a04177aba30152861ab04, type: 3}

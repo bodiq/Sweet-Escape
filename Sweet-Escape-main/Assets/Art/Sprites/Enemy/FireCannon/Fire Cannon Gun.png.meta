@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 4efbd94006343bc4b8d5767ab65fbb09
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire Cannon Gun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b11a1c088502074fa84538c03957bf9
+      internalID: -835148868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0adb16550e4644db99ee4b3673e2e8
+      internalID: 802909236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 52
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b9899fc715d164d90e22c288c8676a
+      internalID: -1862185486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 52
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad98a9e57eea53a4086e9034a9623116
+      internalID: -35206233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 52
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521e7968e620aa247a35260cb353cd22
+      internalID: 1590267055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 52
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f50356ef9dd104ebdd0bf65708dce6
+      internalID: 1379408569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 52
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd8f535f2d992c4889ae9dc01066189
+      internalID: 1153530542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 52
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8b89812c9103d48a629abb15d0a7ed
+      internalID: -507221881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 52
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffd57b4174493d4d9f3912d83a04cbb
+      internalID: 776138512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 52
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084e8ade2a900a04fa09331ae343f3e5
+      internalID: 163900335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93b878c3a367d8439fbc3c41a4eaaf7
+      internalID: -1691660949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f680e7aa66ba8d4c8a1e97802696fe1
+      internalID: 1975220759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 20
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06062d3f789fc2478064bc06b07c43c
+      internalID: 1198468605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 20
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8c1918a98fb6642a0a9abe4c8e6b02
+      internalID: -1269340809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 20
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e30bbac435923f4989f4120682ab873
+      internalID: 663049668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 20
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ff22b542195ac46a209bdef227763d
+      internalID: 2104437763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 52
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775d2c8c762a7094cbf4fb9a9ae29c15
+      internalID: -53496599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Cannon Gun_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 52
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.275, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f2528a251ac63499199a8dfed0e417
+      internalID: 336041163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fire Cannon Gun_0: -835148868
+      Fire Cannon Gun_1: 802909236
+      Fire Cannon Gun_10: 699677935
+      Fire Cannon Gun_11: -698310695
+      Fire Cannon Gun_12: 776138512
+      Fire Cannon Gun_13: 163900335
+      Fire Cannon Gun_14: 1472477065
+      Fire Cannon Gun_15: -1893654739
+      Fire Cannon Gun_16: 1448729319
+      Fire Cannon Gun_17: -1691660949
+      Fire Cannon Gun_18: 1975220759
+      Fire Cannon Gun_19: 1198468605
+      Fire Cannon Gun_2: -1862185486
+      Fire Cannon Gun_20: -1269340809
+      Fire Cannon Gun_21: 663049668
+      Fire Cannon Gun_22: 2104437763
+      Fire Cannon Gun_3: -35206233
+      Fire Cannon Gun_4: 1590267055
+      Fire Cannon Gun_5: 1379408569
+      Fire Cannon Gun_6: 1153530542
+      Fire Cannon Gun_7: -507221881
+      Fire Cannon Gun_8: -53496599
+      Fire Cannon Gun_9: 336041163
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

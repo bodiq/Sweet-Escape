@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fafbdd647e34389a958e91f12672d57, type: 3}
+  m_Name: LeaderboardConfig
+  m_EditorClassIdentifier: 
+  goldLeaderboardPlate: {fileID: 21300000, guid: 779608a5156cbaa44ab102ce14feb2f3, type: 3}
+  silverLeaderboardPlate: {fileID: 21300000, guid: 8c9963ded8d432a4bb6d76f08cf59fd7, type: 3}
+  defaultLeaderboardPlate: {fileID: 21300000, guid: fd6709a6c5e25d74b8f3e4742793d74f, type: 3}

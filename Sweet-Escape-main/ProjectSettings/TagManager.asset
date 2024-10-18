@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Wall
+  - Coin
+  - PowerUp
+  - Sprinkle
+  - Spike
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Sprinkle
+  - Water
+  - UI
+  - Coin
+  - PowerUp
+  - Door
+  - Trigger
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Prototype
+    uniqueID: 721926043
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Smallbot
+    uniqueID: 2301047809
+    locked: 0
+  - name: Sprinkle
+    uniqueID: 1584382901
+    locked: 0
+  - name: Coin
+    uniqueID: 4249186077
+    locked: 0
+  - name: PowerUp
+    uniqueID: 511078325
+    locked: 0
+  - name: Key
+    uniqueID: 1489045353
+    locked: 0
+  - name: Star
+    uniqueID: 1277039393
+    locked: 0
+  - name: Item00
+    uniqueID: 4043087779
+    locked: 0
+  - name: FireCannon
+    uniqueID: 285973253
+    locked: 0
+  - name: Fireball
+    uniqueID: 1879136025
+    locked: 0
+  - name: StaticSpike
+    uniqueID: 264451207
+    locked: 0
+  - name: HiddenSpike
+    uniqueID: 3715534075
+    locked: 0
+  - name: Slamblock
+    uniqueID: 3349771025
+    locked: 0
+  - name: Dropper
+    uniqueID: 451454995
+    locked: 0
+  - name: Details
+    uniqueID: 4076820641
+    locked: 0
+  - name: Layout
+    uniqueID: 4043135921
+    locked: 0
+  - name: Obstacles
+    uniqueID: 3916768841
+    locked: 0
+  - name: Buzzsaw
+    uniqueID: 1720789805
+    locked: 0
+  - name: Hazard00
+    uniqueID: 2209171353
+    locked: 0
+  - name: Hazard01
+    uniqueID: 3377316423
+    locked: 0
+  - name: Hazard02
+    uniqueID: 672619017
+    locked: 0
+  - name: Hazard03
+    uniqueID: 1552503
+    locked: 0
+  - name: Hazard04
+    uniqueID: 1912021475
+    locked: 0
+  - name: Hazard05
+    uniqueID: 2177428945
+    locked: 0
+  - name: Hazard06
+    uniqueID: 663835627
+    locked: 0
+  - name: Hazard07
+    uniqueID: 1183796043
+    locked: 0
+  - name: Hazard08
+    uniqueID: 1988504987
+    locked: 0
+  - name: Hazard09
+    uniqueID: 3902626095
+    locked: 0
+  - name: Hazard10
+    uniqueID: 2229172233
+    locked: 0
+  - name: Hazard11
+    uniqueID: 1727686039
+    locked: 0
+  - name: Hazard12
+    uniqueID: 1967835955
+    locked: 0
+  - name: Hazard13
+    uniqueID: 465746877
+    locked: 0
+  - name: Hazard14
+    uniqueID: 2177757587
+    locked: 0
+  - name: Hazard15
+    uniqueID: 3565935629
+    locked: 0
+  - name: Hazard16
+    uniqueID: 2330423147
+    locked: 0
+  - name: Hazard17
+    uniqueID: 66117229
+    locked: 0
+  - name: Hazard18
+    uniqueID: 3270540843
+    locked: 0
+  - name: Hazard19
+    uniqueID: 362242727
+    locked: 0
+  - name: Hazard20
+    uniqueID: 595962313
+    locked: 0
+  - name: Player
+    uniqueID: 1688321419
+    locked: 0
+  - name: Background
+    uniqueID: 964216737
+    locked: 0
+  - name: UI
+    uniqueID: 752279517
+    locked: 0

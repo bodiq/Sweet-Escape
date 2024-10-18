@@ -1,0 +1,1677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="1" nextlayerid="73" nextobjectid="248240">
+ <properties>
+  <property name="IgnoreLock" type="bool" value="false"/>
+ </properties>
+ <tileset firstgid="1" source="../../../Tilemap/Bioms/Factory_Tilemap.tsx"/>
+ <tileset firstgid="2476" source="../../../Tilemap/Bioms/Radiation_Tilemap.tsx"/>
+ <group id="2" name="Input">
+  <layer id="6" name="Prototype" width="30" height="20">
+   <properties>
+    <property name="unity:SortingLayer" value="Prototype"/>
+   </properties>
+   <data encoding="csv">
+    <chunk x="-32" y="-32" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,200,200,0,200,200,0
+</chunk>
+    <chunk x="-64" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510
+</chunk>
+    <chunk x="-48" y="-16" width="16" height="16">
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510
+</chunk>
+    <chunk x="-32" y="-16" width="16" height="16">
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,0,2774,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,2774,0,2774,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,0,0,2774,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,0,2774,2774,2774,2774,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,2774,2774,2774,2774,2774,
+2510,2510,2510,2510,2510,2510,2774,2774,2774,2774,2774,2774,2774,2774,2774,2774,
+2510,2510,2510,2510,2510,2510,2774,0,0,0,0,0,2774,2774,0,0,
+2510,2510,2510,2510,2510,2510,2774,0,3632,2774,0,0,0,0,0,2774,
+2510,2510,2510,2510,2510,2510,2774,0,2774,2774,0,2774,2774,2774,2774,2774,
+2510,2510,2510,2510,2510,2510,2774,0,2774,2774,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2774,0,2774,2774,0,0,2774,0,2774,0,
+2510,2510,2510,2510,2510,2510,2774,0,2774,2774,2774,2774,2774,0,2774,0,
+2510,2510,2510,2510,2510,2510,2774,0,0,0,0,0,0,0,2774,0,
+2510,2510,2510,2510,2510,2510,2774,2774,2774,2774,2774,2774,2774,2774,2774,2774,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,0,0,0
+</chunk>
+    <chunk x="-16" y="-16" width="16" height="16">
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,2774,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,0,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,0,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,0,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,2774,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,2774,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,0,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510
+</chunk>
+    <chunk x="0" y="-16" width="16" height="16">
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0
+</chunk>
+    <chunk x="-64" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510
+</chunk>
+    <chunk x="-48" y="0" width="16" height="16">
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510
+</chunk>
+    <chunk x="-32" y="0" width="16" height="16">
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,2774,2774,0,2774,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,0,0,0,2774,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,0,2774,2774,2774,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,2774,2774,2774,2774,2774,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,2774,2774,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,0,0,0,2774,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2774,2774,2774,2774,2774,2774,0,2774,2774,2774,
+2510,2510,2510,2510,2510,2510,2774,0,0,0,0,2774,0,2774,2510,2510,
+2510,2510,2510,2510,2510,2510,2774,0,3632,3632,0,0,0,2774,2510,2510,
+2510,2510,2510,2510,2510,2510,2774,0,2774,2774,2774,2774,2774,2774,2774,2774,
+2510,2510,2510,2510,2510,2510,2774,0,2774,0,0,0,2774,0,0,0,
+2510,2510,2510,2510,2510,2510,2774,0,0,0,2774,0,0,0,2774,2774,
+2510,2510,2510,2510,2510,2774,2774,2774,2774,2774,2774,2774,2774,2774,2774,0,
+2510,2510,2510,2510,2510,2774,0,0,0,0,0,0,0,2774,2774,0
+</chunk>
+    <chunk x="-16" y="0" width="16" height="16">
+0,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,0,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,2774,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,2774,2774,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,0,0,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,0,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,2774,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,0,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,0,0,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510
+</chunk>
+    <chunk x="0" y="0" width="16" height="16">
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0
+</chunk>
+    <chunk x="-64" y="16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2510,2510,2510
+</chunk>
+    <chunk x="-48" y="16" width="16" height="16">
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510
+</chunk>
+    <chunk x="-32" y="16" width="16" height="16">
+2510,2510,2510,2510,2510,2774,0,2774,2774,3632,3632,3632,0,2774,2774,0,
+2510,2510,2510,2510,2510,2774,0,0,2774,2774,2774,3632,0,0,0,0,
+2510,2510,2510,2510,2510,2774,2774,0,0,0,2774,2774,2774,2774,2774,2774,
+2510,2510,2510,2510,2510,2510,2774,0,3632,0,2774,2774,0,2774,0,0,
+2510,2510,2510,2510,2510,2510,2774,0,0,0,0,2774,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2774,2774,2774,0,0,0,0,2774,2774,2774,
+2510,2510,2510,2510,2510,2510,2510,2510,2774,2774,2774,2774,2774,2774,2774,2774,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2774,2774,
+2510,2510,2510,2510,2774,2774,2774,2774,2774,2774,2774,2774,2774,2774,2774,2774,
+2510,2510,2510,2510,3632,0,0,0,0,0,0,2774,0,2774,2774,2774,
+2510,2510,2510,2510,3632,0,0,0,0,0,0,0,0,2774,2774,2774,
+2510,2510,2510,2510,3632,0,0,0,0,0,2774,2774,0,0,0,0,
+2510,2510,2510,2510,3632,0,0,0,0,0,2774,0,0,0,0,0,
+2510,2510,2510,2510,2774,2774,2774,0,2774,2774,2774,2774,2774,2774,2774,2774,
+2510,2510,2510,2510,2510,2510,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2774,0,2774,2510,2510,2510,2510,2510,2510,2510
+</chunk>
+    <chunk x="-16" y="16" width="16" height="16">
+0,0,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,0,0,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,2774,2774,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,2774,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,2774,2774,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,0,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,0,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+0,2774,0,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2774,2774,2774,2774,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,2510
+</chunk>
+    <chunk x="0" y="16" width="16" height="16">
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0,
+2510,2510,2510,2510,2510,2510,2510,2510,2510,2510,0,0,0,0,0,0
+</chunk>
+    <chunk x="-32" y="32" width="16" height="16">
+0,0,0,0,0,200,200,0,200,200,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   </data>
+  </layer>
+  <layer id="44" name="Obstacles" width="30" height="20">
+   <properties>
+    <property name="unity:SortingLayer" value="Obstacles"/>
+   </properties>
+   <data encoding="csv">
+    <chunk x="-32" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,109,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+    <chunk x="-16" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,109,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+    <chunk x="-32" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,43,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+    <chunk x="-32" y="16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,109,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1916,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+    <chunk x="-16" y="16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1922,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   </data>
+  </layer>
+ </group>
+ <group id="3" name="Output">
+  <group id="11" name="Output_Hazards">
+   <objectgroup id="46" name="Hazard20" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard20"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="47" name="Hazard19" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard19"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="48" name="Hazard18" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard18"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="49" name="Hazard17" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard17"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="50" name="Hazard16" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard16"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="51" name="Hazard15" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard15"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="52" name="Hazard14" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard14"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="53" name="Hazard13" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard13"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="54" name="Hazard12" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard12"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="55" name="Hazard11" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard11"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="56" name="Hazard10" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard10"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="57" name="Hazard09" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard09"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="58" name="Hazard08" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard08"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="59" name="Hazard07" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard07"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="60" name="Hazard06" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard06"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="61" name="Hazard05" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard05"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="62" name="Hazard04" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard04"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="63" name="Hazard03" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard03"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="64" name="Hazard02" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard02"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="65" name="Hazard01" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard01"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="66" name="Hazard00" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Hazard00"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="67" name="Dropper" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Dropper"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="68" name="Smallbot" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Smallbot"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="69" name="Fireball" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Fireball"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="42" name="Buzzsaw">
+    <properties>
+     <property name="unity:SortingLayer" value="Buzzsaw"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="41" name="FireCannon">
+    <properties>
+     <property name="unity:SortingLayer" value="FireCannon"/>
+    </properties>
+    <object id="248221" name="FireCannon" type="Factory_FireCannon00" gid="1916" x="-336" y="464" width="16" height="16">
+     <properties>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Enemy/FireCannon/00Factory/Factory_FireCannon00.prefab"/>
+     </properties>
+    </object>
+    <object id="248222" name="FireCannon" type="Factory_FireCannon02" gid="1922" x="-240" y="320" width="16" height="16">
+     <properties>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Enemy/FireCannon/00Factory/Factory_FireCannon02.prefab"/>
+     </properties>
+    </object>
+   </objectgroup>
+   <objectgroup id="40" name="Slamblock">
+    <properties>
+     <property name="unity:SortingLayer" value="Slamblock"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="14" name="HiddenSpike">
+    <properties>
+     <property name="unity:SortingLayer" value="HiddenSpike"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="13" name="StaticSpike">
+    <properties>
+     <property name="unity:SortingLayer" value="StaticSpike"/>
+    </properties>
+    <object id="248228" name="StaticSpike" type="Radiation_StaticSpike00" gid="3632" x="-384" y="320" width="16" height="16">
+     <properties>
+      <property name="prefabeName" type="file" value="../../../../Prefabs/Enemy/StaticSpike/02Radiation/Radiation_StaticSpike00.prefab"/>
+     </properties>
+    </object>
+    <object id="248229" name="StaticSpike" type="Radiation_StaticSpike05" gid="3700" x="-384" y="-112" width="16" height="16">
+     <properties>
+      <property name="prefabeName" type="file" value="../../../../Prefabs/Enemy/StaticSpike/02Radiation/Radiation_StaticSpike05.prefab"/>
+     </properties>
+    </object>
+    <object id="248230" name="StaticSpike" type="Radiation_StaticSpike05" gid="3700" x="-384" y="176" width="16" height="16">
+     <properties>
+      <property name="prefabeName" type="file" value="../../../../Prefabs/Enemy/StaticSpike/02Radiation/Radiation_StaticSpike05.prefab"/>
+     </properties>
+    </object>
+    <object id="248231" name="StaticSpike" type="Radiation_StaticSpike09" gid="3702" x="-368" y="272" width="16" height="16">
+     <properties>
+      <property name="prefabeName" type="file" value="../../../../Prefabs/Enemy/StaticSpike/02Radiation/Radiation_StaticSpike09.prefab"/>
+     </properties>
+    </object>
+    <object id="248232" name="StaticSpike" type="Radiation_StaticSpike09" gid="3702" x="-352" y="272" width="16" height="16">
+     <properties>
+      <property name="prefabeName" type="file" value="../../../../Prefabs/Enemy/StaticSpike/02Radiation/Radiation_StaticSpike09.prefab"/>
+     </properties>
+    </object>
+    <object id="248233" name="StaticSpike" type="Radiation_StaticSpike13" gid="3704" x="-368" y="176" width="16" height="16">
+     <properties>
+      <property name="prefabeName" type="file" value="../../../../Prefabs/Enemy/StaticSpike/02Radiation/Radiation_StaticSpike13.prefab"/>
+     </properties>
+    </object>
+    <object id="248234" name="StaticSpike" type="Radiation_StaticSpike13" gid="3704" x="-336" y="272" width="16" height="16">
+     <properties>
+      <property name="prefabeName" type="file" value="../../../../Prefabs/Enemy/StaticSpike/02Radiation/Radiation_StaticSpike13.prefab"/>
+     </properties>
+    </object>
+    <object id="248235" name="StaticSpike" type="Radiation_StaticSpike14" gid="3770" x="-336" y="288" width="16" height="16">
+     <properties>
+      <property name="prefabeName" type="file" value="../../../../Prefabs/Enemy/StaticSpike/02Radiation/Radiation_StaticSpike14.prefab"/>
+     </properties>
+    </object>
+    <object id="248236" name="StaticSpike" type="Radiation_StaticSpike14" gid="3770" x="-448" y="416" width="16" height="16">
+     <properties>
+      <property name="prefabeName" type="file" value="../../../../Prefabs/Enemy/StaticSpike/02Radiation/Radiation_StaticSpike14.prefab"/>
+     </properties>
+    </object>
+    <object id="248237" name="StaticSpike" type="Radiation_StaticSpike14" gid="3770" x="-448" y="432" width="16" height="16">
+     <properties>
+      <property name="prefabeName" type="file" value="../../../../Prefabs/Enemy/StaticSpike/02Radiation/Radiation_StaticSpike14.prefab"/>
+     </properties>
+    </object>
+    <object id="248238" name="StaticSpike" type="Radiation_StaticSpike14" gid="3770" x="-448" y="448" width="16" height="16">
+     <properties>
+      <property name="prefabeName" type="file" value="../../../../Prefabs/Enemy/StaticSpike/02Radiation/Radiation_StaticSpike14.prefab"/>
+     </properties>
+    </object>
+    <object id="248239" name="StaticSpike" type="Radiation_StaticSpike14" gid="3770" x="-448" y="464" width="16" height="16">
+     <properties>
+      <property name="prefabeName" type="file" value="../../../../Prefabs/Enemy/StaticSpike/02Radiation/Radiation_StaticSpike14.prefab"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </group>
+  <group id="32" name="Output_Items">
+   <objectgroup id="70" name="Item00" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Item00"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="71" name="Star" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Star"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="72" name="Key" tintcolor="#ffffff">
+    <properties>
+     <property name="unity:SortingLayer" value="Key"/>
+    </properties>
+   </objectgroup>
+   <objectgroup id="43" name="PowerUp">
+    <properties>
+     <property name="unity:SortingLayer" value="PowerUp"/>
+    </properties>
+    <object id="248223" name="PowerUp" type="PowerUpManager" gid="43" x="-320" y="176" width="16" height="16">
+     <properties>
+      <property name="prefabName" type="file" value="../../../../Prefabs/PowerUps/PowerUpManager.prefab"/>
+     </properties>
+    </object>
+   </objectgroup>
+   <objectgroup id="39" name="Sprinkle">
+    <properties>
+     <property name="unity:SortingLayer" value="Sprinkle"/>
+    </properties>
+    <object id="248124" name="Sprinkle" type="Sprinkle" gid="175" x="-320" y="-224" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248125" name="Sprinkle" type="Sprinkle" gid="175" x="-336" y="-176" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248126" name="Sprinkle" type="Sprinkle" gid="175" x="-304" y="-176" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248127" name="Sprinkle" type="Sprinkle" gid="175" x="-256" y="-176" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248128" name="Sprinkle" type="Sprinkle" gid="175" x="-224" y="-176" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248129" name="Sprinkle" type="Sprinkle" gid="175" x="-224" y="-160" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248130" name="Sprinkle" type="Sprinkle" gid="175" x="-400" y="-128" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248131" name="Sprinkle" type="Sprinkle" gid="175" x="-368" y="-128" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248132" name="Sprinkle" type="Sprinkle" gid="175" x="-288" y="-128" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248133" name="Sprinkle" type="Sprinkle" gid="175" x="-240" y="-128" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248134" name="Sprinkle" type="Sprinkle" gid="175" x="-224" y="-128" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248135" name="Sprinkle" type="Sprinkle" gid="175" x="-400" y="-112" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248136" name="Sprinkle" type="Sprinkle" gid="175" x="-320" y="-112" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248137" name="Sprinkle" type="Sprinkle" gid="175" x="-304" y="-112" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248138" name="Sprinkle" type="Sprinkle" gid="175" x="-288" y="-112" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248139" name="Sprinkle" type="Sprinkle" gid="175" x="-240" y="-112" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248140" name="Sprinkle" type="Sprinkle" gid="175" x="-400" y="-96" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248141" name="Sprinkle" type="Sprinkle" gid="175" x="-352" y="-96" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248142" name="Sprinkle" type="Sprinkle" gid="175" x="-352" y="-80" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248143" name="Sprinkle" type="Sprinkle" gid="175" x="-288" y="-80" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248144" name="Sprinkle" type="Sprinkle" gid="175" x="-272" y="-80" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248145" name="Sprinkle" type="Sprinkle" gid="175" x="-400" y="-64" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248146" name="Sprinkle" type="Sprinkle" gid="175" x="-352" y="-64" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248147" name="Sprinkle" type="Sprinkle" gid="175" x="-272" y="-64" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248148" name="Sprinkle" type="Sprinkle" gid="175" x="-304" y="-48" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248149" name="Sprinkle" type="Sprinkle" gid="175" x="-384" y="-32" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248150" name="Sprinkle" type="Sprinkle" gid="175" x="-368" y="-32" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248151" name="Sprinkle" type="Sprinkle" gid="175" x="-336" y="-32" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248152" name="Sprinkle" type="Sprinkle" gid="175" x="-224" y="-32" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248153" name="Sprinkle" type="Sprinkle" gid="175" x="-288" y="0" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248154" name="Sprinkle" type="Sprinkle" gid="175" x="-224" y="0" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248155" name="Sprinkle" type="Sprinkle" gid="175" x="-288" y="16" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248156" name="Sprinkle" type="Sprinkle" gid="175" x="-256" y="16" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248157" name="Sprinkle" type="Sprinkle" gid="175" x="-224" y="16" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248158" name="Sprinkle" type="Sprinkle" gid="175" x="-320" y="48" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248159" name="Sprinkle" type="Sprinkle" gid="175" x="-288" y="96" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248160" name="Sprinkle" type="Sprinkle" gid="175" x="-320" y="112" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248161" name="Sprinkle" type="Sprinkle" gid="175" x="-304" y="112" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248162" name="Sprinkle" type="Sprinkle" gid="175" x="-304" y="128" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248163" name="Sprinkle" type="Sprinkle" gid="175" x="-288" y="128" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248164" name="Sprinkle" type="Sprinkle" gid="175" x="-256" y="128" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248165" name="Sprinkle" type="Sprinkle" gid="175" x="-384" y="160" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248166" name="Sprinkle" type="Sprinkle" gid="175" x="-352" y="176" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248167" name="Sprinkle" type="Sprinkle" gid="175" x="-400" y="192" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248168" name="Sprinkle" type="Sprinkle" gid="175" x="-400" y="208" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248169" name="Sprinkle" type="Sprinkle" gid="175" x="-368" y="208" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248170" name="Sprinkle" type="Sprinkle" gid="175" x="-352" y="208" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248171" name="Sprinkle" type="Sprinkle" gid="175" x="-336" y="208" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248172" name="Sprinkle" type="Sprinkle" gid="175" x="-288" y="208" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248173" name="Sprinkle" type="Sprinkle" gid="175" x="-240" y="208" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248174" name="Sprinkle" type="Sprinkle" gid="175" x="-320" y="224" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248175" name="Sprinkle" type="Sprinkle" gid="175" x="-256" y="224" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248176" name="Sprinkle" type="Sprinkle" gid="175" x="-208" y="224" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248177" name="Sprinkle" type="Sprinkle" gid="175" x="-272" y="240" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248178" name="Sprinkle" type="Sprinkle" gid="175" x="-256" y="240" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248179" name="Sprinkle" type="Sprinkle" gid="175" x="-208" y="240" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248180" name="Sprinkle" type="Sprinkle" gid="175" x="-400" y="256" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248181" name="Sprinkle" type="Sprinkle" gid="175" x="-368" y="256" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248182" name="Sprinkle" type="Sprinkle" gid="175" x="-320" y="256" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248183" name="Sprinkle" type="Sprinkle" gid="175" x="-208" y="256" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248184" name="Sprinkle" type="Sprinkle" gid="175" x="-256" y="272" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248185" name="Sprinkle" type="Sprinkle" gid="175" x="-240" y="272" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248186" name="Sprinkle" type="Sprinkle" gid="175" x="-208" y="272" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248187" name="Sprinkle" type="Sprinkle" gid="175" x="-400" y="288" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248188" name="Sprinkle" type="Sprinkle" gid="175" x="-240" y="288" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248189" name="Sprinkle" type="Sprinkle" gid="175" x="-368" y="304" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248190" name="Sprinkle" type="Sprinkle" gid="175" x="-272" y="320" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248191" name="Sprinkle" type="Sprinkle" gid="175" x="-256" y="320" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248192" name="Sprinkle" type="Sprinkle" gid="175" x="-400" y="336" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248193" name="Sprinkle" type="Sprinkle" gid="175" x="-320" y="336" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248194" name="Sprinkle" type="Sprinkle" gid="175" x="-272" y="336" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248195" name="Sprinkle" type="Sprinkle" gid="175" x="-368" y="352" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248196" name="Sprinkle" type="Sprinkle" gid="175" x="-336" y="352" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248197" name="Sprinkle" type="Sprinkle" gid="175" x="-256" y="352" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248198" name="Sprinkle" type="Sprinkle" gid="175" x="-256" y="368" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248199" name="Sprinkle" type="Sprinkle" gid="175" x="-224" y="400" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248200" name="Sprinkle" type="Sprinkle" gid="175" x="-432" y="416" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248201" name="Sprinkle" type="Sprinkle" gid="175" x="-400" y="416" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248202" name="Sprinkle" type="Sprinkle" gid="175" x="-384" y="416" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248203" name="Sprinkle" type="Sprinkle" gid="175" x="-368" y="416" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248204" name="Sprinkle" type="Sprinkle" gid="175" x="-320" y="416" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248205" name="Sprinkle" type="Sprinkle" gid="175" x="-416" y="432" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248206" name="Sprinkle" type="Sprinkle" gid="175" x="-400" y="432" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248207" name="Sprinkle" type="Sprinkle" gid="175" x="-384" y="432" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248208" name="Sprinkle" type="Sprinkle" gid="175" x="-368" y="432" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248209" name="Sprinkle" type="Sprinkle" gid="175" x="-336" y="432" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248210" name="Sprinkle" type="Sprinkle" gid="175" x="-320" y="432" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248211" name="Sprinkle" type="Sprinkle" gid="175" x="-224" y="432" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248212" name="Sprinkle" type="Sprinkle" gid="175" x="-416" y="448" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248213" name="Sprinkle" type="Sprinkle" gid="175" x="-400" y="448" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248214" name="Sprinkle" type="Sprinkle" gid="175" x="-288" y="448" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248215" name="Sprinkle" type="Sprinkle" gid="175" x="-272" y="448" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248216" name="Sprinkle" type="Sprinkle" gid="175" x="-224" y="448" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248217" name="Sprinkle" type="Sprinkle" gid="175" x="-432" y="464" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248218" name="Sprinkle" type="Sprinkle" gid="175" x="-320" y="464" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248219" name="Sprinkle" type="Sprinkle" gid="175" x="-272" y="464" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+    <object id="248220" name="Sprinkle" type="Sprinkle" gid="175" x="-400" y="496" width="16" height="16">
+     <properties>
+      <property name="Probability" type="float" value="1"/>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Sprinkle.prefab"/>
+     </properties>
+    </object>
+   </objectgroup>
+   <objectgroup id="34" name="Coin">
+    <properties>
+     <property name="unity:SortingLayer" value="Coin"/>
+    </properties>
+    <object id="248224" name="Coin" type="Coin" gid="109" x="-224" y="-112" width="16" height="16">
+     <properties>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Coin.prefab"/>
+     </properties>
+    </object>
+    <object id="248225" name="Coin" type="Coin" gid="109" x="-304" y="-32" width="16" height="16">
+     <properties>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Coin.prefab"/>
+     </properties>
+    </object>
+    <object id="248226" name="Coin" type="Coin" gid="109" x="-272" y="96" width="16" height="16">
+     <properties>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Coin.prefab"/>
+     </properties>
+    </object>
+    <object id="248227" name="Coin" type="Coin" gid="109" x="-352" y="336" width="16" height="16">
+     <properties>
+      <property name="prefabName" type="file" value="../../../../Prefabs/Items/Coin.prefab"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </group>
+  <layer id="9" name="Background" width="30" height="20">
+   <properties>
+    <property name="unity:SortingLayer" value="Background"/>
+   </properties>
+   <data encoding="csv">
+    <chunk x="-64" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2653,2656,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2557,2621,2554,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2621,2684357070,2588,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2553,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2586,2555,2620,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2553,2684357070,2652,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2652,2684357070,2557,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2586,2590,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2586,2684357070,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2589,2684357070,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2619,2555,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2553,2653,2621,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2653,2622,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2553,2654,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2684357070,2653,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2555,2684357070
+</chunk>
+    <chunk x="-48" y="-16" width="16" height="16">
+2555,2684357070,2586,2588,2621,2684357070,2684357070,2621,2588,2655,2555,2588,2554,2684357070,2622,2587,
+2653,2684357070,2653,2652,2684357070,2684357070,2555,2555,2588,2620,2586,2553,2620,2553,2684357070,2588,
+2553,2620,2653,2684357070,2588,2684357070,2653,2684357070,2586,2587,2555,2553,2684357070,2684357070,2553,2555,
+2684357070,2684357070,2555,2684357070,2684357070,2653,2684357070,2622,2555,2656,2684357070,2684357070,2621,2684357070,2656,2684357070,
+2621,2653,2623,2684357070,2684357070,2590,2553,2590,2619,2553,2684357070,2684357070,2653,2684357070,2620,2652,
+2586,2684357070,2684357070,2653,2619,2588,2555,2684357070,2588,2684357070,2553,2684357070,2623,2619,2684357070,2623,
+2621,2623,2653,2653,2684357070,2684357070,2653,2684357070,2653,2553,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,
+2555,2556,2586,2684357070,2619,2588,2619,2589,2587,2557,2587,2553,2586,2684357070,2684357070,2653,
+2684357070,2619,2656,2623,2684357070,2557,2684357070,2620,2652,2621,2590,2684357070,2684357070,2590,2684357070,2684357070,
+2588,2588,2653,2684357070,2553,2684357070,2587,2553,2586,2655,2553,2587,2553,2555,2590,2555,
+2684357070,2553,2653,2654,2586,2656,2586,2684357070,2553,2588,2557,2555,2684357070,2553,2654,2684357070,
+2621,2684357070,2654,2684357070,2653,2684357070,2553,2623,2684357070,2684357070,2684357070,2684357070,2620,2684357070,2684357070,2684357070,
+2623,2684357070,2684357070,2684357070,2553,2652,2684357070,2554,2656,2586,2684357070,2656,2557,2684357070,2553,2590,
+2652,2586,2684357070,2554,2684357070,2656,2555,2553,2553,2622,2684357070,2684357070,2684357070,2684357070,2655,2586,
+2586,2684357070,2619,2588,2684357070,2588,2684357070,2556,2653,2557,2684357070,2654,2554,2684357070,2557,2684357070,
+2553,2655,2684357070,2684357070,2619,2652,2588,2553,2684357070,2623,2619,2684357070,2623,2588,2655,2555
+</chunk>
+    <chunk x="-32" y="-16" width="16" height="16">
+2621,2619,2684357070,2684357070,2652,2588,2619,2553,2586,2684357070,2620,0,0,0,2684357070,2654,
+2557,2684357070,2553,2652,2653,2684357070,2619,2656,2619,2656,0,0,0,0,2653,2684357070,
+2684357070,2590,2555,2684357070,2684357070,2684357070,2653,2684357070,2654,2622,0,0,0,0,2590,2684357070,
+2553,2684357070,2684357070,2620,2588,2684357070,2553,2587,2557,2589,0,0,0,0,0,0,
+2557,2684357070,2587,2586,2656,2652,2655,2588,2556,2684357070,0,0,0,0,0,0,
+2622,2586,2684357070,2553,2622,2684357070,2557,2590,2684357070,2684357070,0,0,0,0,0,0,
+2619,2554,2586,2652,2684357070,2652,0,0,0,0,0,0,0,0,0,0,
+2684357070,2684357070,2652,2684357070,2684357070,2588,0,0,0,0,0,0,0,0,0,0,
+2653,2555,2652,2623,2555,2588,0,0,0,0,0,0,0,0,0,0,
+2620,2684357070,2684357070,2588,2556,2620,0,0,0,0,0,0,0,0,0,0,
+2684357070,2684357070,2619,2622,2653,2684357070,0,0,0,0,0,0,0,0,0,0,
+2621,2684357070,2588,2684357070,2619,2684357070,0,0,0,0,0,0,0,0,0,0,
+2684357070,2684357070,2586,2684357070,2553,2684357070,0,0,0,0,0,0,0,0,0,0,
+2684357070,2655,2684357070,2553,2620,2684357070,0,0,0,0,0,0,0,0,0,0,
+2557,2555,2684357070,2622,2684357070,2555,0,0,0,0,0,0,0,0,0,0,
+2554,2684357070,2619,2588,2620,2684357070,2554,2653,2656,2620,2652,2621,0,0,0,0
+</chunk>
+    <chunk x="-16" y="-16" width="16" height="16">
+2555,2684357070,2555,2684357070,2652,2621,2684357070,2684357070,2655,2619,2684357070,2684357070,2684357070,2684357070,2684357070,2656,
+2655,2586,2655,2684357070,2590,2684357070,2590,2684357070,2684357070,2619,2554,2684357070,2656,2623,2652,2684357070,
+2684357070,2586,2555,2619,2684357070,2653,2589,2555,2621,2652,2589,2621,2655,2588,2684357070,2588,
+0,0,0,0,2586,2586,2684357070,2684357070,2622,2684357070,2590,2590,2684357070,2684357070,2555,2588,
+0,0,0,0,2656,2619,2556,2684357070,2653,2684357070,2684357070,2684357070,2554,2588,2684357070,2654,
+0,0,0,0,2684357070,2684357070,2623,2684357070,2684357070,2619,2684357070,2655,2684357070,2652,2684357070,2619,
+0,0,0,0,2553,2586,2656,2620,2655,2684357070,2652,2553,2684357070,2557,2553,2684357070,
+0,0,0,0,2684357070,2555,2653,2619,2684357070,2684357070,2554,2586,2653,2653,2553,2684357070,
+0,0,0,0,2619,2684357070,2655,2684357070,2556,2620,2684357070,2684357070,2619,2556,2554,2652,
+0,0,0,0,2590,2588,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2654,2586,2684357070,2556,
+0,2684357070,2684357070,2586,2684357070,2623,2684357070,2555,2652,2588,2556,2684357070,2653,2652,2684357070,2655,
+0,2555,2684357070,2555,2619,2655,2652,2684357070,2684357070,2684357070,2556,2684357070,2684357070,2587,2620,2619,
+0,0,0,0,2684357070,2684357070,2621,2684357070,2684357070,2684357070,2587,2623,2656,2586,2653,2684357070,
+0,0,0,0,2684357070,2652,2684357070,2652,2684357070,2684357070,2587,2557,2621,2684357070,2684357070,2553,
+0,0,0,0,2684357070,2656,2684357070,2586,2653,2553,2684357070,2654,2557,2684357070,2684357070,2684357070,
+0,0,0,0,2684357070,2554,2555,2553,2619,2684357070,2652,2555,2555,2653,2620,2586
+</chunk>
+    <chunk x="0" y="-16" width="16" height="16">
+2619,2622,2619,2684357070,2684357070,2684357070,2654,2684357070,2684357070,2586,0,0,0,0,0,0,
+2684357070,2623,2684357070,2553,2684357070,2621,2684357070,2553,2555,2589,0,0,0,0,0,0,
+2684357070,2684357070,2684357070,2654,2656,2588,2654,2619,2684357070,2619,0,0,0,0,0,0,
+2556,2557,2589,2684357070,2590,2652,2684357070,2619,2684357070,2684357070,0,0,0,0,0,0,
+2684357070,2684357070,2621,2555,2684357070,2619,2684357070,2684357070,2684357070,2684357070,0,0,0,0,0,0,
+2589,2684357070,2684357070,2652,2684357070,2652,2621,2684357070,2588,2684357070,0,0,0,0,0,0,
+2656,2684357070,2619,2684357070,2623,2586,2553,2588,2590,2653,0,0,0,0,0,0,
+2588,2684357070,2586,2586,2590,2684357070,2653,2654,2684357070,2684357070,0,0,0,0,0,0,
+2553,2684357070,2554,2587,2588,2652,2684357070,2554,2557,2684357070,0,0,0,0,0,0,
+2652,2553,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2653,0,0,0,0,0,0,
+2684357070,2684357070,2684357070,2555,2586,2684357070,2684357070,2684357070,2684357070,2620,0,0,0,0,0,0,
+2653,2684357070,2554,2684357070,2684357070,2621,2684357070,2653,2590,2557,0,0,0,0,0,0,
+2684357070,2652,2652,2622,2553,2684357070,2587,2684357070,2684357070,2653,0,0,0,0,0,0,
+2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2586,2684357070,2621,2653,0,0,0,0,0,0,
+2684357070,2684357070,2684357070,2654,2684357070,2656,2653,2620,2621,2556,0,0,0,0,0,0,
+2684357070,2619,2684357070,2684357070,2684357070,2556,2653,2622,2622,2653,0,0,0,0,0,0
+</chunk>
+    <chunk x="-64" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,2619,2621,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2553,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2555,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2684357070,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2589,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2684357070,2619,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2555,2654,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2684357070,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2586,2586,2655,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2619,2655,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2654,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2655,2684357070,2653,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2653,2586,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2619,2684357070,2623,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2684357070,2587,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2589,2684357070,2621
+</chunk>
+    <chunk x="-48" y="0" width="16" height="16">
+2652,2684357070,2684357070,2684357070,2653,2553,2553,2557,2684357070,2557,2590,2553,2684357070,2554,2588,2684357070,
+2684357070,2684357070,2684357070,2555,2619,2684357070,2684357070,2684357070,2684357070,2586,2654,2555,2588,2588,2684357070,2652,
+2684357070,2553,2684357070,2684357070,2653,2553,2620,2587,2684357070,2620,2684357070,2684357070,2553,2555,2621,2684357070,
+2684357070,2556,2588,2652,2586,2653,2586,2589,2557,2586,2654,2588,2684357070,2619,2684357070,2684357070,
+2684357070,2652,2684357070,2619,2619,2684357070,2589,2684357070,2684357070,2684357070,2590,2586,2684357070,2684357070,2684357070,2684357070,
+2684357070,2684357070,2619,2684357070,2554,2684357070,2684357070,2684357070,2621,2586,2653,2684357070,2620,2684357070,2684357070,2684357070,
+2586,2619,2684357070,2586,2684357070,2684357070,2684357070,2684357070,2590,2588,2684357070,2653,2586,2684357070,2586,2684357070,
+2653,2619,2588,2684357070,2587,2553,2684357070,2684357070,2684357070,2684357070,2553,2587,2590,2553,2652,2586,
+2684357070,2684357070,2684357070,2655,2623,2586,2684357070,2587,2619,2621,2553,2684357070,2652,2654,2587,2555,
+2654,2684357070,2586,2655,2589,2623,2623,2589,2554,2586,2684357070,2684357070,2684357070,2557,2684357070,2684357070,
+2655,2684357070,2557,2684357070,2656,2684357070,2652,2588,2684357070,2684357070,2623,2684357070,2653,2655,2684357070,2590,
+2554,2684357070,2620,2684357070,2588,2656,2553,2554,2684357070,2652,2622,2684357070,2588,2653,2684357070,2590,
+2554,2684357070,2619,2590,2588,2684357070,2555,2684357070,2655,2556,2684357070,2684357070,2588,2684357070,2684357070,2684357070,
+2555,2684357070,2621,2589,2588,2684357070,2589,2684357070,2621,2655,2554,2684357070,2555,2684357070,2684357070,2684357070,
+2684357070,2553,2553,2684357070,2589,2684357070,2654,2655,2555,2556,2684357070,2555,2684357070,2652,2684357070,2556,
+2619,2587,2684357070,2684357070,2655,2553,2655,2684357070,2553,2620,2684357070,2684357070,2684357070,2652,2590,2652
+</chunk>
+    <chunk x="-32" y="0" width="16" height="16">
+2684357070,2555,2554,2684357070,2588,2619,2620,2652,2684357070,2684357070,2684357070,0,0,0,0,0,
+2684357070,2684357070,2555,2588,2684357070,2684357070,2556,2684357070,2556,2684357070,2621,0,0,0,0,0,
+2684357070,2653,2684357070,2622,2655,2684357070,2557,2684357070,2586,2587,2653,0,0,0,0,0,
+2684357070,2655,2621,2653,2621,2684357070,2590,2684357070,2684357070,2554,2553,0,0,0,0,0,
+2553,2684357070,2587,2587,2652,2684357070,2652,2684357070,2622,2588,0,0,0,0,0,0,
+2588,2656,2684357070,2555,2553,2656,2656,2554,2684357070,2652,2622,0,0,0,0,0,
+2684357070,2684357070,2654,2684357070,2652,2684357070,2684357070,2652,2684357070,2586,2555,0,0,0,0,0,
+2555,2555,2684357070,2684357070,2655,2556,2555,2587,2623,2684357070,2620,0,0,0,0,0,
+2684357070,2655,2588,2684357070,2622,2684357070,0,0,0,0,0,0,0,0,0,0,
+2587,2684357070,2684357070,2684357070,2684357070,2655,0,0,0,0,0,0,0,0,2654,2588,
+2652,2684357070,2684357070,2684357070,2652,2557,0,0,0,0,0,0,0,0,2684357070,2684357070,
+2684357070,2653,2684357070,2554,2684357070,2555,0,0,0,0,0,0,0,0,0,0,
+2684357070,2684357070,2555,2684357070,2653,2656,0,0,0,0,0,0,0,0,0,0,
+2554,2621,2684357070,2554,2555,2654,0,0,0,0,0,0,0,0,0,0,
+2655,2586,2684357070,2684357070,2654,0,0,0,0,0,0,0,0,0,0,0,
+2590,2684357070,2684357070,2623,2684357070,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+    <chunk x="-16" y="0" width="16" height="16">
+0,0,0,0,2556,2684357070,2588,2590,2556,2620,2554,2684357070,2555,2619,2654,2684357070,
+0,0,0,0,2553,2587,2621,2684357070,2684357070,2684357070,2588,2684357070,2619,2653,2553,2652,
+0,0,0,0,2623,2555,2622,2621,2684357070,2684357070,2586,2684357070,2652,2684357070,2619,2590,
+0,0,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2554,2652,2684357070,2556,2586,2684357070,2684357070,
+0,0,2652,2684357070,2653,2655,2586,2684357070,2556,2684357070,2553,2684357070,2684357070,2588,2652,2684357070,
+0,0,2684357070,2588,2557,2652,2684357070,2553,2684357070,2652,2684357070,2587,2556,2684357070,2554,2652,
+0,0,2684357070,2620,2684357070,2684357070,2654,2586,2620,2557,2684357070,2684357070,2586,2684357070,2588,2684357070,
+0,0,2684357070,2653,2656,2684357070,2684357070,2586,2684357070,2684357070,2588,2684357070,2684357070,2653,2684357070,2589,
+0,0,2656,2556,2586,2684357070,2588,2684357070,2556,2684357070,2684357070,2553,2586,2684357070,2684357070,2684357070,
+2684357070,2684357070,2684357070,2555,2684357070,2684357070,2653,2555,2588,2684357070,2684357070,2684357070,2553,2586,2655,2684357070,
+0,0,0,0,0,2553,2684357070,2555,2553,2684357070,2684357070,2586,2684357070,2652,2684357070,2684357070,
+0,0,0,0,0,2590,2655,2684357070,2620,2654,2590,2555,2655,2590,2684357070,2684357070,
+0,0,0,0,0,2684357070,2555,2555,2554,2684357070,2684357070,2684357070,2684357070,2653,2652,2652,
+0,0,0,0,0,2619,2653,2684357070,2684357070,2684357070,2587,2586,2621,2684357070,2684357070,2652,
+0,0,0,0,0,2684357070,2684357070,2684357070,2619,2684357070,2684357070,2684357070,2652,2684357070,2586,2684357070,
+0,0,0,0,0,2652,2684357070,2621,2588,2684357070,2619,2622,2586,2588,2656,2684357070
+</chunk>
+    <chunk x="0" y="0" width="16" height="16">
+2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2556,2654,2654,2555,0,0,0,0,0,0,
+2555,2653,2557,2652,2684357070,2684357070,2554,2653,2684357070,2586,0,0,0,0,0,0,
+2555,2554,2653,2656,2684357070,2655,2653,2684357070,2684357070,2684357070,0,0,0,0,0,0,
+2619,2620,2684357070,2623,2684357070,2684357070,2588,2684357070,2684357070,2619,0,0,0,0,0,0,
+2684357070,2684357070,2554,2586,2684357070,2684357070,2653,2589,2684357070,2588,0,0,0,0,0,0,
+2655,2557,2588,2653,2652,2655,2655,2589,2684357070,2623,0,0,0,0,0,0,
+2619,2684357070,2684357070,2684357070,2588,2684357070,2684357070,2553,2684357070,2684357070,0,0,0,0,0,0,
+2555,2656,2684357070,2655,2684357070,2684357070,2684357070,2622,2684357070,2684357070,0,0,0,0,0,0,
+2654,2684357070,2588,2684357070,2554,2556,2684357070,2557,2619,2622,0,0,0,0,0,0,
+2587,2587,2622,2684357070,2684357070,2684357070,2684357070,2684357070,2586,2684357070,0,0,0,0,0,0,
+2684357070,2622,2555,2586,2586,2684357070,2684357070,2589,2623,2684357070,0,0,0,0,0,0,
+2684357070,2586,2684357070,2556,2587,2620,2619,2684357070,2619,2619,0,0,0,0,0,0,
+2684357070,2623,2684357070,2652,2655,2684357070,2589,2684357070,2684357070,2684357070,0,0,0,0,0,0,
+2684357070,2684357070,2620,2586,2589,2588,2684357070,2684357070,2684357070,2553,0,0,0,0,0,0,
+2554,2586,2655,2684357070,2684357070,2623,2553,2619,2588,2656,0,0,0,0,0,0,
+2684357070,2684357070,2684357070,2684357070,2590,2553,2684357070,2684357070,2586,2684357070,0,0,0,0,0,0
+</chunk>
+    <chunk x="-64" y="16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2586,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2653,2621,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2656,2588,2586,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2684357070,2556,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2556,2555,2653,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2623,2553,2652,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2621,2619,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2589,2684357070,2586,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2654,2586,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2588,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2622,2684357070,2588,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2623,2684357070,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2553,2586,2652,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2587,2684357070,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2684357070,2684357070,2588,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2619,2586,2684357070
+</chunk>
+    <chunk x="-48" y="16" width="16" height="16">
+2588,2684357070,2684357070,2623,2684357070,2654,2655,2555,2684357070,2684357070,2684357070,2655,2623,2556,2652,2656,
+2684357070,2623,2556,2684357070,2684357070,2684357070,2621,2684357070,2555,2623,2684357070,2586,2653,2684357070,2652,2557,
+2684357070,2654,2684357070,2684357070,2684357070,2684357070,2556,2590,2622,2684357070,2684357070,2684357070,2684357070,2621,2557,2684357070,
+2655,2553,2684357070,2619,2554,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2654,2684357070,2554,
+2684357070,2655,2684357070,2684357070,2654,2653,2654,2684357070,2684357070,2654,2556,2553,2684357070,2652,2684357070,2652,
+2590,2684357070,2555,2620,2619,2553,2684357070,2684357070,2652,2684357070,2587,2555,2684357070,2684357070,2684357070,2588,
+2684357070,2553,2684357070,2654,2684357070,2619,2653,2554,2684357070,2684357070,2652,2684357070,2622,2553,2684357070,2684357070,
+2655,2684357070,2684357070,2586,2553,2620,2684357070,2684357070,2684357070,2684357070,2588,2557,2684357070,2684357070,2652,2553,
+2684357070,2684357070,2684357070,2656,2555,2590,2656,2684357070,2589,2621,2684357070,2684357070,2623,2588,2557,2652,
+2684357070,2654,2684357070,2684357070,2684357070,2653,2684357070,2586,2654,2553,2619,2684357070,2622,2656,2684357070,2684357070,
+2587,2656,2684357070,2555,2684357070,2557,2619,2652,2586,2588,2684357070,2555,2557,2684357070,2684357070,2553,
+2684357070,2684357070,2586,2656,2623,2589,2654,2553,2652,2587,2555,2655,2684357070,2684357070,2684357070,2588,
+2684357070,2684357070,2652,2684357070,2619,2684357070,2590,2684357070,2684357070,2652,2652,2655,2652,2590,2684357070,2684357070,
+2587,2684357070,2684357070,2656,2588,2555,2622,2684357070,2589,2684357070,2587,2654,2684357070,2684357070,2684357070,2684357070,
+2684357070,2588,2684357070,2684357070,2620,2684357070,2684357070,2656,2588,2654,2623,2557,2684357070,2684357070,2555,2555,
+2556,2556,2557,2619,2684357070,2556,2586,2623,2684357070,2556,2554,2553,2684357070,2555,2652,2652
+</chunk>
+    <chunk x="-32" y="16" width="16" height="16">
+2684357070,2684357070,2553,2623,2684357070,0,0,0,0,0,0,0,0,0,0,0,
+2653,2655,2589,2556,2619,0,0,0,0,0,0,0,0,0,0,0,
+2684357070,2622,2588,2684357070,2586,0,0,0,0,0,0,0,0,0,0,0,
+2684357070,2654,2653,2684357070,2619,2684357070,0,0,0,0,0,0,0,0,0,0,
+2652,2652,2684357070,2556,2684357070,2684357070,0,0,0,0,0,0,0,0,0,0,
+2621,2655,2555,2684357070,2553,2684357070,0,0,0,0,0,0,0,0,0,0,
+2684357070,2684357070,2684357070,2684357070,2684357070,2654,2684357070,2684357070,0,0,0,0,0,0,0,0,
+2655,2684357070,2588,2684357070,2684357070,2684357070,2653,2555,2684357070,2684357070,2684357070,2588,2684357070,2653,0,0,
+2684357070,2656,2684357070,2684357070,0,0,0,0,0,0,0,0,0,0,0,0,
+2654,2653,2684357070,2684357070,0,0,0,0,0,0,0,0,0,0,0,0,
+2684357070,2553,2621,2586,0,0,0,0,0,0,0,0,0,0,0,0,
+2553,2652,2586,2619,0,0,0,0,0,0,0,0,0,0,0,0,
+2655,2684357070,2619,2554,0,0,0,0,0,0,0,0,0,0,0,0,
+2557,2623,2588,2553,0,0,0,0,0,0,0,0,0,0,0,0,
+2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,0,0,0,2588,2590,2684357070,2586,2587,2654,2684357070,
+2588,2619,2588,2555,2652,2684357070,0,0,0,2684357070,2619,2655,2556,2586,2555,2555
+</chunk>
+    <chunk x="-16" y="16" width="16" height="16">
+0,0,0,0,0,2652,2653,2556,2684357070,2589,2684357070,2555,2684357070,2621,2619,2684357070,
+0,0,0,0,0,2656,2586,2556,2587,2684357070,2622,2684357070,2589,2619,2653,2586,
+0,0,0,0,0,2654,2619,2619,2684357070,2684357070,2684357070,2590,2684357070,2684357070,2555,2684357070,
+0,0,0,2684357070,2619,2684357070,2684357070,2586,2619,2621,2652,2652,2684357070,2684357070,2684357070,2586,
+0,0,0,2684357070,2684357070,2655,2619,2619,2684357070,2684357070,2654,2684357070,2622,2684357070,2623,2557,
+0,0,0,0,2653,2586,2684357070,2653,2656,2619,2684357070,2586,2555,2619,2684357070,2684357070,
+0,0,0,0,2684357070,2589,2684357070,2684357070,2590,2684357070,2620,2556,2622,2684357070,2684357070,2684357070,
+0,0,0,0,2623,2684357070,2555,2684357070,2619,2652,2684357070,2652,2656,2652,2553,2555,
+0,0,0,0,2623,2622,2655,2684357070,2684357070,2653,2619,2619,2654,2684357070,2619,2553,
+0,0,0,0,2684357070,2553,2553,2684357070,2555,2684357070,2553,2621,2556,2684357070,2655,2555,
+0,0,0,0,2684357070,2655,2653,2684357070,2553,2586,2684357070,2684357070,2653,2652,2684357070,2684357070,
+0,0,0,0,2652,2652,2684357070,2652,2684357070,2684357070,2684357070,2653,2587,2684357070,2656,2588,
+0,0,0,0,2684357070,2684357070,2684357070,2586,2684357070,2684357070,2556,2684357070,2588,2652,2554,2684357070,
+0,0,0,0,2619,2684357070,2684357070,2619,2653,2654,2619,2652,2684357070,2684357070,2684357070,2622,
+2653,2655,2619,2684357070,2684357070,2653,2556,2655,2621,2684357070,2655,2684357070,2586,2684357070,2621,2553,
+2684357070,2684357070,2555,2684357070,2684357070,2586,2621,2620,2684357070,2684357070,2684357070,2554,2684357070,2589,2553,2623
+</chunk>
+    <chunk x="0" y="16" width="16" height="16">
+2656,2684357070,2556,2684357070,2553,2654,2654,2553,2684357070,2589,0,0,0,0,0,0,
+2684357070,2656,2656,2684357070,2557,2622,2684357070,2684357070,2684357070,2588,0,0,0,0,0,0,
+2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2555,2652,2555,0,0,0,0,0,0,
+2589,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2588,2555,2555,0,0,0,0,0,0,
+2619,2684357070,2555,2553,2622,2586,2655,2586,2684357070,2684357070,0,0,0,0,0,0,
+2619,2684357070,2684357070,2684357070,2619,2553,2555,2684357070,2622,2586,0,0,0,0,0,0,
+2684357070,2622,2684357070,2652,2684357070,2684357070,2589,2588,2684357070,2622,0,0,0,0,0,0,
+2684357070,2655,2555,2619,2684357070,2684357070,2684357070,2555,2622,2684357070,0,0,0,0,0,0,
+2684357070,2684357070,2653,2588,2684357070,2684357070,2557,2684357070,2684357070,2684357070,0,0,0,0,0,0,
+2684357070,2654,2684357070,2656,2621,2555,2684357070,2588,2622,2656,0,0,0,0,0,0,
+2655,2557,2684357070,2556,2653,2556,2621,2586,2684357070,2684357070,0,0,0,0,0,0,
+2684357070,2653,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,2684357070,0,0,0,0,0,0,
+2588,2684357070,2553,2684357070,2656,2684357070,2555,2586,2619,2620,0,0,0,0,0,0,
+2619,2621,2684357070,2684357070,2684357070,2684357070,2622,2653,2684357070,2684357070,0,0,0,0,0,0,
+2622,2684357070,2684357070,2653,2684357070,2684357070,2684357070,2590,2589,2621,0,0,0,0,0,0,
+2553,2684357070,2588,2553,2684357070,2684357070,2588,2555,2656,2619,0,0,0,0,0,0
+</chunk>
+   </data>
+  </layer>
+  <layer id="8" name="Layout" width="30" height="20">
+   <properties>
+    <property name="unity:SortingLayer" value="Layout"/>
+    <property name="unity:Tag" value="Wall"/>
+   </properties>
+   <data encoding="csv">
+    <chunk x="-32" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,2912,0,2908,0,0,
+0,0,0,0,0,0,0,0,0,0,2986,3316,0,2908,0,0,
+0,0,0,0,0,0,0,0,0,0,2912,0,0,3238,0,0,
+0,0,0,0,0,0,0,0,0,0,2912,0,3122,3048,3314,2928,
+0,0,0,0,0,0,0,0,0,0,2864,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,2854,2844,3174,2844,2844,2844,
+0,0,0,0,0,0,2986,2976,2932,3314,2976,2930,2982,2986,3330,3306,
+0,0,0,0,0,0,2912,0,0,0,0,0,2974,2978,0,0,
+0,0,0,0,0,0,2912,0,0,3192,0,0,0,0,0,2842,
+0,0,0,0,0,0,2912,0,2908,2912,0,2776,2778,2778,2778,3048,
+0,0,0,0,0,0,3266,0,2908,2912,0,0,0,0,0,0,
+0,0,0,0,0,0,2912,0,2994,2912,0,0,2840,0,3194,0,
+0,0,0,0,0,0,2912,0,2974,3052,2778,2778,3054,0,2906,0,
+0,0,0,0,0,0,2862,0,0,0,0,0,0,0,2906,0,
+0,0,0,0,0,0,2854,2844,2844,2844,2844,3174,2788,2778,3050,2778,
+0,0,0,0,0,0,0,0,0,0,0,0,2866,0,0,0
+</chunk>
+    <chunk x="-16" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2976,2976,2976,2982,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,3262,0,0,0,0,0,0,0,0,0,0,0,0,
+3182,2846,0,2994,0,0,0,0,0,0,0,0,0,0,0,0,
+2976,2978,0,3238,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2908,0,0,0,0,0,0,0,0,0,0,0,0,
+2846,0,0,2908,0,0,0,0,0,0,0,0,0,0,0,0,
+2860,2800,2844,2850,0,0,0,0,0,0,0,0,0,0,0,0,
+2908,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2908,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2974,3306,2976,2982,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2998,0,0,0,0,0,0,0,0,0,0,0,0,
+2778,2790,0,2994,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2906,0,3238,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+    <chunk x="-32" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,2986,3052,2780,0,2840,
+0,0,0,0,0,0,0,0,0,0,0,2912,0,0,0,3252,
+0,0,0,0,0,0,0,0,0,0,0,3258,0,3122,2778,3050,
+0,0,0,0,0,0,0,0,0,0,0,2912,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,3060,2854,3190,2788,3132,2780,
+0,0,0,0,0,0,0,0,0,0,0,2986,2976,2978,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2864,0,0,0,2774,
+0,0,0,0,0,0,0,0,0,0,0,2912,0,0,0,0,
+0,0,0,0,0,0,2986,2976,3314,3330,2976,2988,0,2842,2844,3182,
+0,0,0,0,0,0,2912,0,0,0,0,3326,0,2908,0,0,
+0,0,0,0,0,0,2866,0,0,0,0,0,0,2908,0,0,
+0,0,0,0,0,0,2912,0,2980,3052,3108,2778,2786,3048,2976,2976,
+0,0,0,0,0,0,2912,0,2972,0,0,0,2972,0,0,0,
+0,0,0,0,0,0,2866,0,0,0,2840,0,0,0,2782,2780,
+0,0,0,0,0,2986,3052,2778,2778,3132,3050,2778,3124,2784,2856,0,
+0,0,0,0,0,2864,0,0,0,0,0,0,0,2908,2912,0
+</chunk>
+    <chunk x="-16" y="0" width="16" height="16">
+0,2972,0,2908,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2996,0,0,0,0,0,0,0,0,0,0,0,0,
+2778,2784,2844,2850,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2908,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2996,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2908,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2908,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2908,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2796,2850,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2986,2976,3306,2976,2982,0,0,0,0,0,0,0,0,0,0,0,
+2978,0,0,0,2998,0,0,0,0,0,0,0,0,0,0,0,
+0,0,2840,0,2908,0,0,0,0,0,0,0,0,0,0,0,
+0,2776,2922,0,2908,0,0,0,0,0,0,0,0,0,0,0,
+0,0,2972,0,3246,0,0,0,0,0,0,0,0,0,0,0,
+2774,0,0,0,2908,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+    <chunk x="-32" y="16" width="16" height="16">
+0,0,0,0,0,2912,0,2776,2784,0,0,0,0,2974,2978,0,
+0,0,0,0,0,2912,0,0,3304,3306,2982,0,0,0,0,0,
+0,0,0,0,0,2854,2846,0,0,0,3262,2920,3132,2786,2778,2778,
+0,0,0,0,0,0,2866,0,0,0,2974,2988,0,2972,0,0,
+0,0,0,0,0,0,2912,0,0,0,0,2972,0,0,0,0,
+0,0,0,0,0,0,2854,2844,2846,0,0,0,0,2842,2844,2846,
+0,0,0,0,0,0,0,0,2854,2798,2798,2844,2844,2850,3240,2912,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,3256,2854,
+0,0,0,0,2986,3306,2976,3314,2932,3306,2976,2984,2976,2982,2910,2910,
+0,0,0,0,0,0,0,0,0,0,0,2972,0,3246,2910,2910,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2974,2976,2976,
+0,0,0,0,0,0,0,0,0,0,2782,2780,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,2906,0,0,0,0,0,
+0,0,0,0,2854,3174,2846,0,3180,2844,2852,2844,2844,2800,2844,2796,
+0,0,0,0,0,0,3250,0,2908,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3250,0,2908,0,0,0,0,0,0,0
+</chunk>
+    <chunk x="-16" y="16" width="16" height="16">
+0,0,2774,0,2996,0,0,0,0,0,0,0,0,0,0,0,
+2840,0,0,0,2998,0,0,0,0,0,0,0,0,0,0,0,
+3050,2778,2784,2844,2850,0,0,0,0,0,0,0,0,0,0,0,
+0,0,2996,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,3180,2850,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,3320,3322,2982,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2908,0,0,0,0,0,0,0,0,0,0,0,0,
+3198,3200,0,2908,0,0,0,0,0,0,0,0,0,0,0,0,
+2910,3242,0,2908,0,0,0,0,0,0,0,0,0,0,0,0,
+2910,2912,0,2994,0,0,0,0,0,0,0,0,0,0,0,0,
+2976,2978,0,3238,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2908,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2840,0,3254,0,0,0,0,0,0,0,0,0,0,0,0,
+2844,2852,2844,2850,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   </data>
+  </layer>
+  <layer id="45" name="Details" width="30" height="20">
+   <properties>
+    <property name="unity:SortingLayer" value="Details"/>
+   </properties>
+   <data encoding="csv"/>
+  </layer>
+ </group>
+</map>

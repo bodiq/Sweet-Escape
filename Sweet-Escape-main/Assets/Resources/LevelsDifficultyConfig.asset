@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f783c221e67d4361a77005164171da2c, type: 3}
+  m_Name: LevelsDifficultyConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  LevelsDifficultyPeriod: 5
+  LevelsBiomePeriod: 10
+  HardLevelsInitialAmount: 1
+  MediumLevelsInitialAmount: 1
+  HardLevelsCoefficient: 1
+  MediumLevelsCoefficient: 1
+  TestLevelsGroupsAmount: 10
+  TestLevelsGroups:
+  - HardLevelsAmount: 1
+    MediumLevelsAmount: 1
+    EasyLevelsAmount: 3
+  - HardLevelsAmount: 2
+    MediumLevelsAmount: 2
+    EasyLevelsAmount: 1
+  - HardLevelsAmount: 3
+    MediumLevelsAmount: 2
+    EasyLevelsAmount: 0
+  - HardLevelsAmount: 4
+    MediumLevelsAmount: 1
+    EasyLevelsAmount: 0
+  - HardLevelsAmount: 5
+    MediumLevelsAmount: 0
+    EasyLevelsAmount: 0
+  - HardLevelsAmount: 5
+    MediumLevelsAmount: 0
+    EasyLevelsAmount: 0
+  - HardLevelsAmount: 5
+    MediumLevelsAmount: 0
+    EasyLevelsAmount: 0
+  - HardLevelsAmount: 5
+    MediumLevelsAmount: 0
+    EasyLevelsAmount: 0
+  - HardLevelsAmount: 5
+    MediumLevelsAmount: 0
+    EasyLevelsAmount: 0
+  - HardLevelsAmount: 5
+    MediumLevelsAmount: 0
+    EasyLevelsAmount: 0
